@@ -39,9 +39,9 @@ Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente
 ---
 
 ### 🏆 Certificações & Destaques
-- **Iniciação ao Pentest** - Desec Security[cite: 51].
-- **E-commerce D&Z**: Desenvolvimento completo de dashboard administrativo e sistema de autenticação segura[cite: 17, 18].
-- **Bot da FURIA**: Automação e gestão de comunidades com Python[cite: 22].
+- **Iniciação ao Pentest** - Desec Security.
+- **E-commerce D&Z**: Desenvolvimento completo de dashboard administrativo e sistema de autenticação segura.
+- **Bot da FURIA**: Automação e gestão de comunidades com Python.
 
 ---
 
