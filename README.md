@@ -1,11 +1,19 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&lanColor=9D4EDD&reColor=00b4d8&height=220&section=header&text=LUCAS%20CHACON&fontSize=70&fontColor=fff&animation=fadeIn&desc=%3E_Full%20Stack%20Developer%20|%20Cybersecurity%20Student&descAlignY=65&descAlign=50" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=%5B%3E%5D+User%3A+ChaconLucas;%5B%3E%5D+Status%3A+Encrypting_systems...;%5B%3E%5D+Role%3A+L%C3%ADder+de+E-commerce+na+D%26Z;%5B%3E%5D+Specialist%3A+Pentest+%26+Kali+Linux" />
-</p>
+<pre>
+<font color="#9D4EDD">  _     _   _  ____    _    ____     ____ _   _    _    ____ ___  _   _ </font>
+<font color="#8E44AD"> | |   | | | |/ ___|  / \  / ___|   / ___| | | |  / \  / ___/ _ \| \ | |</font>
+<font color="#7B2CBF"> | |   | | | | |     / _ \ \___ \  | |   | |_| | / _ \ | |  | | | |  \| |</font>
+<font color="#5A189A"> | |___| |_| | |___ / ___ \ ___) | | |___|  _  |/ ___ \| |__| |_| | |\  |</font>
+<font color="#3C096C"> |_____|\___/ \____/_/   \_\____/   \____|_| |_/_/   \_\____\___/|_| \_|</font>
 
+ <font color="#00B4D8">[>] User: ChaconLucas</font>
+ <font color="#00B4D8">[>] Role: Full_Stack_Developer / Cybersecurity_Student</font>
+ <font color="#00B4D8">[>] Location: Rio_de_Janeiro, Brazil</font>
+ <font color="#FF0000">[>] Status: Encrypting_systems...</font>
+</pre>
+
+</div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9D4EDD&center=true&vCenter=true&width=500&lines=Desenvolvedor+Full+Stack;L%C3%ADder+de+E-commerce+na+D%26Z;P%C3%B3s-graduando+em+Ciberseguran%C3%A7a;Especialista+em+Pentest+%26+Kali+Linux" />
 </p>
