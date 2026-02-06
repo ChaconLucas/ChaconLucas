@@ -30,7 +30,7 @@
 
 ### ⚔️ [EXPERIÊNCIA_EM_CAMPO]
 
-#### 🏢 **Liderança Técnica - D&Z E-commerce**
+#### 🏢 **D&Z E-commerce**
 * Gestão e desenvolvimento de sistemas com foco em performance de banco de dados.
 * Implementação de camadas de segurança para proteção de dados sensíveis.
 
