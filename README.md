@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=280&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=ffffff&animation=fadeIn&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=65&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=glitch&color=1a1a1a&height=350&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=9D4EDD&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=72&descAlign=50" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%E2%9C%93%5D+SYSTEMS_LOADED;%5B%21%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%23%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%24%5D+ENCRYPTING_MAINFRAME..." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%E2%96%B2%5D+ESTABLISHING_ENCRYPTED_LINK...;%5B%E2%96%B2%5D+LOC%3A+RIO_DE_JANEIRO;%5B%E2%96%B2%5D+UNIT%3A+D%26Z_ECOMMERCE_LEAD;%5B%E2%96%B2%5D+STATUS%3A+MONITORING_NETWORK..." />
 </p>
 
 ---
