@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=300&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=9D4EDD&animation=venom&desc=%3E_PROTOCOL_01:_FULL_STACK_DEV_%7C_%3E_PROTOCOL_02:_CYBER_STUDENT&descAlignY=68&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=10&height=300&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=fff&animation=fadeIn&desc=%3E_JUNIOR_FULL_STACK_DEV_%7C_%3E_CYBER_STUDENT&descAlignY=68&descAlign=50" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%2B%5D+ESTABLISHED+ENCRYPTED+SESSION...;%5B%2B%5D+IDENT%3A+CHACON_LUCAS;%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+OBJ%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+BYPASSING_RESTRICTIONS..." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%2B%5D+INITIALIZING+ENCRYPTED+SESSION...;%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+BYPASSING_RESTRICTIONS..." />
 </p>
 
 ---
@@ -13,25 +13,35 @@
 | 🖥️ CORE_SYSTEM | 📂 METADATA_LOG |
 | :--- | :--- |
 | **IDENTITY** | **Lucas Chacon** (22 Cycles) |
-| **PRIMARY_OP** | **Junior Full Stack Developer** |
 | **COMMAND_UNIT** | **Líder de E-commerce na D&Z** |
-| **ACADEMIC_LOG** | **Pós-graduando em Cibersegurança** (Metropolitana) |
-| **CERT_TRAINING** | **Pentest & Kali Linux** Specialist Path |
+| **ACADEMIC_LOG** | **Pós-graduando em Cibersegurança** |
+| **TARGET** | **Pentest & Kali Linux** Specialist Path |
 
 ---
 
 ## 🏗️ [PROJECT_DEPLOYMENTS]
 
 ### ⚡ **MISSION_01: D&Z E-commerce Platform**
-> *Status: Active_Duty*
-* **Role:** Liderança técnica completa no ecossistema PHP/MySQL.
-* **Task:** Otimização massiva de Database para suporte a KPIs administrativos.
-* **Security:** Implementação de camadas defensivas contra injeções SQL e XSS.
+* **Role:** Liderança técnica no ecossistema PHP/MySQL.
+* **Task:** Otimização de Database e Dashboards de KPIs.
+* **Security:** Proteção contra vulnerabilidades OWASP.
 
 ### 🤖 **MISSION_02: Bot da FURIA (Python Engine)**
-> *Status: Operational*
-* **Role:** Desenvolvedor de automação via Telegram API.
-* **Task:** Gestão de fluxo de notícias e engajamento automatizado de fãs.
+* **Role:** Automação via Telegram API para gestão de fãs.
+* **Status:** Operacional e em constante atualização.
+
+---
+
+## 📊 [SKILL_LEVEL_METRICS]
+
+**Backend Infrastructure (PHP/Node)**
+![95%](https://progress-bar.dev/95/?scale=100&title=PROGRESS&width=500&color=7b2cbf&suffix=%)
+
+**Database Architecture (MySQL)**
+![90%](https://progress-bar.dev/90/?scale=100&title=PROGRESS&width=500&color=9D4EDD&suffix=%)
+
+**Cybersecurity / Pentest**
+![55%](https://progress-bar.dev/55/?scale=100&title=STUDENT&width=500&color=5a189a&suffix=%)
 
 ---
 
@@ -41,11 +51,6 @@
 root@ChaconLucas:~# show --arsenal --detailed
 
 [SYSTEM_CORE]
-  ├── BACKEND_ENGINES : [PHP] [Python] [Node.js] [JavaScript]
-  ├── DATA_ARCHITECTURE : [MySQL] [MariaDB] [Query_Optimization]
-  └── DEV_INTERFACE : [HTML5] [CSS3] [Responsive_UX]
-
-[SECURITY_LAYER]
-  ├── OS_ENVIRONMENT : [Kali Linux] [Parrot OS]
-  ├── PENTEST_TOOLS : [Nmap] [Metasploit] [BurpSuite]
-  └── SECURE_CODING : [OWASP_Top_10] [Data_Sanitization]
+  ├── BACKEND : [PHP] [Python] [Node.js]
+  ├── DATA    : [MySQL] [MariaDB]
+  └── SEC_OPS : [Kali Linux] [Metasploit]
