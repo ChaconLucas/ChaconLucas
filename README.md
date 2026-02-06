@@ -1,33 +1,31 @@
-<div align="center">
-  <h1>💜 LUCAS CHACON 💜</h1>
-  <p><b>Desenvolvedor Full Stack Júnior | Estudante de Cibersegurança</b></p>
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=1a1a1a&height=250&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=9D4EDD&animation=venom&desc=%3E_INITIALIZING_SECURE_CONNECTION...&descAlignY=65&descAlign=50" />
+</p>
 
-### 🚀 Sobre Mim
-- 💻 **Atualmente:** Lidero o desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
-- 🛡️ **Educação:** Pós-graduando em **Cibersegurança** com foco em Pentest e Kali Linux.
-- 🤖 **Projetos:** Criador do **Bot da FURIA** (Python/Telegram API).
-- 🎓 **Formação:** Analista e Desenvolvedor de Sistemas pela **Unisuam**.
-
----
-
-### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://img.shields.io/badge/PHP-7b2cbf?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-7b2cbf?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-7b2cbf?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-7b2cbf?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali_Linux-7b2cbf?style=for-the-badge&logo=kali-linux&logoColor=white" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=750&lines=%5B%3E%5D+Junior+Full+Stack+Developer;%5B%3E%5D+Cybersecurity+%26+Pentest+Student;%5B%3E%5D+Leader+of+E-commerce+at+D%26Z;%5B%3E%5D+Access+Granted...;%5B%3E%5D+Encrypting_Data_Vaults..." />
 </p>
 
 ---
 
-### 📫 Vamos nos conectar?
-<p align="left">
-  <a href="https://linkedin.com/in/lucas-chacon-129414a7" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:lucaschacon79@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+## 🛰️ [SYSTEM_OVERVIEW]
+
+| 📂 ATRIBUTO | 📜 DETALHES DO SISTEMA |
+| :--- | :--- |
+| **IDENTIDADE** | **Lucas Chacon**, 22 ciclos solares (Rio de Janeiro) |
+| **ROLE** | **Junior Full Stack Developer** focado em arquitetura segura |
+| **CURRENT_LAB** | **D&Z E-commerce** - Liderando desenvolvimento e DB |
+| **ACADEMY** | Pós-graduando em **Cibersegurança** (2026) |
+| **TARGET** | Especialização em **Red Teaming** e **Exploração de Vulnerabilidades** |
+
+---
+
+## 🛠️ [ARSENAL_TECNOLÓGICO]
+
+```text
+█████████████████████████████████████████████████████████████████████████
+█ [DEVELOPMENT]   PHP (D&Z Core) | Python (Automation) | JavaScript | Node █
+█ [DATABASE]      MySQL | MariaDB | Query Optimization (D&Z Stats)       █
+█ [SECURITY]      Kali Linux | Pentesting Tools | Secure Coding          █
+█ [AUTOMATION]    Telegram API (Bot da FURIA) | Shell Scripting          █
+█████████████████████████████████████████████████████████████████████████
