@@ -27,8 +27,7 @@
 
 ### 📊 Estatísticas (Purple Theme)
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=calm&icon_color=9d4edd&title_color=9d4edd&text_color=ffffff&bg_color=1a1a1a" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=calm&icon_color=9d4edd&title_color=9d4edd&text_color=ffffff&bg_color=1a1a1a" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd" />
 </p>
 
 ---
