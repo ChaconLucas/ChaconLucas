@@ -1,16 +1,56 @@
-## Hi there 👋
+# Olá, eu sou o Lucas Chacon 👋
 
-<!--
-**ChaconLucas/ChaconLucas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** e aprofundo meus conhecimentos em Cibersegurança.
 
-Here are some ideas to get you started:
+### 🚀 Sobre Mim
+- [cite_start]💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS)[cite: 5, 15].
+- [cite_start]🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana[cite: 8].
+- [cite_start]🤖 Criador do **Bot da FURIA** para automação via Telegram API[cite: 20, 21].
+- [cite_start]🎓 Formado em **Análise e Desenvolvimento de Sistemas** (Unisuam)[cite: 9].
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack
+
+**Linguagens & Web:**
+<p align="left">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+</p>
+
+**Segurança & Ferramentas:**
+<p align="left">
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pentest-FF0000?style=for-the-badge&logo=hack-the-box&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="left">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=dracula&include_all_commits=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=dracula" />
+</p>
+
+---
+
+### 🏆 Certificações & Destaques
+- [cite_start]**Iniciação ao Pentest** - Desec Security[cite: 51].
+- [cite_start]**E-commerce D&Z**: Desenvolvimento completo de dashboard administrativo e sistema de autenticação segura[cite: 17, 18].
+- [cite_start]**Bot da FURIA**: Automação e gestão de comunidades com Python[cite: 22].
+
+---
+
+### 📫 Vamos nos conectar?
+<p align="left">
+  <a href="https://linkedin.com/in/lucas-chacon-129414a7" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:lucaschacon79@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
