@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=480ca8&height=250&section=header&text=Lucas%20Chacon&fontSize=80&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Cybersecurity&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&lanColor=9D4EDD&reColor=00b4d8&height=220&section=header&text=LUCAS%20CHACON&fontSize=70&fontColor=fff&animation=fadeIn&desc=%3E_Full%20Stack%20Developer%20|%20Cybersecurity%20Student&descAlignY=65&descAlign=50" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=%5B%3E%5D+User%3A+ChaconLucas;%5B%3E%5D+Status%3A+Encrypting_systems...;%5B%3E%5D+Role%3A+L%C3%ADder+de+E-commerce+na+D%26Z;%5B%3E%5D+Specialist%3A+Pentest+%26+Kali+Linux" />
 </p>
 
 <p align="center">
