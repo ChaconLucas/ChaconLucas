@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=250&section=header&text=Lucas%20Chacon&fontSize=80&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20Cybersecurity&descAlignY=60&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=480ca8&height=250&section=header&text=Lucas%20Chacon&fontSize=80&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Cybersecurity&descAlignY=55" />
 </p>
 
 <p align="center">
@@ -7,10 +7,10 @@
 </p>
 
 ### 🚀 Sobre Mim
-- [cite_start]💻 **Atualmente:** Lidero o desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS)[cite: 57, 87].
-- [cite_start]🛡️ **Especialização:** Pós-graduando em **Cibersegurança** com foco em Pentest e Kali Linux[cite: 58, 60].
-- [cite_start]🤖 **Projetos:** Criador do **Bot da FURIA** (Python/Telegram API) para automação e gestão de fãs[cite: 72, 74].
-- [cite_start]🎓 **Formação:** Analista e Desenvolvedor de Sistemas pela **Unisuam**[cite: 61].
+- 💻 **Atualmente:** Lidero o desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
+- 🛡️ **Especialização:** Pós-graduando em **Cibersegurança** com foco em Pentest e Kali Linux.
+- 🤖 **Projetos:** Criador do **Bot da FURIA** (Python/Telegram API) para automação e gestão de fãs.
+- 🎓 **Formação:** Analista e Desenvolvedor de Sistemas pela **Unisuam**.
 
 ---
 
