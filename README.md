@@ -1,56 +1,62 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=10&height=300&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=fff&animation=fadeIn&desc=%3E_JUNIOR_FULL_STACK_DEV_%7C_%3E_CYBER_STUDENT&descAlignY=68&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=280&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=ffffff&animation=fadeIn&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=65&descAlign=50" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%2B%5D+INITIALIZING+ENCRYPTED+SESSION...;%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+BYPASSING_RESTRICTIONS..." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%E2%9C%93%5D+SYSTEMS_LOADED;%5B%21%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%23%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%24%5D+ENCRYPTING_MAINFRAME..." />
 </p>
 
 ---
 
-## 🛰️ [SYSTEM_RESOURCES]
+## ⚡ [DASHBOARD_EXECUTIVE]
 
-| 🖥️ CORE_SYSTEM | 📂 METADATA_LOG |
-| :--- | :--- |
-| **IDENTITY** | **Lucas Chacon** (22 Cycles) |
-| **COMMAND_UNIT** | **Líder de E-commerce na D&Z** |
-| **ACADEMIC_LOG** | **Pós-graduando em Cibersegurança** |
-| **TARGET** | **Pentest & Kali Linux** Specialist Path |
+> **Status:** Ativo no desenvolvimento do **E-commerce D&Z** (PHP/MySQL).  
+> **Target:** Pós-graduando em **Cibersegurança** focado em **Pentest** e **Kali Linux**.
 
 ---
 
-## 🏗️ [PROJECT_DEPLOYMENTS]
+## 🛠️ [TECHNICAL_ARSENAL]
 
-### ⚡ **MISSION_01: D&Z E-commerce Platform**
-* **Role:** Liderança técnica no ecossistema PHP/MySQL.
-* **Task:** Otimização de Database e Dashboards de KPIs.
-* **Security:** Proteção contra vulnerabilidades OWASP.
-
-### 🤖 **MISSION_02: Bot da FURIA (Python Engine)**
-* **Role:** Automação via Telegram API para gestão de fãs.
-* **Status:** Operacional e em constante atualização.
+| CATEGORIA | SKILL_SET | NÍVEL_OPERACIONAL |
+| :--- | :--- | :--- |
+| **BACKEND** | PHP, Python, Node.js | ![95%](https://progress-bar.dev/95/?scale=100&width=200&color=7b2cbf) |
+| **DATABASE** | MySQL, MariaDB | ![90%](https://progress-bar.dev/90/?scale=100&width=200&color=9D4EDD) |
+| **SECURITY** | Kali Linux, BurpSuite | ![55%](https://progress-bar.dev/55/?scale=100&width=200&color=5a189a) |
+| **AUTOMATION** | Telegram API, Bot da FURIA | ![70%](https://progress-bar.dev/70/?scale=100&width=200&color=3c096c) |
 
 ---
 
-## 📊 [SKILL_LEVEL_METRICS]
+## 🚀 [ACTIVE_DEPLOYMENTS]
 
-**Backend Infrastructure (PHP/Node)**
-![95%](https://progress-bar.dev/95/?scale=100&title=PROGRESS&width=500&color=7b2cbf&suffix=%)
+### 🏢 **Liderança Técnica - D&Z E-commerce**
+Atuo na gestão e desenvolvimento de sistemas de e-commerce, focando em performance de banco de dados e dashboards administrativos. 
+* **Destaque:** Implementação de camadas de segurança para proteção de dados sensíveis.
 
-**Database Architecture (MySQL)**
-![90%](https://progress-bar.dev/90/?scale=100&title=PROGRESS&width=500&color=9D4EDD&suffix=%)
-
-**Cybersecurity / Pentest**
-![55%](https://progress-bar.dev/55/?scale=100&title=STUDENT&width=500&color=5a189a&suffix=%)
+### 🤖 **Bot da FURIA**
+Desenvolvimento de um ecossistema de automação em Python para integração com a API do Telegram, gerenciando fluxos de dados em tempo real.
 
 ---
 
-## 🛠️ [ARSENAL_TECH_TREE]
+## 📊 [ANALYTICS_MODULE]
 
-```text
-root@ChaconLucas:~# show --arsenal --detailed
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd&bg_color=16161e&hide_border=true&border_radius=10" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd&bg_color=16161e&hide_border=true&border_radius=10" />
+</p>
 
-[SYSTEM_CORE]
-  ├── BACKEND : [PHP] [Python] [Node.js]
-  ├── DATA    : [MySQL] [MariaDB]
-  └── SEC_OPS : [Kali Linux] [Metasploit]
+---
+
+## 📫 [ESTABLISH_CONNECTION]
+
+<p align="left">
+  <a href="https://linkedin.com/in/lucas-chacon-129414a7" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-9D4EDD?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:lucaschacon79@gmail.com">
+    <img src="https://img.shields.io/badge/DIRECT_MAIL-7b2cbf?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7b2cbf&height=20" />
+</p>
