@@ -4,7 +4,11 @@
 
 # Olá, eu sou o Lucas Chacon 👋
 
-Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** e aprofundo meus conhecimentos em Cibersegurança.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Desenvolvedor+Full+Stack;Especialista+em+E-commerce;Cybersecurity+Student;Apaixonado+por+Cibersegurança" alt="Typing SVG" />
+  </a>
+</p>
 
 ### 🚀 Sobre Mim
 - 💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
