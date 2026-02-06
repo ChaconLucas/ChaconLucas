@@ -3,10 +3,10 @@
 Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** [cite: 5, 35] [cite_start]e aprofundo meus conhecimentos em Cibersegurança[cite: 6].
 
 ### 🚀 Sobre Mim
-- [cite_start]💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS)[cite: 5, 15].
-- [cite_start]🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana[cite: 8].
-- [cite_start]🤖 Criador do **Bot da FURIA** para automação via Telegram API[cite: 20, 21].
-- [cite_start]🎓 Formado em **Análise e Desenvolvimento de Sistemas** pela Unisuam[cite: 9].
+- 💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS)[cite: 5, 15].
+- 🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana[cite: 8].
+- 🤖 Criador do **Bot da FURIA** para automação via Telegram API[cite: 20, 21].
+- 🎓 Formado em **Análise e Desenvolvimento de Sistemas** pela Unisuam[cite: 9].
 
 ---
 
@@ -39,9 +39,9 @@ Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente
 ---
 
 ### 🏆 Certificações & Destaques
-- [cite_start]**Iniciação ao Pentest** - Desec Security[cite: 51].
-- [cite_start]**E-commerce D&Z**: Desenvolvimento completo de dashboard administrativo e sistema de autenticação segura[cite: 17, 18].
-- [cite_start]**Bot da FURIA**: Automação e gestão de comunidades com Python[cite: 22].
+- **Iniciação ao Pentest** - Desec Security[cite: 51].
+- **E-commerce D&Z**: Desenvolvimento completo de dashboard administrativo e sistema de autenticação segura[cite: 17, 18].
+- **Bot da FURIA**: Automação e gestão de comunidades com Python[cite: 22].
 
 ---
 
