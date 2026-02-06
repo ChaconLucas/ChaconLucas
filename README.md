@@ -3,16 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Desenvolvedor+Full+Stack;Líder+de+E-commerce+na+D%26Z;Pós-graduando+em+Cibersegurança;Apaixonado+por+Pentest+e+Segurança" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Desenvolvedor+Full+Stack;L%C3%ADder+de+E-commerce+na+D%26Z;P%C3%B3s-graduando+em+Ciberseguran%C3%A7a" />
 </p>
 
 ### 🚀 Sobre Mim
-- 💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
-- 🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana.
-- 🤖 Criador do **Bot da FURIA** para automação via Telegram API.
-- 🎓 Formado em **Análise e Desenvolvimento de Sistemas** pela Unisuam.
+- 💻 **Atualmente:** Lidero o desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
+- 🛡️ **Especialização:** Pós-graduando em **Cibersegurança** (Faculdade Metropolitana) com foco em Pentest e Kali Linux.
+- 🤖 **Projetos:** Criador do **Bot da FURIA** (Python/Telegram API) para automação de notícias e gestão de fãs.
+- 🎓 **Formação:** Analista e Desenvolvedor de Sistemas pela **Unisuam**.
 
 ---
 
@@ -27,15 +25,10 @@
 
 ---
 
-### 📊 Estatísticas & Atividade
+### 📊 Estatísticas
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=vision-friendly-dark&include_all_commits=true" />
-</p>
-
-### 🐍 Snake Game (Contribuições)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=dracula" style="display:none">
-  <img src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" alt="Snake Game">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=vision-friendly-dark" />
 </p>
 
 ---
