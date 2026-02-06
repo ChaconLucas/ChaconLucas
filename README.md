@@ -1,12 +1,12 @@
 # Olá, eu sou o Lucas Chacon 👋
 
-Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** [cite: 5, 35] [cite_start]e aprofundo meus conhecimentos em Cibersegurança[cite: 6].
+Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** e aprofundo meus conhecimentos em Cibersegurança.
 
 ### 🚀 Sobre Mim
-- 💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS)[cite: 5, 15].
-- 🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana[cite: 8].
-- 🤖 Criador do **Bot da FURIA** para automação via Telegram API[cite: 20, 21].
-- 🎓 Formado em **Análise e Desenvolvimento de Sistemas** pela Unisuam[cite: 9].
+- 💻 Atualmente focado no desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
+- 🛡️ Pós-graduando em **Cibersegurança** pela Faculdade Metropolitana.
+- 🤖 Criador do **Bot da FURIA** para automação via Telegram API.
+- 🎓 Formado em **Análise e Desenvolvimento de Sistemas** pela Unisuam.
 
 ---
 
