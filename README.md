@@ -1,62 +1,54 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=280&section=header&text=LUCAS%20CHACON&fontSize=90&fontColor=ffffff&animation=fadeIn&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=65&descAlign=50" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=850&lines=%5B%E2%9C%93%5D+SYSTEMS_LOADED;%5B%21%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%23%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%24%5D+ENCRYPTING_MAINFRAME..." />
-</p>
+# 🌐 LUCAS CHACON
+### 🚀 Junior Full Stack Developer | 🛡️ Cybersecurity Student
 
----
-
-## ⚡ [DASHBOARD_EXECUTIVE]
-
-> **Status:** Ativo no desenvolvimento do **E-commerce D&Z** (PHP/MySQL).  
-> **Target:** Pós-graduando em **Cibersegurança** focado em **Pentest** e **Kali Linux**.
+`IDENTIDADE: RIO DE JANEIRO` | `STATUS: ESTUDANDO PENTEST` | `TARGET: LEAD D&Z`
 
 ---
 
-## 🛠️ [TECHNICAL_ARSENAL]
+</div>
 
-| CATEGORIA | SKILL_SET | NÍVEL_OPERACIONAL |
-| :--- | :--- | :--- |
-| **BACKEND** | PHP, Python, Node.js | ![95%](https://progress-bar.dev/95/?scale=100&width=200&color=7b2cbf) |
-| **DATABASE** | MySQL, MariaDB | ![90%](https://progress-bar.dev/90/?scale=100&width=200&color=9D4EDD) |
-| **SECURITY** | Kali Linux, BurpSuite | ![55%](https://progress-bar.dev/55/?scale=100&width=200&color=5a189a) |
-| **AUTOMATION** | Telegram API, Bot da FURIA | ![70%](https://progress-bar.dev/70/?scale=100&width=200&color=3c096c) |
-
----
-
-## 🚀 [ACTIVE_DEPLOYMENTS]
-
-### 🏢 **Liderança Técnica - D&Z E-commerce**
-Atuo na gestão e desenvolvimento de sistemas de e-commerce, focando em performance de banco de dados e dashboards administrativos. 
-* **Destaque:** Implementação de camadas de segurança para proteção de dados sensíveis.
-
-### 🤖 **Bot da FURIA**
-Desenvolvimento de um ecossistema de automação em Python para integração com a API do Telegram, gerenciando fluxos de dados em tempo real.
+### 🛰️ [OVERVIEW]
+- 💻 **Foco Atual:** Liderança técnica e desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
+- 🛡️ **Educação:** Pós-graduando em **Cibersegurança** (Pentest e Kali Linux).
+- 🤖 **Projetos:** Criador do **Bot da FURIA** (Automação em Python via Telegram API).
+- 🎓 **Formação:** Analista e Desenvolvedor de Sistemas pela **Unisuam**.
 
 ---
 
-## 📊 [ANALYTICS_MODULE]
+### 🛠️ [TECHNICAL_ARSENAL]
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd&bg_color=16161e&hide_border=true&border_radius=10" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd&bg_color=16161e&hide_border=true&border_radius=10" />
-</p>
+| ÁREA | TECNOLOGIAS |
+| :--- | :--- |
+| **Backend** | PHP, Python, Node.js |
+| **Data** | MySQL, MariaDB, Query Optimization |
+| **Security** | Kali Linux, Ferramentas de Pentest, Secure Coding |
+| **Outros** | JavaScript, Telegram API, Git |
 
 ---
 
-## 📫 [ESTABLISH_CONNECTION]
+### ⚔️ [EXPERIÊNCIA_EM_CAMPO]
+
+#### 🏢 **Liderança Técnica - D&Z E-commerce**
+* Gestão e desenvolvimento de sistemas com foco em performance de banco de dados.
+* Implementação de camadas de segurança para proteção de dados sensíveis.
+
+#### 🤖 **Bot da FURIA**
+* Sistema de automação em Python para integração e gestão de dados em tempo real.
+
+---
+
+### 📫 [CONNECT]
 
 <p align="left">
   <a href="https://linkedin.com/in/lucas-chacon-129414a7" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-9D4EDD?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:lucaschacon79@gmail.com">
-    <img src="https://img.shields.io/badge/DIRECT_MAIL-7b2cbf?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/EMAIL-7b2cbf?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=7b2cbf&height=20" />
-</p>
+---
+<p align="center"><i>"A segurança é um processo, não um produto."</i></p>
