@@ -38,10 +38,10 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="left">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=dracula&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=dracula" />
+### 📊 Estatísticas
+<p align="center">
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=vision-friendly-dark" />
+<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=vision-friendly-dark" />
 </p>
 
 ---
