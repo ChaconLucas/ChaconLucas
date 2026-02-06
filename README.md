@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=200&section=header&text=Lucas%20Chacon&fontSize=70&animation=fadeIn&fontAlignY=38" />
+</p>
+
 # Olá, eu sou o Lucas Chacon 👋
 
 Desenvolvedor Full Stack focado em criar sistemas robustos e seguros. Atualmente, lidero o desenvolvimento de e-commerce na **D&Z** e aprofundo meus conhecimentos em Cibersegurança.
