@@ -25,7 +25,7 @@
 
 ---
 
-### 📊 Estatísticas (Purple Theme)
+### 📊 Estatísticas
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&icon_color=9d4edd&title_color=9d4edd" />
 </p>
