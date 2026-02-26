@@ -114,6 +114,18 @@ Automation bot using Python and Telegram API
 
 ---
 
+## SYSTEM STATUS
+
+```diff
++ React Specialist: ACTIVE
++ Backend Development: ACTIVE
++ API Development: ACTIVE
++ Cybersecurity Training: ACTIVE
++ Open to Work: TRUE
+```
+
+---
+
 ## TERMINAL
 
 ```bash
