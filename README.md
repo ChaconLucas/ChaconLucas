@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+[+] ROLE: JUNIOR_FULL_STACK_DEVELOPER;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+STUDENT%3A+PENTEST+%26+KALI+LINUX" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+JUNIOR_FULL_STACK_DEVELOPER;%5B%2B%5D+STATUS%3A+OPEN_TO_WORK;%5B%2B%5D+STACK%3A+REACT+%7C+PYTHON+%7C+PHP+%7C+MYSQL" />
 </p>
 
 
