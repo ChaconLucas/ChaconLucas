@@ -1,3 +1,9 @@
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=280&section=header&text=LUCAS%20CHACON&fontSize=85&fontColor=ffffff&animation=twinkling&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=65&descAlign=50" />
 </p>
@@ -6,13 +12,15 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
 </p>
 
+Full stack developer focused on building web applications with React, Python and PHP.  
+Open to Junior Developer opportunities.
 
 <div align="center">
 
 
-### 🚀 Junior Full Stack Developer | 🛡️ Cybersecurity Student
+### Junior Developer | React | Python | PHP | Full Stack
 
-`IDENTIDADE: RIO DE JANEIRO` | `STATUS: ESTUDANDO PENTEST` | `TARGET: LEAD D&Z`
+`IDENTIDADE: RIO DE JANEIRO` | `STATUS: ESTUDANDO PENTEST` | `TARGET: TARGET: JUNIOR DEVELOPER OPPORTUNITY`
 
 ---
 
@@ -45,6 +53,22 @@
 
 #### 🤖 **Bot da FURIA**
 * Sistema de automação em Python para integração e gestão de dados em tempo real.
+
+---
+
+## PROJECTS
+
+Factory Management System
+Full stack system with React, FastAPI and MySQL  
+https://github.com/ChaconLucas/factory-management-system
+
+E-commerce D&Z
+Complete e-commerce with admin dashboard  
+https://github.com/ChaconLucas/ecommerce
+
+Bot FURIA
+Automation bot using Python and Telegram API  
+https://github.com/ChaconLucas/furia-bot
 
 ---
 
