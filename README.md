@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
@@ -106,6 +106,30 @@ Automation bot using Python and Telegram API
     <img src="https://img.shields.io/badge/EMAIL-7b2cbf?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
+
+
+---
+
+## TERMINAL
+
+```bash
+> whoami
+lucas_chacon
+
+> role
+junior_developer
+
+> location
+rio_de_janeiro
+
+> stack
+react, python, php, mysql
+
+> focus
+full_stack_web_development
+
+> status
+open_to_work
 
 ---
 <p align="center"><i>"A segurança é um processo, não um produto."</i></p>
