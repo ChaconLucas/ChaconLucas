@@ -1,9 +1,3 @@
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
-
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=7b2cbf&height=280&section=header&text=LUCAS%20CHACON&fontSize=85&fontColor=ffffff&animation=twinkling&desc=%3E_JUNIOR_DEVELOPER_%7C_%3E_CYBER_STUDENT&descAlignY=65&descAlign=50" />
 </p>
@@ -12,8 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
 </p>
 
-Full stack developer focused on building web applications with React, Python and PHP.  
-Open to Junior Developer opportunities.
 
 <div align="center">
 
@@ -25,6 +17,9 @@ Open to Junior Developer opportunities.
 ---
 
 </div>
+
+Full stack developer focused on building web applications with React, Python and PHP.  
+Open to Junior Developer opportunities.
 
 ### 🛰️ [OVERVIEW]
 - 💻 **Foco Atual:** Liderança técnica e desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
@@ -42,6 +37,13 @@ Open to Junior Developer opportunities.
 | **Data** | MySQL, MariaDB, Query Optimization |
 | **Security** | Kali Linux, Ferramentas de Pentest, Secure Coding |
 | **Outros** | JavaScript, Telegram API, Git |
+
+---
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
 
 ---
 
