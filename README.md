@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+LEAD_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+FULLSTACK_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
 </p>
 
 
