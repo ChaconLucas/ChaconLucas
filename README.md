@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+FULLSTACK_ECOMMERCE_D%26Z;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+[+] ROLE: JUNIOR_FULL_STACK_DEVELOPER;%5B%2B%5D+STATUS%3A+ENCRYPTING_SYSTEMS...;%5B%2B%5D+SPECIALIST%3A+PENTEST+%26+KALI+LINUX" />
 </p>
 
 
@@ -19,7 +19,16 @@
 </div>
 
 Full stack developer focused on building web applications with React, Python and PHP.  
-Open to Junior Developer opportunities.
+## MAIN STACK
+
+Front-end:
+React, JavaScript, HTML, CSS, Tailwind
+
+Back-end:
+Python (FastAPI), PHP, MySQL
+
+Tools:
+Git, GitHub, VS Code
 
 ### 🛰️ [OVERVIEW]
 - 💻 **Foco Atual:** Liderança técnica e desenvolvimento do **E-commerce D&Z** (PHP, MySQL, JS).
@@ -60,17 +69,17 @@ Open to Junior Developer opportunities.
 
 ## PROJECTS
 
-Factory Management System
-Full stack system with React, FastAPI and MySQL  
-https://github.com/ChaconLucas/factory-management-system
+### Factory Management System
+Full stack system built with React, FastAPI and MySQL  
+→ https://github.com/ChaconLucas/factory-management-system
 
-E-commerce D&Z
+### E-commerce D&Z
 Complete e-commerce with admin dashboard  
-https://github.com/ChaconLucas/ecommerce
+→ https://github.com/ChaconLucas/ecommerce
 
-Bot FURIA
+### Bot FURIA
 Automation bot using Python and Telegram API  
-https://github.com/ChaconLucas/furia-bot
+→ https://github.com/ChaconLucas/furia-bot
 
 ---
 
