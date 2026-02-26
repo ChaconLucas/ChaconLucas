@@ -17,15 +17,15 @@
 
 ---
 
+### Junior Developer | React | Python | PHP | Full Stack
+
+`IDENTIDADE: RIO DE JANEIRO` | `STATUS: OPEN TO WORK` | `TARGET: JUNIOR DEVELOPER OPPORTUNITY`
+
 <div align="center">
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=9D4EDD&style=for-the-badge" />
 </p>
-
-### Junior Developer | React | Python | PHP | Full Stack
-
-`IDENTIDADE: RIO DE JANEIRO` | `STATUS: OPEN TO WORK` | `TARGET: JUNIOR DEVELOPER OPPORTUNITY`
 
 ---
 
