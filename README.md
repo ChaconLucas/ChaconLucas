@@ -11,16 +11,17 @@
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
 <div align="center">
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=9D4EDD&style=for-the-badge" />
 </p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true"/>
-</p>
-
 
 ### Junior Developer | React | Python | PHP | Full Stack
 
