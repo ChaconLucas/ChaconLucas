@@ -26,10 +26,10 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=9D4EDD&style=for-the-badge" />
 </p>
+</div>
 
 ---
 
-</div>
 
 Junior developer focused on building web applications with React, Python and PHP.
 ## MAIN STACK
