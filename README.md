@@ -3,11 +3,24 @@
 </p>
 
 <p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ChaconLucas&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=9D4EDD&center=true&vCenter=true&width=800&lines=%5B%2B%5D+UNIT%3A+RIO_DE_JANEIRO;%5B%2B%5D+ROLE%3A+JUNIOR_FULL_STACK_DEVELOPER;%5B%2B%5D+STATUS%3A+OPEN_TO_WORK;%5B%2B%5D+STACK%3A+REACT+%7C+PYTHON+%7C+PHP+%7C+MYSQL" />
 </p>
 
 
 <div align="center">
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=9D4EDD&style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true"/>
+</p>
 
 
 ### Junior Developer | React | Python | PHP | Full Stack
