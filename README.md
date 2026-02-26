@@ -12,13 +12,13 @@
 
 ### Junior Developer | React | Python | PHP | Full Stack
 
-`IDENTIDADE: RIO DE JANEIRO` | `STATUS: ESTUDANDO PENTEST` | `TARGET: TARGET: JUNIOR DEVELOPER OPPORTUNITY`
+`IDENTIDADE: RIO DE JANEIRO` | `STATUS: OPEN TO WORK` | `TARGET: JUNIOR DEVELOPER OPPORTUNITY`
 
 ---
 
 </div>
 
-Full stack developer focused on building web applications with React, Python and PHP.  
+Junior developer focused on building web applications with React, Python and PHP.
 ## MAIN STACK
 
 Front-end:
