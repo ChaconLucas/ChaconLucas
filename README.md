@@ -35,17 +35,17 @@ sempre com um olhar de segurança por causa da pós.
 ## `>_ stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,php,mysql,tailwind,nodejs,vite,git,github,linux,vscode,figma,expo&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,expo,tailwind,js,nodejs,express,python,fastapi,php,postgres,mysql,vite,git,github,linux,vscode&theme=dark&perline=9" />
 </p>
 
 | Camada | Ferramentas |
 | :--- | :--- |
-| **Front-end** | React · TypeScript · Vite · React Native (Expo) · Tailwind · Bootstrap |
-| **Back-end** | Python (FastAPI) · PHP 8 · Node.js / Express |
-| **Dados** | MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
-| **Integrações** | MercadoPago · Telegram API · Groq API · PHPMailer · QR Code |
+| **Front-end** | React · Next.js · TypeScript · Vite · React Native (Expo) · Tailwind |
+| **Back-end** | Node.js / Express · Python (FastAPI) · PHP 8 |
+| **Dados** | PostgreSQL · MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
+| **Integrações** | MercadoPago · Uber Direct · Telegram API · Groq API · QR Code |
 | **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
-| **Infra** | Git · GitHub Actions · Vercel · Alembic · XAMPP |
+| **Infra** | Git · Monorepo (npm workspaces) · Render · Vercel · GitHub Actions |
 
 <br>
 
@@ -83,6 +83,19 @@ sempre com um olhar de segurança por causa da pós.
   <tr>
     <td width="50%" valign="top">
 
+### ⚡ FLASH
+`TypeScript` `Next.js 16` `Expo` `Express` `PostgreSQL`
+
+Marketplace de materiais para tatuagem e body piercing com entrega rápida por motoboy.
+Monorepo com quatro pacotes — `shared` (regras e design tokens), `api` (Express +
+PostgreSQL), `web` (Next.js 16) e `app` (Expo / React Native) — mantendo **paridade
+total entre app e web**. Integração de frete com Uber Direct e deploy contínuo na Render.
+
+[**› ver a loja**](https://flash-web-srgm.onrender.com) &nbsp;·&nbsp; `🔒 repo privado`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🎟️ GateCheck
 `Python` `FastAPI` `TypeScript` `React`
 
@@ -94,7 +107,9 @@ tudo registrado para auditoria.
 `🔒 repositório privado`
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🏄 WSL SporTV Games
 `FastAPI` `React 18` `TypeScript`
@@ -106,9 +121,7 @@ Cadastro configurável antes ou depois da partida, com premiação no final.
 [**› ver demo**](https://wsl-sportv-games.vercel.app) &nbsp;·&nbsp; `🔒 repo privado`
 
 </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+<td width="50%" valign="top">
 
 ### 🛍️ Rare7 — E-commerce completo
 `PHP 8` `MySQL` `JavaScript`
@@ -120,7 +133,9 @@ chat com IA (Groq) e logs de auditoria.
 [**› código**](https://github.com/ChaconLucas/rare7)
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🏭 Factory Production Management
 `FastAPI` `React` `SQLAlchemy`
@@ -131,9 +146,7 @@ controle de estoque e insights de eficiência a partir dos dados de manufatura.
 [**› código**](https://github.com/ChaconLucas/projdata_project)
 
 </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+<td width="50%" valign="top">
 
 ### 🤖 Bot da FURIA
 `Python` `Telegram API` `BeautifulSoup`
@@ -144,7 +157,9 @@ resultados e frases da torcida — com scraping para manter os dados atualizados
 [**› código**](https://github.com/ChaconLucas/furia-telegram-bot)
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🎤 Tiixokê
 `React` `Vite` `Express` `Web Audio API`
@@ -156,9 +171,7 @@ com animação de suspense na revelação da nota.
 `🔒 repositório privado`
 
 </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+<td width="50%" valign="top">
 
 ### 📱 Gestão de Clientes e Produtos
 `React Native` `Expo` `SQLite` `Drizzle`
@@ -169,7 +182,9 @@ CRUD de clientes e produtos com vínculos entre eles.
 [**› código**](https://github.com/ChaconLucas/react_native_target)
 
 </td>
-<td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 🧠 AIpply
 `JavaScript` `Python`
@@ -180,6 +195,7 @@ geração do material de aplicação.
 `🔒 repositório privado`
 
 </td>
+<td width="50%" valign="top"></td>
   </tr>
 </table>
 
