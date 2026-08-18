@@ -35,7 +35,7 @@ sempre com um olhar de segurança por causa da pós.
 ## `>_ stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,expo,tailwind,js,nodejs,express,python,fastapi,php,postgres,mysql,vite,git,github,linux,vscode&theme=dark&perline=9" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,bootstrap,js,nodejs,express,python,fastapi,php,postgres,mysql,sqlite,vite,git,github,linux,vscode&theme=dark&perline=10" />
 </p>
 
 | Camada | Ferramentas |
