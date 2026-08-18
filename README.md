@@ -183,15 +183,15 @@ geração do material de aplicação.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
 </p>
 
-<!-- COBRINHA: descomente quando o GitHub Actions voltar a rodar (pendencia de billing na conta).
-<h3 align="center"><code>>_ contribuicoes</code></h3>
+<h3 align="center"><code>>_ contribuições</code></h3>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
+    <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </p>
--->
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChaconLucas&theme=nord_dark" />
