@@ -175,21 +175,26 @@ geração do material de aplicação.
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ChaconLucas&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
 </p>
 
-<h3 align="center"><code>>_ contribuições</code></h3>
-
+<!-- COBRINHA: descomente quando o GitHub Actions voltar a rodar (pendencia de billing na conta).
+<h3 align="center"><code>>_ contribuicoes</code></h3>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
-    <img alt="cobrinha comendo as contribuições do meu GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
+    <img alt="snake" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
   </picture>
+</p>
+-->
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChaconLucas&theme=nord_dark" />
 </p>
 
 <br>
