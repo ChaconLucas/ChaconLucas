@@ -22,14 +22,58 @@ $ cat lucas.json
   "local":    "Rio de Janeiro, BR",
   "formacao": "Análise e Desenvolvimento de Sistemas — UNISUAM",
   "pos":      "Cibersegurança (Pentest · Kali Linux)",
-  "atuacao":  "Full Stack — do banco de dados ao deploy",
-  "status":   "open to work"
+  "atuacao":  "Full Stack — do banco de dados ao deploy"
 }
 ```
 
 Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
 de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
 sempre com um olhar de segurança por causa da pós.
+
+<br>
+
+## `>_ stack`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,php,mysql,tailwind,nodejs,vite,git,github,linux,vscode,figma,expo&theme=dark&perline=8" />
+</p>
+
+| Camada | Ferramentas |
+| :--- | :--- |
+| **Front-end** | React · TypeScript · Vite · React Native (Expo) · Tailwind · Bootstrap |
+| **Back-end** | Python (FastAPI) · PHP 8 · Node.js / Express |
+| **Dados** | MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
+| **Integrações** | MercadoPago · Telegram API · Groq API · PHPMailer · QR Code |
+| **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
+| **Infra** | Git · GitHub Actions · Vercel · Alembic · XAMPP |
+
+<br>
+
+## `>_ métricas`
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true&background=0d1117&ring=c77dff&fire=9d4edd&currStreakLabel=c77dff" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
+</p>
+
+<p align="center">
+  <img width="55%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
+</p>
+
+<br>
+
+<h3 align="center"><code>>_ contribuições</code></h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
+    <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</p>
 
 <br>
 
@@ -141,49 +185,6 @@ geração do material de aplicação.
 
 <br>
 
-## `>_ stack`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,php,mysql,tailwind,nodejs,vite,git,github,linux,vscode,figma,expo&theme=dark&perline=8" />
-</p>
-
-| Camada | Ferramentas |
-| :--- | :--- |
-| **Front-end** | React · TypeScript · Vite · React Native (Expo) · Tailwind · Bootstrap |
-| **Back-end** | Python (FastAPI) · PHP 8 · Node.js / Express |
-| **Dados** | MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
-| **Integrações** | MercadoPago · Telegram API · Groq API · PHPMailer · QR Code |
-| **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
-| **Infra** | Git · GitHub Actions · Vercel · Alembic · XAMPP |
-
-<br>
-
-## `>_ métricas`
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true&background=0d1117&ring=c77dff&fire=9d4edd&currStreakLabel=c77dff" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
-</p>
-
-<p align="center">
-  <img width="55%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
-</p>
-
-<h3 align="center"><code>>_ contribuições</code></h3>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
-    <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
-
-<br>
-
 ## `>_ contato`
 
 ```bash
@@ -191,7 +192,6 @@ $ ./contato.sh
 [+] linkedin ... linkedin.com/in/lucas-chacon-129414a7
 [+] e-mail ..... lucaschacon79@gmail.com
 [+] local ...... Rio de Janeiro — BR (remoto ou híbrido)
-[+] status ..... aberto a novas oportunidades
 ```
 
 <p align="center">
