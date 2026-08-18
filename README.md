@@ -13,45 +13,23 @@
   <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=7b2cbf&style=for-the-badge&label=VISITAS" />
 </p>
 
-<div align="center">
-
-</div>
-
 ## `>_ whoami`
 
 ```bash
 $ cat lucas.json
 {
-  "nome":      "Lucas Chacon",
-  "local":     "Rio de Janeiro, BR",
-  "formacao":  "Análise e Desenvolvimento de Sistemas — UNISUAM",
-  "pos":       "Cibersegurança (Pentest · Kali Linux)",
-  "atuacao":   "Full Stack — do banco de dados ao deploy",
-  "foco_2026": ["GateCheck", "D&Z E-commerce", "APIs em FastAPI"],
-  "status":    "open to work"
+  "nome":     "Lucas Chacon",
+  "local":    "Rio de Janeiro, BR",
+  "formacao": "Análise e Desenvolvimento de Sistemas — UNISUAM",
+  "pos":      "Cibersegurança (Pentest · Kali Linux)",
+  "atuacao":  "Full Stack — do banco de dados ao deploy",
+  "status":   "open to work"
 }
 ```
 
-Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar.
-Hoje isso vai de e-commerce em PHP com checkout e CMS próprios até plataformas novas em
-FastAPI + React, com um olhar constante de segurança por causa da pós.
-
-<br>
-
-## `>_ stack`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,php,mysql,tailwind,nodejs,vite,git,github,linux,vscode,figma,expo&theme=dark&perline=8" />
-</p>
-
-| Camada | Ferramentas |
-| :--- | :--- |
-| **Front-end** | React · TypeScript · Vite · React Native (Expo) · Tailwind · Bootstrap |
-| **Back-end** | Python (FastAPI) · PHP 8 · Node.js / Express |
-| **Dados** | MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
-| **Integrações** | MercadoPago · Telegram API · Groq API · PHPMailer · QR Code |
-| **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
-| **Infra** | Git · GitHub Actions · Vercel · Alembic · XAMPP |
+Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
+de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
+sempre com um olhar de segurança por causa da pós.
 
 <br>
 
@@ -88,10 +66,10 @@ Cadastro configurável antes ou depois da partida, com premiação no final.
   <tr>
     <td width="50%" valign="top">
 
-### 🛍️ Rare7 / D&Z E-commerce
+### 🛍️ Rare7 — E-commerce completo
 `PHP 8` `MySQL` `JavaScript`
 
-E-commerce completo que eu lidero tecnicamente: loja virtual, painel administrativo,
+Plataforma de e-commerce que lidero tecnicamente: loja virtual, painel administrativo,
 CMS integrado, checkout **MercadoPago**, automação de e-mails, dashboards com Chart.js,
 chat com IA (Groq) e logs de auditoria.
 
@@ -163,24 +141,35 @@ geração do material de aplicação.
 
 <br>
 
-## `>_ métricas`
+## `>_ stack`
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ChaconLucas&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c77dff&icon_color=9d4edd" />
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ChaconLucas&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c77dff" />
+  <img src="https://skillicons.dev/icons?i=react,ts,js,python,fastapi,php,mysql,tailwind,nodejs,vite,git,github,linux,vscode,figma,expo&theme=dark&perline=8" />
 </p>
+
+| Camada | Ferramentas |
+| :--- | :--- |
+| **Front-end** | React · TypeScript · Vite · React Native (Expo) · Tailwind · Bootstrap |
+| **Back-end** | Python (FastAPI) · PHP 8 · Node.js / Express |
+| **Dados** | MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
+| **Integrações** | MercadoPago · Telegram API · Groq API · PHPMailer · QR Code |
+| **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
+| **Infra** | Git · GitHub Actions · Vercel · Alembic · XAMPP |
+
+<br>
+
+## `>_ métricas`
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true&background=0d1117&ring=c77dff&fire=9d4edd&currStreakLabel=c77dff" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
+  <img width="55%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
 </p>
 
 <h3 align="center"><code>>_ contribuições</code></h3>
@@ -191,10 +180,6 @@ geração do material de aplicação.
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
     <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
   </picture>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ChaconLucas&theme=nord_dark" />
 </p>
 
 <br>
