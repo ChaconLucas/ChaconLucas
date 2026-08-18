@@ -35,16 +35,18 @@ sempre com um olhar de segurança por causa da pós.
 ## `>_ stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,bootstrap,js,nodejs,express,python,fastapi,php,postgres,mysql,sqlite,vite,git,github,linux,vscode&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,bootstrap,js,nodejs,express,python,fastapi,php,postgres,mysql,sqlite,redis,vitest,vite,git,github,linux,vscode&theme=dark&perline=11" />
 </p>
 
 | Camada | Ferramentas |
 | :--- | :--- |
-| **Front-end** | React · Next.js · TypeScript · Vite · React Native (Expo) · Tailwind |
+| **Front-end** | React · Next.js · TypeScript · React Native (Expo) · Vite · Tailwind · Bootstrap |
+| **Estado & forms** | Redux Toolkit · React Hook Form · Zod · Yup |
 | **Back-end** | Node.js / Express · Python (FastAPI) · PHP 8 |
-| **Dados** | PostgreSQL · MySQL · MariaDB · SQLite · SQLAlchemy · Drizzle ORM |
-| **Integrações** | MercadoPago · Uber Direct · Telegram API · Groq API · QR Code |
-| **Segurança** | Kali Linux · Pentest · Secure coding · Auditoria e logs |
+| **Dados** | PostgreSQL · MySQL · MariaDB · SQLite · Redis · SQLAlchemy · Drizzle ORM · Alembic |
+| **Testes** | Vitest · Playwright · Pytest |
+| **Auth & segurança** | JWT · bcrypt · NextAuth · Kali Linux · Pentest · Secure coding · Auditoria e logs |
+| **Integrações** | MercadoPago · Uber Direct · Telegram API · OpenAI · Groq · Nodemailer / PHPMailer · QR Code |
 | **Infra** | Git · Monorepo (npm workspaces) · Render · Vercel · GitHub Actions |
 
 <br>
