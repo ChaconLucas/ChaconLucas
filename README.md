@@ -58,11 +58,13 @@ sempre com um olhar de segurança por causa da pós.
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaconLucas&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=c77dff&line=9d4edd&point=ffffff&area=true" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ChaconLucas&theme=nord_dark&utcOffset=-3" />
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
 </p>
 
 <br>
