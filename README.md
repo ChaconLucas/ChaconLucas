@@ -32,16 +32,7 @@ sempre com um olhar de segurança por causa da pós.
 <details>
 <summary><code>>_ ver a lista completa por camada</code></summary>
 
-| Camada | Ferramentas |
-| :--- | :--- |
-| **Front-end** | React · Next.js · TypeScript · React Native (Expo) · Vite · Tailwind · Bootstrap |
-| **Estado & forms** | Redux Toolkit · React Hook Form · Zod · Yup |
-| **Back-end** | Node.js / Express · Python (FastAPI) · PHP 8 |
-| **Dados** | PostgreSQL · MySQL · MariaDB · SQLite · Redis · SQLAlchemy · Drizzle ORM · Alembic |
-| **Testes** | Vitest · Playwright · Pytest |
-| **Auth & segurança** | JWT · bcrypt · NextAuth · Kali Linux · Pentest · Secure coding · Auditoria e logs |
-| **Integrações** | MercadoPago · Uber Direct · Telegram API · OpenAI · Groq · Nodemailer / PHPMailer · QR Code |
-| **Infra** | Git · Monorepo (npm workspaces) · Render · Vercel · GitHub Actions |
+<img src="assets/social/camadas.svg" alt="front-end: React, Next.js, TypeScript, React Native, Vite, Tailwind, Bootstrap, jQuery; estado: Redux Toolkit, React Hook Form, Zod, Yup; back-end: PHP 8, Node.js, Express, Python, FastAPI; dados: MySQL, PostgreSQL, MariaDB, SQLite, Redis, SQLAlchemy, Drizzle, Alembic; testes: Vitest, Playwright, Pytest; segurança: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrações: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infra: Git, monorepo, Render, Vercel, GitHub Actions" width="100%" />
 
 </details>
 

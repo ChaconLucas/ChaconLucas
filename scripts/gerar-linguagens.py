@@ -39,7 +39,7 @@ for i, (nome, pct, cor) in enumerate(DADOS[:6]):
     py = ly + lin * 26
     legenda.append(
         f'<rect x="{px:.0f}" y="{py - 10:.0f}" width="11" height="11" rx="2.5" fill="{cor}"/>'
-        f'<text x="{px + 19:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" fill="#e0c3fc">{nome}</text>'
+        f'<text x="{px + 19:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" fill="#c9d1d9">{nome}</text>'
         f'<text x="{px + larg_util/3 - 46:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" '
         f'font-weight="bold" fill="#c77dff" text-anchor="end">{pct:.1f}%</text>')
 
