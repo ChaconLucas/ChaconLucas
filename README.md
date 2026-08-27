@@ -78,10 +78,33 @@ sempre com um olhar de segurança por causa da pós.
 
 ## `>_ experiência`
 
-| Empresa | Cargo | Stack | Período |
-| :--- | :--- | :--- | :--- |
-| **TIIX** | Full Stack Developer | `PHP` `JavaScript` `MySQL` | `2026 — atual` |
-| **D&Z** | Desenvolvedor Full Stack | `PHP` `JavaScript` `MySQL` | `nov/2025 — abr/2026` |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### TIIX
+**Full Stack Developer** &nbsp;·&nbsp; `2026 — atual`
+
+`PHP` `JavaScript` `MySQL`
+
+Integrações **OAuth 2.0** com APIs externas de wearables e saúde — fluxo de
+autorização, callback e sessão por provedor, com dashboards próprios para
+consumo dos dados.
+
+</td>
+<td width="50%" valign="top">
+
+### D&Z
+**Desenvolvedor Full Stack** &nbsp;·&nbsp; `nov/2025 — abr/2026`
+
+`PHP` `JavaScript` `MySQL`
+
+Painéis administrativos em PHP — sistema interno de gestão, com as telas
+de cadastro, listagem e manutenção dos dados.
+
+</td>
+  </tr>
+</table>
 
 <br>
 
@@ -194,7 +217,7 @@ CRUD de clientes e produtos com vínculos entre eles.
 </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
 
 ### 🧠 AIpply
 `JavaScript` `Python`
@@ -203,6 +226,18 @@ Automação de candidaturas com apoio de IA — leitura de vaga, adequação do 
 geração do material de aplicação.
 
 <img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
+
+</td>
+<td width="50%" valign="top">
+
+### ⌚ Integrações de wearables
+`PHP` `OAuth 2.0` `REST`
+
+Integração com múltiplas plataformas de wearables e APIs de saúde: fluxo de
+autorização, troca e renovação de token, callback e sessão por provedor,
+com dashboard para os dados de cada um.
+
+`🏢 trabalho da TIIX`
 
 </td>
   </tr>
