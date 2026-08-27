@@ -1,7 +1,14 @@
 # -*- coding: utf-8 -*-
 """Gera o hero do topo e o rodape do README (assets/social/).
 
-Tudo em monoespacada de proposito: a identidade da pagina e terminal.
+Duas regras que ficaram claras na marra:
+
+1. `textLength` so onde a largura precisa ser conhecida (texto centralizado).
+   Em texto alinhado a esquerda ele nao ajuda e, se a estimativa errar, o SVG
+   espreme os glifos um por cima do outro.
+2. Cada atributo guarda o ESTADO FINAL e o <animate> so encena a chegada nele,
+   pra quem nao roda SMIL ver a arte pronta em vez de um esqueleto vazio.
+
 Rode `python3 scripts/gerar-hero.py` depois de mexer em texto ou cor.
 """
 import os
@@ -11,88 +18,75 @@ OUT = os.path.join(RAIZ, "assets", "social")
 os.makedirs(OUT, exist_ok=True)
 
 MONO = "DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace"
-
-def mono_w(t, fs, ls=0.0):
-    """Monoespacada: largura previsivel, entao da pra fixar com textLength."""
-    return len(t) * fs * 0.6 + ls * (len(t) - 1)
-
-def texto(t, x, y, fs, cor, ls=0.0, peso="normal", anchor="start"):
-    w = mono_w(t, fs, ls)
-    x2 = x - w / 2 if anchor == "middle" else x
-    return (f'<text x="{x2:.1f}" y="{y:.1f}" font-family="{MONO}" font-size="{fs}" font-weight="{peso}" '
-            f'letter-spacing="{ls}" fill="{cor}" textLength="{w:.1f}" lengthAdjust="spacing">{t}</text>')
-
-
-# --- animacao --------------------------------------------------------------
-# SMIL roda dentro de <img> no GitHub (e o mesmo mecanismo da cobrinha).
-
-ESTRELAS = """<circle cx="355" cy="56" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.5s" begin="3.3s" repeatCount="indefinite"/></circle>
-  <circle cx="120" cy="111" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.9s" begin="0.9s" repeatCount="indefinite"/></circle>
-  <circle cx="112" cy="129" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.1s" begin="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="84" cy="229" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.1s" begin="2.5s" repeatCount="indefinite"/></circle>
-  <circle cx="620" cy="33" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.5s" begin="3.9s" repeatCount="indefinite"/></circle>
-  <circle cx="71" cy="160" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></circle>
-  <circle cx="144" cy="164" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.7s" begin="0.7s" repeatCount="indefinite"/></circle>
-  <circle cx="405" cy="42" r="1.4" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.6s" begin="0.2s" repeatCount="indefinite"/></circle>
-  <circle cx="234" cy="145" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.6s" begin="1.3s" repeatCount="indefinite"/></circle>
-  <circle cx="394" cy="94" r="1.1" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.9s" begin="3.1s" repeatCount="indefinite"/></circle>
-  <circle cx="107" cy="165" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.8s" begin="1.4s" repeatCount="indefinite"/></circle>
-  <circle cx="483" cy="91" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.6s" begin="2.0s" repeatCount="indefinite"/></circle>
-  <circle cx="192" cy="211" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.0s" begin="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="708" cy="37" r="1.7" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.0s" begin="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="345" cy="105" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.1s" begin="2.3s" repeatCount="indefinite"/></circle>
-  <circle cx="491" cy="35" r="1.7" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.0s" begin="1.9s" repeatCount="indefinite"/></circle>
-  <circle cx="704" cy="34" r="1.0" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.4s" begin="2.6s" repeatCount="indefinite"/></circle>
-  <circle cx="721" cy="228" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.4s" begin="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="379" cy="23" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.4s" begin="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="529" cy="33" r="1.1" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.2s" begin="3.0s" repeatCount="indefinite"/></circle>
-  <circle cx="431" cy="118" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.8s" begin="0.7s" repeatCount="indefinite"/></circle>
-  <circle cx="435" cy="158" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.8s" begin="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="587" cy="89" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.2s" begin="2.7s" repeatCount="indefinite"/></circle>"""
-
-FRASES = [
-    "full stack developer · react · python · php",
-    "pós-graduando em cibersegurança",
-    "construindo plataformas de ponta a ponta",
-    "do banco de dados ao deploy",
-]
-
-def frases_ciclando(x, y, fs, cor, ls, ciclo=15.2):
-    """Cada frase acende no seu turno e apaga — o texto que se digitava sozinho,
-    agora sem depender de servico externo."""
-    fatia = ciclo / len(FRASES)
-    fade = 0.35 / ciclo
-    saida = []
-    for i, f in enumerate(FRASES):
-        ini, fim = i * fatia / ciclo, (i * fatia + fatia) / ciclo
-        kt = [0, max(ini, .001), min(ini + fade, fim), max(fim - fade, ini + fade), fim, 1]
-        kt = sorted(set(round(k, 4) for k in kt))
-        vals = ["0", "0", "1", "1", "0", "0"][:len(kt)]
-        w = mono_w(f, fs, ls)
-        saida.append(
-            f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="{fs}" letter-spacing="{ls}" '
-            f'fill="{cor}" textLength="{w:.1f}" lengthAdjust="spacing" opacity="{1 if i == 0 else 0}">{f}'
-            f'<animate attributeName="opacity" dur="{ciclo}s" repeatCount="indefinite" '
-            f'keyTimes="{";".join(str(k) for k in kt)}" values="{";".join(vals)}"/></text>')
-    return "\n  ".join(saida)
-
-# --- hero ------------------------------------------------------------------
 W, H = 1000, 250
 
-# janelinha de terminal decorativa no canto direito
-tx, ty, tw, th = 612, 54, 330, 142
-barras = [(196, "#7b2cbf", .95), (128, "#c77dff", .55), (238, "#5a189a", .9),
-          (96, "#c77dff", .35), (168, "#7b2cbf", .7)]
-codigo = "".join(
-    f'<rect x="{tx+20}" y="{ty+52+i*17}" width="{lw}" height="7" rx="3.5" fill="{c}" opacity="{o}">'
-    f'<animate attributeName="width" from="0" to="{lw}" dur="0.5s" begin="{0.7+i*0.3:.1f}s" fill="freeze"/></rect>'
-    for i, (lw, c, o) in enumerate(barras))
-# cursor piscando no fim do bloco de codigo
-codigo += (f'<rect x="{tx+20}" y="{ty+52+len(barras)*17}" width="9" height="7" rx="2" fill="#c77dff" opacity="0">'
-           f'<animate attributeName="opacity" values="0;0;.9;.9;0" keyTimes="0;.49;.5;.99;1" dur="1.1s" '
-           f'begin="{0.7+len(barras)*0.3:.1f}s" repeatCount="indefinite"/></rect>')
+def txt(t, x, y, fs, cor, ls=0.0, peso="normal", extra=""):
+    """Texto solto: sem textLength, a fonte decide a largura."""
+    return (f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="{fs}" font-weight="{peso}" '
+            f'letter-spacing="{ls}" fill="{cor}"{extra}>{t}</text>')
 
-lp = mono_w("lucas@github:~$ whoami", 15, .6)
+def txt_centrado(t, cx, y, fs, cor, ls=0.0):
+    """Aqui a largura precisa ser conhecida, entao vale fixar."""
+    w = len(t) * fs * 0.6 + ls * (len(t) - 1)
+    return (f'<text x="{cx - w/2:.1f}" y="{y}" font-family="{MONO}" font-size="{fs}" '
+            f'letter-spacing="{ls}" fill="{cor}" textLength="{w:.1f}" lengthAdjust="spacing">{t}</text>')
+
+# --- fundo: estrelas cintilando (posicoes fixas, nada de sortear a cada build)
+PONTOS = [(96,52,1.4,3.8,.2),(212,38,1.1,4.6,1.9),(330,64,1.5,3.1,.7),(150,204,1.2,4.2,2.6),
+          (268,222,1.0,3.6,1.2),(404,196,1.3,5.0,3.1),(58,150,1.1,4.4,2.2),(352,120,1.0,3.3,1.5),
+          (474,72,1.4,4.8,.4),(520,214,1.2,3.9,2.9),(430,42,1.0,4.1,1.1),(180,110,1.3,5.2,3.4),
+          (556,110,1.1,3.7,2.0),(88,232,1.2,4.5,.9),(300,168,1.0,3.4,2.4),(480,148,1.3,4.9,1.6)]
+ESTRELAS = "\n  ".join(
+    f'<circle cx="{x}" cy="{y}" r="{r}" fill="#c77dff" opacity=".18">'
+    f'<animate attributeName="opacity" values=".12;.8;.12" dur="{d}s" begin="{b}s" repeatCount="indefinite"/></circle>'
+    for x, y, r, d, b in PONTOS)
+
+# --- as quatro frases que se revezam
+FRASES = ["full stack developer · react · python · php",
+          "pós-graduando em cibersegurança",
+          "construindo plataformas de ponta a ponta",
+          "do banco de dados ao deploy"]
+CICLO = 15.2
+
+def frases_ciclando(x, y, fs, cor):
+    fatia, fade = CICLO / len(FRASES), 0.35 / CICLO
+    saida = []
+    for i, f in enumerate(FRASES):
+        ini, fim = i * fatia / CICLO, (i * fatia + fatia) / CICLO
+        kt = sorted({round(k, 4) for k in (0, max(ini, .001), ini + fade, fim - fade, fim, 1)})
+        vals = ["0", "0", "1", "1", "0", "0"][:len(kt)]
+        anim = (f'<animate attributeName="opacity" dur="{CICLO}s" repeatCount="indefinite" '
+                f'keyTimes="{";".join(str(k) for k in kt)}" values="{";".join(vals)}"/>')
+        # a primeira fica visivel por padrao: e ela que aparece se o SMIL nao rodar
+        saida.append(txt(f, x, y, fs, cor, ls=.4, extra=f' opacity="{1 if i == 0 else 0}"').replace("</text>", anim + "</text>"))
+    return "\n  ".join(saida)
+
+# --- janela de terminal: codigo de verdade, nao barras cinzas
+JX, JY, JW, JH = 596, 46, 356, 158
+LINHAS = [[("{", "#7b2cbf")],
+          [('  "front"', "#c77dff"), (": ", "#7b2cbf"), ('"react · next · ts"', "#e0c3fc"), (",", "#7b2cbf")],
+          [('  "back"', "#c77dff"), (":  ", "#7b2cbf"), ('"fastapi · php"', "#e0c3fc"), (",", "#7b2cbf")],
+          [('  "data"', "#c77dff"), (":  ", "#7b2cbf"), ('"postgres · redis"', "#e0c3fc"), (",", "#7b2cbf")],
+          [('  "sec"', "#c77dff"), (":   ", "#7b2cbf"), ('"pentest · jwt"', "#e0c3fc")],
+          [("}", "#7b2cbf")]]
+FS_CODE, LH = 12.5, 19.5
+
+def linha_codigo(pedacos, i):
+    y = JY + 66 + i * LH
+    # tspan encadeado: cada pedaco herda a posicao do anterior
+    conteudo = "".join(f'<tspan fill="{c}">{t}</tspan>' for t, c in pedacos)
+    anim = (f'<animate attributeName="opacity" values="0;1" dur="0.45s" '
+            f'begin="{1.1 + i * 0.22:.2f}s" fill="freeze"/>')
+    return (f'<text x="{JX + 22}" y="{y}" font-family="{MONO}" font-size="{FS_CODE}" '
+            f'xml:space="preserve" opacity="1">{conteudo}{anim}</text>')
+
+CODIGO = "\n    ".join(linha_codigo(l, i) for i, l in enumerate(LINHAS))
+CURSOR_CODE = (f'<rect x="{JX + 22}" y="{JY + 66 + len(LINHAS) * LH - 9:.0f}" width="8" height="12" rx="2" fill="#c77dff" opacity="0">'
+               f'<animate attributeName="opacity" values="0;0;.85;.85;0" keyTimes="0;.49;.5;.99;1" '
+               f'dur="1.1s" begin="{1.1 + len(LINHAS) * 0.22:.2f}s" repeatCount="indefinite"/></rect>')
+
+PROMPT = "lucas@github:~$ whoami"
+LP = len(PROMPT) * 14 * 0.6 + 0.6 * (len(PROMPT) - 1)   # so pra saber onde por o cursor
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
@@ -100,50 +94,59 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#10002b"/><stop offset=".55" stop-color="#240046"/><stop offset="1" stop-color="#3c096c"/>
     </linearGradient>
-    <radialGradient id="halo" cx=".78" cy=".18" r=".55">
-      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".45"/><stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
+    <radialGradient id="halo" cx=".76" cy=".2" r=".6">
+      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".5"/><stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="risco" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#c77dff" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grade" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#c77dff" opacity=".13"/>
+    <pattern id="grade" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#c77dff" opacity=".1"/>
     </pattern>
+    <clipPath id="digitando">
+      <rect x="56" y="52" width="{LP:.0f}" height="26">
+        <animate attributeName="width" from="0" to="{LP:.0f}" dur="1.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <rect width="{W}" height="{H}" rx="18" fill="url(#fundo)"/>
   <rect width="{W}" height="{H}" rx="18" fill="url(#grade)"/>
-  <rect width="{W}" height="{H}" rx="18" fill="url(#halo)" opacity=".8">
-    <animate attributeName="opacity" values=".62;1;.62" dur="7s" repeatCount="indefinite"/></rect>
+  <rect width="{W}" height="{H}" rx="18" fill="url(#halo)" opacity=".85">
+    <animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/>
+  </rect>
   {ESTRELAS}
-  <rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="17.5" fill="none" stroke="#7b2cbf" stroke-opacity=".38"/>
+  <rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="17.5" fill="none" stroke="#7b2cbf" stroke-opacity=".4"/>
 
-  <g opacity=".85">
-    <rect x="{tx}" y="{ty}" width="{tw}" height="{th}" rx="12" fill="#0f0021" fill-opacity=".72" stroke="#7b2cbf" stroke-opacity=".45"/>
-    <circle cx="{tx+22}" cy="{ty+24}" r="5" fill="#c77dff" opacity=".9"/>
-    <circle cx="{tx+40}" cy="{ty+24}" r="5" fill="#7b2cbf" opacity=".8"/>
-    <circle cx="{tx+58}" cy="{ty+24}" r="5" fill="#5a189a" opacity=".8"/>
-    <path d="M{tx} {ty+38}h{tw}" stroke="#7b2cbf" stroke-opacity=".3"/>
-    {codigo}
+  <g>
+    <rect x="{JX}" y="{JY}" width="{JW}" height="{JH}" rx="12" fill="#0f0021" fill-opacity=".8" stroke="#7b2cbf" stroke-opacity=".5"/>
+    <circle cx="{JX+22}" cy="{JY+22}" r="4.5" fill="#c77dff" opacity=".9"/>
+    <circle cx="{JX+39}" cy="{JY+22}" r="4.5" fill="#7b2cbf" opacity=".85"/>
+    <circle cx="{JX+56}" cy="{JY+22}" r="4.5" fill="#5a189a" opacity=".85"/>
+    {txt("stack.json", JX + 240, JY + 26, 11.5, "#8b7aa8")}
+    <path d="M{JX} {JY+40}h{JW}" stroke="#7b2cbf" stroke-opacity=".35"/>
+    {CODIGO}
+    {CURSOR_CODE}
   </g>
 
-  <clipPath id="digitando"><rect x="64" y="58" width="{lp:.1f}" height="26">
-    <animate attributeName="width" from="0" to="{lp:.1f}" dur="1.5s" fill="freeze"/></rect></clipPath>
-  <g clip-path="url(#digitando)">{texto("lucas@github:~$ whoami", 64, 76, 15, "#9d4edd", ls=.6)}</g>
-  <rect x="{64+lp+4:.1f}" y="63" width="9" height="16" fill="#c77dff" opacity="0">
-    <animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" dur="1.1s" begin="1.55s" repeatCount="indefinite"/></rect>
-  {texto("LUCAS CHACON", 62, 138, 44, "#ffffff", ls=4.5, peso="bold")}
-  <rect x="64" y="158" width="150" height="3" rx="1.5" fill="url(#risco)">
-    <animate attributeName="width" from="0" to="150" dur="1.1s" begin="1.4s" fill="freeze"/></rect>
-  {frases_ciclando(64, 190, 14.5, "#c77dff", .4)}
-  {texto("Rio de Janeiro, BR  ·  remoto ou híbrido", 64, 216, 12.5, "#9d8bb5", ls=.3)}
+  <g clip-path="url(#digitando)">{txt(PROMPT, 56, 72, 14, "#9d4edd", ls=.6)}</g>
+  <rect x="{56 + LP + 4:.0f}" y="59" width="9" height="16" fill="#c77dff" opacity="0">
+    <animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" dur="1.1s" begin="1.55s" repeatCount="indefinite"/>
+  </rect>
+
+  {txt("LUCAS CHACON", 54, 136, 44, "#ffffff", ls=4.5, peso="bold")}
+  <rect x="56" y="156" width="150" height="3" rx="1.5" fill="url(#risco)">
+    <animate attributeName="width" from="0" to="150" dur="1.1s" begin="1.4s" fill="freeze"/>
+  </rect>
+
+  {frases_ciclando(56, 189, 14.5, "#c77dff")}
+  {txt("Rio de Janeiro, BR  ·  remoto ou híbrido", 56, 215, 12.5, "#9d8bb5", ls=.3)}
 </svg>
 '''
 open(os.path.join(OUT, "hero.svg"), "w", encoding="utf-8").write(hero)
 print(f"hero.svg  {W}x{H}")
 
-# --- rodape ----------------------------------------------------------------
-# fundo transparente de proposito: funciona no tema claro e no escuro do GitHub.
+# --- rodape: fundo transparente, funciona nos dois temas do GitHub ----------
 FW, FH = 1000, 74
 frase = "a segurança é um processo, não um produto"
 rodape = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{FW}" height="{FH}" viewBox="0 0 {FW} {FH}" role="img" aria-label="{frase}">
@@ -156,8 +159,10 @@ rodape = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{FW}" height="{FH}" 
     </linearGradient>
   </defs>
   <rect x="0" y="16" width="{FW}" height="1.5" fill="url(#fio)"/>
-  <circle cx="{FW/2}" cy="16.75" r="3.5" fill="#c77dff"/>
-  {texto(frase, FW/2, 54, 14, "#8b7aa8", ls=.8, anchor="middle")}
+  <circle cx="{FW/2}" cy="16.75" r="3.5" fill="#c77dff">
+    <animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  {txt_centrado(frase, FW/2, 54, 14, "#8b7aa8", ls=.8)}
 </svg>
 '''
 open(os.path.join(OUT, "rodape.svg"), "w", encoding="utf-8").write(rodape)

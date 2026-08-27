@@ -4,66 +4,74 @@
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#10002b"/><stop offset=".55" stop-color="#240046"/><stop offset="1" stop-color="#3c096c"/>
     </linearGradient>
-    <radialGradient id="halo" cx=".78" cy=".18" r=".55">
-      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".45"/><stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
+    <radialGradient id="halo" cx=".76" cy=".2" r=".6">
+      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".5"/><stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="risco" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#c77dff" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grade" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="#c77dff" opacity=".13"/>
+    <pattern id="grade" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#c77dff" opacity=".1"/>
     </pattern>
+    <clipPath id="digitando">
+      <rect x="56" y="52" width="197" height="26">
+        <animate attributeName="width" from="0" to="197" dur="1.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <rect width="1000" height="250" rx="18" fill="url(#fundo)"/>
   <rect width="1000" height="250" rx="18" fill="url(#grade)"/>
-  <rect width="1000" height="250" rx="18" fill="url(#halo)" opacity=".8">
-    <animate attributeName="opacity" values=".62;1;.62" dur="7s" repeatCount="indefinite"/></rect>
-  <circle cx="355" cy="56" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.5s" begin="3.3s" repeatCount="indefinite"/></circle>
-  <circle cx="120" cy="111" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.9s" begin="0.9s" repeatCount="indefinite"/></circle>
-  <circle cx="112" cy="129" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.1s" begin="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="84" cy="229" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.1s" begin="2.5s" repeatCount="indefinite"/></circle>
-  <circle cx="620" cy="33" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.5s" begin="3.9s" repeatCount="indefinite"/></circle>
-  <circle cx="71" cy="160" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></circle>
-  <circle cx="144" cy="164" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.7s" begin="0.7s" repeatCount="indefinite"/></circle>
-  <circle cx="405" cy="42" r="1.4" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.6s" begin="0.2s" repeatCount="indefinite"/></circle>
-  <circle cx="234" cy="145" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.6s" begin="1.3s" repeatCount="indefinite"/></circle>
-  <circle cx="394" cy="94" r="1.1" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.9s" begin="3.1s" repeatCount="indefinite"/></circle>
-  <circle cx="107" cy="165" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.8s" begin="1.4s" repeatCount="indefinite"/></circle>
-  <circle cx="483" cy="91" r="1.5" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.6s" begin="2.0s" repeatCount="indefinite"/></circle>
-  <circle cx="192" cy="211" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.0s" begin="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="708" cy="37" r="1.7" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.0s" begin="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="345" cy="105" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.1s" begin="2.3s" repeatCount="indefinite"/></circle>
-  <circle cx="491" cy="35" r="1.7" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.0s" begin="1.9s" repeatCount="indefinite"/></circle>
-  <circle cx="704" cy="34" r="1.0" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.4s" begin="2.6s" repeatCount="indefinite"/></circle>
-  <circle cx="721" cy="228" r="1.3" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="4.4s" begin="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="379" cy="23" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.4s" begin="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="529" cy="33" r="1.1" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.2s" begin="3.0s" repeatCount="indefinite"/></circle>
-  <circle cx="431" cy="118" r="1.8" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="3.8s" begin="0.7s" repeatCount="indefinite"/></circle>
-  <circle cx="435" cy="158" r="1.2" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="2.8s" begin="1.7s" repeatCount="indefinite"/></circle>
-  <circle cx="587" cy="89" r="1.6" fill="#c77dff" opacity=".15"><animate attributeName="opacity" values=".12;.85;.12" dur="5.2s" begin="2.7s" repeatCount="indefinite"/></circle>
-  <rect x=".75" y=".75" width="998.5" height="248.5" rx="17.5" fill="none" stroke="#7b2cbf" stroke-opacity=".38"/>
+  <rect width="1000" height="250" rx="18" fill="url(#halo)" opacity=".85">
+    <animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="96" cy="52" r="1.4" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.8s" begin="0.2s" repeatCount="indefinite"/></circle>
+  <circle cx="212" cy="38" r="1.1" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.6s" begin="1.9s" repeatCount="indefinite"/></circle>
+  <circle cx="330" cy="64" r="1.5" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.1s" begin="0.7s" repeatCount="indefinite"/></circle>
+  <circle cx="150" cy="204" r="1.2" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.2s" begin="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="268" cy="222" r="1.0" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+  <circle cx="404" cy="196" r="1.3" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="5.0s" begin="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="58" cy="150" r="1.1" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.4s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="352" cy="120" r="1.0" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.3s" begin="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="474" cy="72" r="1.4" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="520" cy="214" r="1.2" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.9s" begin="2.9s" repeatCount="indefinite"/></circle>
+  <circle cx="430" cy="42" r="1.0" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.1s" begin="1.1s" repeatCount="indefinite"/></circle>
+  <circle cx="180" cy="110" r="1.3" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="5.2s" begin="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="556" cy="110" r="1.1" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.7s" begin="2.0s" repeatCount="indefinite"/></circle>
+  <circle cx="88" cy="232" r="1.2" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.5s" begin="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="168" r="1.0" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="3.4s" begin="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="480" cy="148" r="1.3" fill="#c77dff" opacity=".18"><animate attributeName="opacity" values=".12;.8;.12" dur="4.9s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <rect x=".75" y=".75" width="998.5" height="248.5" rx="17.5" fill="none" stroke="#7b2cbf" stroke-opacity=".4"/>
 
-  <g opacity=".85">
-    <rect x="612" y="54" width="330" height="142" rx="12" fill="#0f0021" fill-opacity=".72" stroke="#7b2cbf" stroke-opacity=".45"/>
-    <circle cx="634" cy="78" r="5" fill="#c77dff" opacity=".9"/>
-    <circle cx="652" cy="78" r="5" fill="#7b2cbf" opacity=".8"/>
-    <circle cx="670" cy="78" r="5" fill="#5a189a" opacity=".8"/>
-    <path d="M612 92h330" stroke="#7b2cbf" stroke-opacity=".3"/>
-    <rect x="632" y="106" width="196" height="7" rx="3.5" fill="#7b2cbf" opacity="0.95"><animate attributeName="width" from="0" to="196" dur="0.5s" begin="0.7s" fill="freeze"/></rect><rect x="632" y="123" width="128" height="7" rx="3.5" fill="#c77dff" opacity="0.55"><animate attributeName="width" from="0" to="128" dur="0.5s" begin="1.0s" fill="freeze"/></rect><rect x="632" y="140" width="238" height="7" rx="3.5" fill="#5a189a" opacity="0.9"><animate attributeName="width" from="0" to="238" dur="0.5s" begin="1.3s" fill="freeze"/></rect><rect x="632" y="157" width="96" height="7" rx="3.5" fill="#c77dff" opacity="0.35"><animate attributeName="width" from="0" to="96" dur="0.5s" begin="1.6s" fill="freeze"/></rect><rect x="632" y="174" width="168" height="7" rx="3.5" fill="#7b2cbf" opacity="0.7"><animate attributeName="width" from="0" to="168" dur="0.5s" begin="1.9s" fill="freeze"/></rect><rect x="632" y="191" width="9" height="7" rx="2" fill="#c77dff" opacity="0"><animate attributeName="opacity" values="0;0;.9;.9;0" keyTimes="0;.49;.5;.99;1" dur="1.1s" begin="2.2s" repeatCount="indefinite"/></rect>
+  <g>
+    <rect x="596" y="46" width="356" height="158" rx="12" fill="#0f0021" fill-opacity=".8" stroke="#7b2cbf" stroke-opacity=".5"/>
+    <circle cx="618" cy="68" r="4.5" fill="#c77dff" opacity=".9"/>
+    <circle cx="635" cy="68" r="4.5" fill="#7b2cbf" opacity=".85"/>
+    <circle cx="652" cy="68" r="4.5" fill="#5a189a" opacity=".85"/>
+    <text x="836" y="72" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11.5" font-weight="normal" letter-spacing="0.0" fill="#8b7aa8">stack.json</text>
+    <path d="M596 86h356" stroke="#7b2cbf" stroke-opacity=".35"/>
+    <text x="618" y="112.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#7b2cbf">{</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.10s" fill="freeze"/></text>
+    <text x="618" y="131.5" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#c77dff">  "front"</tspan><tspan fill="#7b2cbf">: </tspan><tspan fill="#e0c3fc">"react · next · ts"</tspan><tspan fill="#7b2cbf">,</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.32s" fill="freeze"/></text>
+    <text x="618" y="151.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#c77dff">  "back"</tspan><tspan fill="#7b2cbf">:  </tspan><tspan fill="#e0c3fc">"fastapi · php"</tspan><tspan fill="#7b2cbf">,</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.54s" fill="freeze"/></text>
+    <text x="618" y="170.5" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#c77dff">  "data"</tspan><tspan fill="#7b2cbf">:  </tspan><tspan fill="#e0c3fc">"postgres · redis"</tspan><tspan fill="#7b2cbf">,</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.76s" fill="freeze"/></text>
+    <text x="618" y="190.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#c77dff">  "sec"</tspan><tspan fill="#7b2cbf">:   </tspan><tspan fill="#e0c3fc">"pentest · jwt"</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="1.98s" fill="freeze"/></text>
+    <text x="618" y="209.5" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve" opacity="1"><tspan fill="#7b2cbf">}</tspan><animate attributeName="opacity" values="0;1" dur="0.45s" begin="2.20s" fill="freeze"/></text>
+    <rect x="618" y="220" width="8" height="12" rx="2" fill="#c77dff" opacity="0"><animate attributeName="opacity" values="0;0;.85;.85;0" keyTimes="0;.49;.5;.99;1" dur="1.1s" begin="2.42s" repeatCount="indefinite"/></rect>
   </g>
 
-  <clipPath id="digitando"><rect x="64" y="58" width="210.6" height="26">
-    <animate attributeName="width" from="0" to="210.6" dur="1.5s" fill="freeze"/></rect></clipPath>
-  <g clip-path="url(#digitando)"><text x="64.0" y="76.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" font-weight="normal" letter-spacing="0.6" fill="#9d4edd" textLength="210.6" lengthAdjust="spacing">lucas@github:~$ whoami</text></g>
-  <rect x="278.6" y="63" width="9" height="16" fill="#c77dff" opacity="0">
-    <animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" dur="1.1s" begin="1.55s" repeatCount="indefinite"/></rect>
-  <text x="62.0" y="138.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="44" font-weight="bold" letter-spacing="4.5" fill="#ffffff" textLength="366.3" lengthAdjust="spacing">LUCAS CHACON</text>
-  <rect x="64" y="158" width="150" height="3" rx="1.5" fill="url(#risco)">
-    <animate attributeName="width" from="0" to="150" dur="1.1s" begin="1.4s" fill="freeze"/></rect>
-  <text x="64" y="190" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" letter-spacing="0.4" fill="#c77dff" textLength="390.9" lengthAdjust="spacing" opacity="1">full stack developer · react · python · php<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.001;0.023;0.227;0.25;1" values="0;0;1;1;0;0"/></text>
-  <text x="64" y="190" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" letter-spacing="0.4" fill="#c77dff" textLength="281.7" lengthAdjust="spacing" opacity="0">pós-graduando em cibersegurança<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.25;0.273;0.477;0.5;1" values="0;0;1;1;0;0"/></text>
-  <text x="64" y="190" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" letter-spacing="0.4" fill="#c77dff" textLength="363.6" lengthAdjust="spacing" opacity="0">construindo plataformas de ponta a ponta<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.5;0.523;0.727;0.75;1" values="0;0;1;1;0;0"/></text>
-  <text x="64" y="190" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" letter-spacing="0.4" fill="#c77dff" textLength="245.3" lengthAdjust="spacing" opacity="0">do banco de dados ao deploy<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.75;0.773;0.977;1.0" values="0;0;1;1;0"/></text>
-  <text x="64.0" y="216.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" font-weight="normal" letter-spacing="0.3" fill="#9d8bb5" textLength="311.7" lengthAdjust="spacing">Rio de Janeiro, BR  ·  remoto ou híbrido</text>
+  <g clip-path="url(#digitando)"><text x="56" y="72" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14" font-weight="normal" letter-spacing="0.6" fill="#9d4edd">lucas@github:~$ whoami</text></g>
+  <rect x="257" y="59" width="9" height="16" fill="#c77dff" opacity="0">
+    <animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" dur="1.1s" begin="1.55s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="54" y="136" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="44" font-weight="bold" letter-spacing="4.5" fill="#ffffff">LUCAS CHACON</text>
+  <rect x="56" y="156" width="150" height="3" rx="1.5" fill="url(#risco)">
+    <animate attributeName="width" from="0" to="150" dur="1.1s" begin="1.4s" fill="freeze"/>
+  </rect>
+
+  <text x="56" y="189" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" font-weight="normal" letter-spacing="0.4" fill="#c77dff" opacity="1">full stack developer · react · python · php<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.001;0.023;0.227;0.25;1" values="0;0;1;1;0;0"/></text>
+  <text x="56" y="189" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" font-weight="normal" letter-spacing="0.4" fill="#c77dff" opacity="0">pós-graduando em cibersegurança<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.25;0.273;0.477;0.5;1" values="0;0;1;1;0;0"/></text>
+  <text x="56" y="189" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" font-weight="normal" letter-spacing="0.4" fill="#c77dff" opacity="0">construindo plataformas de ponta a ponta<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.5;0.523;0.727;0.75;1" values="0;0;1;1;0;0"/></text>
+  <text x="56" y="189" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14.5" font-weight="normal" letter-spacing="0.4" fill="#c77dff" opacity="0">do banco de dados ao deploy<animate attributeName="opacity" dur="15.2s" repeatCount="indefinite" keyTimes="0;0.75;0.773;0.977;1.0" values="0;0;1;1;0"/></text>
+  <text x="56" y="215" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" font-weight="normal" letter-spacing="0.3" fill="#9d8bb5">Rio de Janeiro, BR  ·  remoto ou híbrido</text>
 </svg>

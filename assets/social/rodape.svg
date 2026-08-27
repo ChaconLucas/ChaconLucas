@@ -8,6 +8,8 @@
     </linearGradient>
   </defs>
   <rect x="0" y="16" width="1000" height="1.5" fill="url(#fio)"/>
-  <circle cx="500.0" cy="16.75" r="3.5" fill="#c77dff"/>
-  <text x="311.8" y="54.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14" font-weight="normal" letter-spacing="0.8" fill="#8b7aa8" textLength="376.4" lengthAdjust="spacing">a segurança é um processo, não um produto</text>
+  <circle cx="500.0" cy="16.75" r="3.5" fill="#c77dff">
+    <animate attributeName="opacity" values=".45;1;.45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="311.8" y="54" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="14" letter-spacing="0.8" fill="#8b7aa8" textLength="376.4" lengthAdjust="spacing">a segurança é um processo, não um produto</text>
 </svg>
