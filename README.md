@@ -12,15 +12,9 @@
 <img src="assets/social/titulos/whoami.svg" alt="&gt;_ whoami" width="100%" />
 
 
-```bash
-$ cat lucas.json
-{
-  "formacao": "Análise e Desenvolvimento de Sistemas — UNISUAM",
-  "pos":      "Cibersegurança (Pentest · Kali Linux)",
-  "atuacao":  "Full Stack — do banco de dados ao deploy",
-  "foco":     "produtos, não páginas"
-}
-```
+<p align="center">
+  <img src="assets/social/whoami.svg" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
+</p>
 
 Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
 de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
