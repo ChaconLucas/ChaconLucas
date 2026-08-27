@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/badges/portfolio.svg" alt="Portfólio" height="46" /></a>
-  <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="assets/badges/linkedin.svg" alt="LinkedIn" height="46" /></a>
-  <a href="mailto:lucaschacon79@gmail.com"><img src="assets/badges/email.svg" alt="E-mail" height="46" /></a>
-  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/badges/repos.svg" alt="Repositórios" height="46" /></a>
+  <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/social/portfolio.svg" alt="Portfólio" height="42" /></a>
+  <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="assets/social/linkedin.svg" alt="LinkedIn" height="42" /></a>
+  <a href="mailto:lucaschacon79@gmail.com"><img src="assets/social/email.svg" alt="E-mail" height="42" /></a>
+  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/social/repos.svg" alt="Repositórios" height="42" /></a>
 </p>
 
 ## `>_ whoami`

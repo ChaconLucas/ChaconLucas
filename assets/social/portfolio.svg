@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="42" viewBox="0 0 142.4 42.0" role="img" aria-label="PORTFÓLIO">
+  <title>PORTFÓLIO</title>
+  <defs>
+    <linearGradient id="base_portfolio" x1="0" y1="0" x2=".35" y2="1">
+      <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#7b2cbf"/>
+    </linearGradient>
+    <linearGradient id="luz_portfolio" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sombra_portfolio" x="-25%" y="-40%" width="150%" height="200%">
+      <feDropShadow dx="0" dy="1.6" stdDeviation="3.4" flood-color="#7b2cbf" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <g filter="url(#sombra_portfolio)">
+    <rect x="5.0" y="5.0" width="132.4" height="32.0" rx="16.0" fill="url(#base_portfolio)"/>
+  </g>
+  <rect x="5.6" y="5.6" width="131.2" height="16.0" rx="15.4" fill="url(#luz_portfolio)"/>
+  <rect x="5.5" y="5.5" width="131.4" height="31.0" rx="15.5" fill="none" stroke="#ffffff40" stroke-width="1"/>
+  <g transform="translate(18.0,14.0) scale(0.5833)"><g fill="none" stroke="#ffffff" stroke-width="2.1" stroke-linecap="round"><circle cx="12" cy="12" r="9.1"/><path d="M2.9 12h18.2"/><path d="M12 2.9c2.5 2.6 3.8 5.7 3.8 9.1s-1.3 6.5-3.8 9.1c-2.5-2.6-3.8-5.7-3.8-9.1S9.5 5.5 12 2.9z"/></g></g>
+  <text x="40.0" y="21.0" dy=".34em" textLength="82.4" lengthAdjust="spacing"
+        font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="11.5" font-weight="bold"
+        letter-spacing="1.35" fill="#ffffff">PORTFÓLIO</text>
+</svg>
