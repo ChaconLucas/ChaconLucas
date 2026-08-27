@@ -13,7 +13,7 @@
 
 
 <p align="center">
-  <img src="assets/social/whoami-card.svg" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
+  <img src="assets/social/whoami-info.svg" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
 </p>
 
 <br>

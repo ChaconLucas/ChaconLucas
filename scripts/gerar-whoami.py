@@ -17,7 +17,7 @@ COMENT = "#8b7aa8"   # prosa em comentario: entra no cartao em vez de virar para
 COMENTARIO = [
     "ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar.",
     "de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS",
-    "proprios, sempre com um olhar de seguranca por causa da pos.",
+    "próprios, sempre com um olhar de segurança por causa da pós.",
 ]
 
 CAMPOS = [("formacao", "Análise e Desenvolvimento de Sistemas — UNISUAM"),
@@ -66,5 +66,5 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   {"".join(linhas)}
 </svg>
 '''
-open(os.path.join(OUT, "whoami-card.svg"), "w", encoding="utf-8").write(svg)
+open(os.path.join(OUT, "whoami-info.svg"), "w", encoding="utf-8").write(svg)
 print(f"whoami.svg  {W}x{H}")
