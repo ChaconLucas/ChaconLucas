@@ -205,7 +205,7 @@ CX = DIV_X + 34                              # margem interna da coluna
 def painel_claude(H):
     """So a marca, centrada e grande. Sem rotulo: o desenho ja identifica."""
     cx = DIV_X + (W - DIV_X) / 2
-    larg = 132.0
+    larg = 196.0
     topo = TOPO + (H - 30 - TOPO) / 2 - larg * 0.8 / 2
     return (f'<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>\n  '
             + mascote_claude(cx - larg / 2, topo, larg=larg))
