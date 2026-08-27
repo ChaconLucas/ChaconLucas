@@ -274,8 +274,8 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
   </rect>
 </svg>
 '''
-open(os.path.join(OUT, "hero.svg"), "w", encoding="utf-8").write(hero)
-print(f"hero.svg  {W}x{H}  (banner {ART_W:.0f}px)")
+open(os.path.join(OUT, "banner.svg"), "w", encoding="utf-8").write(hero)
+print(f"banner.svg  {W}x{H}  (banner {ART_W:.0f}px)")
 
 # --- rodape ----------------------------------------------------------------
 FW, FH = 1000, 74
