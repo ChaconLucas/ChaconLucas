@@ -39,9 +39,10 @@ H = int(y + PAD - 8)
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Stack por camada">
   <title>stack por camada</title>
   <defs><linearGradient id="fundo_cam" x1="0" y1="0" x2=".7" y2="1">
-    <stop offset="0" stop-color="#141119"/><stop offset="1" stop-color="#0f0f14"/>
+    <stop offset="0" stop-color="#191526"/><stop offset="1" stop-color="#14111e"/>
   </linearGradient></defs>
   <rect width="{W}" height="{H}" rx="14" fill="url(#fundo_cam)"/>
+  <rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="13.25" fill="none" stroke="#3d2b5c"/>
   <text x="{PAD}" y="{PAD + 12}" font-family="{MONO}" font-size="14" xml:space="preserve"><tspan fill="{PONT}">└─$ </tspan><tspan fill="{CMD}">stack --por-camada</tspan></text>
   {"".join(linhas)}
 </svg>
