@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://portfolio-delta-five-78.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-7b2cbf?style=for-the-badge&logo=vercel&logoColor=ffffff" /></a>
   <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="https://img.shields.io/badge/LinkedIn-3c096c?style=for-the-badge&logo=linkedin&logoColor=c77dff" /></a>
   <a href="mailto:lucaschacon79@gmail.com"><img src="https://img.shields.io/badge/E--mail-3c096c?style=for-the-badge&logo=gmail&logoColor=c77dff" /></a>
   <a href="https://github.com/ChaconLucas?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-3c096c?style=for-the-badge&logo=github&logoColor=c77dff" /></a>
@@ -209,6 +210,7 @@ geração do material de aplicação.
 
 ```bash
 $ ./contato.sh
+[+] portfolio .. portfolio-delta-five-78.vercel.app
 [+] linkedin ... linkedin.com/in/lucas-chacon-129414a7
 [+] e-mail ..... lucaschacon79@gmail.com
 [+] local ...... Rio de Janeiro — BR (remoto ou híbrido)
