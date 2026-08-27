@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Lucas Chacon — full stack developer">
+  <title>Lucas Chacon — full stack developer</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10002b"/><stop offset=".55" stop-color="#240046"/><stop offset="1" stop-color="#3c096c"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".78" cy=".18" r=".55">
+      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".45"/><stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="risco" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#c77dff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grade" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#c77dff" opacity=".13"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="250" rx="18" fill="url(#fundo)"/>
+  <rect width="1000" height="250" rx="18" fill="url(#grade)"/>
+  <rect width="1000" height="250" rx="18" fill="url(#halo)"/>
+  <rect x=".75" y=".75" width="998.5" height="248.5" rx="17.5" fill="none" stroke="#7b2cbf" stroke-opacity=".38"/>
+
+  <g opacity=".85">
+    <rect x="612" y="54" width="330" height="142" rx="12" fill="#0f0021" fill-opacity=".72" stroke="#7b2cbf" stroke-opacity=".45"/>
+    <circle cx="634" cy="78" r="5" fill="#c77dff" opacity=".9"/>
+    <circle cx="652" cy="78" r="5" fill="#7b2cbf" opacity=".8"/>
+    <circle cx="670" cy="78" r="5" fill="#5a189a" opacity=".8"/>
+    <path d="M612 92h330" stroke="#7b2cbf" stroke-opacity=".3"/>
+    <rect x="632" y="106" width="196" height="7" rx="3.5" fill="#7b2cbf" opacity="0.95"/><rect x="632" y="123" width="128" height="7" rx="3.5" fill="#c77dff" opacity="0.55"/><rect x="632" y="140" width="238" height="7" rx="3.5" fill="#5a189a" opacity="0.9"/><rect x="632" y="157" width="96" height="7" rx="3.5" fill="#c77dff" opacity="0.35"/><rect x="632" y="174" width="168" height="7" rx="3.5" fill="#7b2cbf" opacity="0.7"/>
+  </g>
+
+  <text x="64.0" y="76.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15" font-weight="normal" letter-spacing="0.6" fill="#9d4edd" textLength="210.6" lengthAdjust="spacing">lucas@github:~$ whoami</text>
+  <text x="62.0" y="138.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="44" font-weight="bold" letter-spacing="4.5" fill="#ffffff" textLength="366.3" lengthAdjust="spacing">LUCAS CHACON</text>
+  <rect x="64" y="158" width="150" height="3" rx="1.5" fill="url(#risco)"/>
+  <text x="64.0" y="190.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="15.5" font-weight="normal" letter-spacing="0.4" fill="#c77dff" textLength="426.4" lengthAdjust="spacing">full stack developer · pós em cibersegurança</text>
+  <text x="64.0" y="216.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" font-weight="normal" letter-spacing="0.3" fill="#9d8bb5" textLength="483.3" lengthAdjust="spacing">Rio de Janeiro, BR  ·  react · next · fastapi · php · postgres</text>
+</svg>

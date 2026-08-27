@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3c096c,50:7b2cbf,100:c77dff&height=260&section=header&text=LUCAS%20CHACON&fontSize=80&fontColor=ffffff&fontAlignY=38&animation=twinkling&desc=full%20stack%20developer%20%C2%B7%20cybersecurity%20student&descSize=18&descAlignY=58" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=C77DFF&center=true&vCenter=true&width=760&lines=%3E+full+stack+developer+%7C+react+%C2%B7+python+%C2%B7+php;%3E+p%C3%B3s-graduando+em+cibersseguran%C3%A7a;%3E+construindo+plataformas+de+ponta+a+ponta;%3E+rio+de+janeiro%2C+brasil" />
+  <img src="assets/social/hero.svg" alt="Lucas Chacon — full stack developer" width="100%" />
 </p>
 
 <p align="center">
@@ -38,6 +34,9 @@ sempre com um olhar de segurança por causa da pós.
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,bootstrap,js,nodejs,express,python,fastapi,php,postgres,mysql,sqlite,redis,vitest,vite,git,github,linux,vscode&theme=dark&perline=11" />
 </p>
 
+<details>
+<summary><code>>_ ver a lista completa por camada</code></summary>
+
 | Camada | Ferramentas |
 | :--- | :--- |
 | **Front-end** | React · Next.js · TypeScript · React Native (Expo) · Vite · Tailwind · Bootstrap |
@@ -49,22 +48,23 @@ sempre com um olhar de segurança por causa da pós.
 | **Integrações** | MercadoPago · Uber Direct · Telegram API · OpenAI · Groq · Nodemailer / PHPMailer · QR Code |
 | **Infra** | Git · Monorepo (npm workspaces) · Render · Vercel · GitHub Actions |
 
+</details>
+
 <br>
 
 ## `>_ métricas`
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ChaconLucas&theme=tokyonight&hide_border=true&background=0d1117&ring=c77dff&fire=9d4edd&currStreakLabel=c77dff" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ChaconLucas&theme=nord_dark&utcOffset=-3" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ChaconLucas&theme=nord_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_bright" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" alt="Resumo de atividade no GitHub" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_bright" />
+    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" alt="Linguagens mais usadas por commit" />
+  </picture>
 </p>
 
 <br>
@@ -222,5 +222,5 @@ $ ./contato.sh
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c77dff,50:7b2cbf,100:3c096c&height=140&section=footer&text=a%20seguran%C3%A7a%20%C3%A9%20um%20processo%2C%20n%C3%A3o%20um%20produto&fontSize=18&fontColor=ffffff&fontAlignY=75" />
+  <img src="assets/social/rodape.svg" alt="a segurança é um processo, não um produto" width="100%" />
 </p>
