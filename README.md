@@ -129,6 +129,21 @@ Monorepo com quatro pacotes — `shared` (regras e design tokens), `api` (Expres
 PostgreSQL), `web` (Next.js 16) e `app` (Expo / React Native) — mantendo **paridade
 total entre app e web**. Integração de frete com Uber Direct e deploy contínuo na Render.
 
+<details>
+<summary><code>&gt;_ ver o monorepo</code></summary>
+
+```mermaid
+%%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
+flowchart LR
+  S[shared<br/>regras e design tokens] --> A[api<br/>Express + PostgreSQL]
+  S --> W[web<br/>Next.js 16]
+  S --> P[app<br/>Expo / React Native]
+  A --> W
+  A --> P
+```
+
+</details>
+
 <a href="https://flash-web-srgm.onrender.com"><img src="assets/social/btn-loja.svg" alt="Ver a loja" height="34" /></a>
 <img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
@@ -142,6 +157,21 @@ Plataforma de venda de ingressos e controle de entrada para boates e eventos.
 Fluxo completo: empresa cria evento e lotes → cliente compra → pagamento confirmado
 no backend → ingresso emitido com **QR Code único** → portaria valida na entrada →
 tudo registrado para auditoria.
+
+<details>
+<summary><code>&gt;_ ver o fluxo</code></summary>
+
+```mermaid
+%%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
+flowchart TD
+  A[empresa cria evento e lotes] --> B[cliente compra]
+  B --> C{pagamento confirmado no backend}
+  C -->|aprovado| D[ingresso emitido com QR Code único]
+  D --> E[portaria valida na entrada]
+  E --> F[(tudo registrado para auditoria)]
+```
+
+</details>
 
 <img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
