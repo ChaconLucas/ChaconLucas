@@ -13,12 +13,8 @@
 
 
 <p align="center">
-  <img src="assets/social/whoami.svg?v=14" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
+  <img src="assets/social/whoami-card.svg" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
 </p>
-
-Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
-de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
-sempre com um olhar de segurança por causa da pós.
 
 <br>
 

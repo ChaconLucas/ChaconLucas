@@ -12,6 +12,13 @@ OUT = os.path.join(RAIZ, "assets", "social")
 MONO = "DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace"
 
 CHAVE, STRING, PONT, CMD = "#c77dff", "#e6edf3", "#6b3fa0", "#ffffff"
+COMENT = "#8b7aa8"   # prosa em comentario: entra no cartao em vez de virar paragrafo solto
+
+COMENTARIO = [
+    "ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar.",
+    "de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS",
+    "proprios, sempre com um olhar de seguranca por causa da pos.",
+]
 
 CAMPOS = [("formacao", "Análise e Desenvolvimento de Sistemas — UNISUAM"),
           ("pos",      "Cibersegurança (Pentest · Kali Linux)"),
@@ -40,7 +47,13 @@ for i, (chave, valor) in enumerate(CAMPOS):
         f'<tspan fill="{PONT}">{virg}</tspan></text>')
     y += LH
 linhas.append(f'<text x="{PAD}" y="{y}" font-family="{MONO}" font-size="{FS}" fill="{PONT}">}}</text>')
-H = int(y + PAD - 4)
+
+y += LH + 8
+for texto in COMENTARIO:
+    linhas.append(f'<text x="{PAD}" y="{y}" font-family="{MONO}" font-size="12" fill="{COMENT}" '
+                  f'xml:space="preserve"># {esc(texto)}</text>')
+    y += 18
+H = int(y + PAD - 10)
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{"; ".join(f"{c}: {v}" for c, v in CAMPOS)}">
   <title>whoami</title>
@@ -53,5 +66,5 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
   {"".join(linhas)}
 </svg>
 '''
-open(os.path.join(OUT, "whoami.svg"), "w", encoding="utf-8").write(svg)
+open(os.path.join(OUT, "whoami-card.svg"), "w", encoding="utf-8").write(svg)
 print(f"whoami.svg  {W}x{H}")
