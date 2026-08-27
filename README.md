@@ -57,11 +57,7 @@ sempre com um olhar de segurança por causa da pós.
 
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_bright" />
-    <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" alt="Linguagens mais usadas por commit" />
-  </picture>
+  <img src="assets/social/linguagens.svg" alt="Linguagens: PHP 59,4%, TypeScript 14%, Python 13,4%, CSS 4,5%, HTML 4%, JavaScript 3%" width="100%" />
 </p>
 </p>
 
