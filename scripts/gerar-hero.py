@@ -203,15 +203,12 @@ DIV_X = 622                                  # divisoria entre as duas colunas
 CX = DIV_X + 34                              # margem interna da coluna
 
 def painel_claude(H):
-    """So a marca, centrada na coluna. A sessao de prompt que existia aqui
-    fazia o README parecer saida de IA, que nao e a leitura desejada."""
+    """So a marca, centrada e grande. Sem rotulo: o desenho ja identifica."""
     cx = DIV_X + (W - DIV_X) / 2
-    larg = 88.0
-    topo = TOPO + (H - 30 - TOPO) / 2 - larg * 0.8 / 2 - 14
+    larg = 132.0
+    topo = TOPO + (H - 30 - TOPO) / 2 - larg * 0.8 / 2
     return (f'<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>\n  '
-            + mascote_claude(cx - larg / 2, topo, larg=larg) + '\n  '
-            + f'<text x="{cx:.0f}" y="{topo + larg * 0.8 + 30:.0f}" font-family="{MONO}" '
-              f'font-size="14" font-weight="bold" fill="#d97757" text-anchor="middle">claude code</text>')
+            + mascote_claude(cx - larg / 2, topo, larg=larg))
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
