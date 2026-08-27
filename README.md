@@ -27,14 +27,18 @@ sempre com um olhar de segurança por causa da pós.
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,nodejs,express,fastapi,mysql,postgres,kali&theme=dark&perline=16" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Node.js, Express, FastAPI, MySQL, PostgreSQL, Kali Linux" />
-  <br><br>
-  <sub>bibliotecas e ferramentas</sub>
-  <br>
+</p>
+
+<p align="center"><sub>bibliotecas e ferramentas</sub></p>
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=redux,tailwind,sqlite,redis,vite,vitest,git,github,figma,linux,bash&theme=dark&perline=11" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" />
 </p>
 
 <details>
 <summary><code>>_ ver a lista completa por camada</code></summary>
+
+<br>
 
 <img src="assets/social/camadas.svg?v=14" alt="front-end: React, Next.js, TypeScript, React Native, Vite, Tailwind, Bootstrap, jQuery; estado: Redux Toolkit, React Hook Form, Zod, Yup; back-end: PHP 8, Node.js, Express, Python, FastAPI; dados: MySQL, PostgreSQL, MariaDB, SQLite, Redis, SQLAlchemy, Drizzle, Alembic; testes: Vitest, Playwright, Pytest; segurança: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrações: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infra: Git, monorepo, Render, Vercel, GitHub Actions" width="100%" />
 
