@@ -11,6 +11,15 @@
 
 ## `>_ whoami`
 
+```bash
+$ cat lucas.json
+{
+  "formacao": "Análise e Desenvolvimento de Sistemas — UNISUAM",
+  "pos":      "Cibersegurança (Pentest · Kali Linux)",
+  "atuacao":  "Full Stack — do banco de dados ao deploy",
+  "foco":     "produtos, não páginas"
+}
+```
 
 Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
 de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
@@ -46,15 +55,11 @@ sempre com um olhar de segurança por causa da pós.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_bright" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ChaconLucas&theme=nord_dark" alt="Resumo de atividade no GitHub" />
-  </picture>
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_bright" />
-    <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" alt="Linguagens mais usadas por commit" />
+    <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ChaconLucas&theme=nord_dark" alt="Linguagens mais usadas por commit" />
   </picture>
+</p>
 </p>
 
 <br>
@@ -189,7 +194,7 @@ CRUD de clientes e produtos com vínculos entre eles.
 </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
 
 ### 🧠 AIpply
 `JavaScript` `Python`
@@ -200,7 +205,6 @@ geração do material de aplicação.
 <img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
-<td width="50%" valign="top"></td>
   </tr>
 </table>
 
