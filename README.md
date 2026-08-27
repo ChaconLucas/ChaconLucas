@@ -73,10 +73,10 @@ sempre com um olhar de segurança por causa da pós.
 
 ## `>_ experiência`
 
-| Empresa | Cargo | Período |
-| :--- | :--- | :--- |
-| **TIIX** | Full Stack Developer | `2026 — atual` |
-| **D&Z** | Desenvolvedor Full Stack | `nov/2025 — abr/2026` |
+| Empresa | Cargo | Stack | Período |
+| :--- | :--- | :--- | :--- |
+| **TIIX** | Full Stack Developer | `PHP` `JavaScript` `MySQL` | `2026 — atual` |
+| **D&Z** | Desenvolvedor Full Stack | `PHP` `JavaScript` `MySQL` | `nov/2025 — abr/2026` |
 
 <br>
 
