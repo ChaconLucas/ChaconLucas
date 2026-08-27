@@ -9,7 +9,8 @@
   <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/social/repos.svg" alt="Repositórios" height="42" /></a>
 </p>
 
-## `>_ whoami`
+<img src="assets/social/titulos/whoami.svg" alt="&gt;_ whoami" width="100%" />
+
 
 ```bash
 $ cat lucas.json
@@ -27,7 +28,8 @@ sempre com um olhar de segurança por causa da pós.
 
 <br>
 
-## `>_ stack`
+<img src="assets/social/titulos/stack.svg" alt="&gt;_ stack" width="100%" />
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,redux,tailwind,nodejs,express,fastapi,mysql,postgres,sqlite,redis,vite,vitest,git,github,vscode,figma,linux,kali,bash&theme=dark&perline=14" />
@@ -51,7 +53,8 @@ sempre com um olhar de segurança por causa da pós.
 
 <br>
 
-## `>_ métricas`
+<img src="assets/social/titulos/metricas.svg" alt="&gt;_ métricas" width="100%" />
+
 
 <p align="center">
   <picture>
@@ -64,7 +67,8 @@ sempre com um olhar de segurança por causa da pós.
 
 <br>
 
-<h3 align="center"><code>>_ contribuições</code></h3>
+<img src="assets/social/titulos/contribuicoes.svg" alt="&gt;_ contribuições" width="100%" />
+
 
 <p align="center">
   <picture>
@@ -76,7 +80,8 @@ sempre com um olhar de segurança por causa da pós.
 
 <br>
 
-## `>_ experiência`
+<img src="assets/social/titulos/experiencia.svg" alt="&gt;_ experiência" width="100%" />
+
 
 <table>
   <tr>
@@ -109,7 +114,8 @@ de cadastro, listagem e manutenção dos dados.
 
 <br>
 
-## `>_ projetos em destaque`
+<img src="assets/social/titulos/projetos.svg" alt="&gt;_ projetos em destaque" width="100%" />
+
 
 <table>
   <tr>
@@ -246,7 +252,8 @@ com dashboard para os dados de cada um.
 
 <br>
 
-## `>_ contato`
+<img src="assets/social/titulos/contato.svg" alt="&gt;_ contato" width="100%" />
+
 
 ```bash
 $ ./contato.sh

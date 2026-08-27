@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="métricas">
+  <title>métricas</title>
+  <defs>
+    <linearGradient id="fio_metricas" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="24" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="19.0" font-weight="bold" fill="#7b2cbf">&gt;_</text>
+  <text x="40" y="24" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="19.0" font-weight="bold" fill="#c77dff">métricas</text>
+  <rect x="0" y="36" width="900" height="1.5" fill="url(#fio_metricas)"/>
+</svg>
