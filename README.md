@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/social/hero.svg" alt="Lucas Chacon — full stack developer" width="100%" />
+  <img src="assets/social/hero.svg?v=2" alt="Lucas Chacon — full stack developer" width="100%" />
 </p>
 
 <p align="center">
@@ -222,5 +222,5 @@ $ ./contato.sh
 </p>
 
 <p align="center">
-  <img src="assets/social/rodape.svg" alt="a segurança é um processo, não um produto" width="100%" />
+  <img src="assets/social/rodape.svg?v=2" alt="a segurança é um processo, não um produto" width="100%" />
 </p>
