@@ -11,7 +11,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(RAIZ, "assets", "social")
 MONO = "DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace"
 
-CHAVE, STRING, PONT, CMD = "#c77dff", "#c9d1d9", "#6b3fa0", "#ffffff"
+CHAVE, STRING, PONT, CMD = "#c77dff", "#e6edf3", "#6b3fa0", "#ffffff"
 
 CAMPOS = [("formacao", "Análise e Desenvolvimento de Sistemas — UNISUAM"),
           ("pos",      "Cibersegurança (Pentest · Kali Linux)"),

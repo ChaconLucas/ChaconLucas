@@ -24,13 +24,17 @@ for nome, texto in SECOES:
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{LARG}" height="{ALT}" viewBox="0 0 {LARG} {ALT}" role="img" aria-label="{texto}">
   <title>{texto}</title>
   <defs>
+    <linearGradient id="txt_{nome}" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#ff79c6"/>
+    </linearGradient>
     <linearGradient id="fio_{nome}" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7b2cbf" stop-opacity=".85"/>
-      <stop offset="1" stop-color="#7b2cbf" stop-opacity="0"/>
+      <stop offset="0" stop-color="#c77dff" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#ff79c6" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff79c6" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <text x="0" y="24" font-family="{MONO}" font-size="{FS}" font-weight="bold" fill="#7b2cbf">&gt;_</text>
-  <text x="{3 * FS * 0.6 + 6:.0f}" y="24" font-family="{MONO}" font-size="{FS}" font-weight="bold" fill="#c77dff">{texto}</text>
+  <text x="{3 * FS * 0.6 + 6:.0f}" y="24" font-family="{MONO}" font-size="{FS}" font-weight="bold" fill="url(#txt_{nome})">{texto}</text>
   <rect x="0" y="36" width="{LARG}" height="1.5" fill="url(#fio_{nome})"/>
 </svg>
 '''

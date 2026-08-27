@@ -2,14 +2,14 @@
   <title>PORTFÓLIO</title>
   <defs>
     <linearGradient id="base_portfolio" x1="0" y1="0" x2=".35" y2="1">
-      <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#7b2cbf"/>
+      <stop offset="0" stop-color="#c77dff"/><stop offset="1" stop-color="#ff79c6"/>
     </linearGradient>
     <linearGradient id="luz_portfolio" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <filter id="sombra_portfolio" x="-25%" y="-40%" width="150%" height="200%">
-      <feDropShadow dx="0" dy="1.6" stdDeviation="3.4" flood-color="#7b2cbf" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="1.6" stdDeviation="3.6" flood-color="#d95fd0" flood-opacity="0.6"/>
     </filter>
   </defs>
   <g filter="url(#sombra_portfolio)">

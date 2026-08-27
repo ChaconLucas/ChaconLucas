@@ -10,7 +10,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(RAIZ, "assets", "social")
 MONO = "DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace"
 
-ROTULO, TEXTO, PONT, CMD = "#c77dff", "#c9d1d9", "#7b2cbf", "#ffffff"
+ROTULO, TEXTO, PONT, CMD = "#c77dff", "#e6edf3", "#7b2cbf", "#ffffff"
 
 CAMADAS = [
     ("front-end",  "React · Next.js · TypeScript · React Native (Expo) · Vite · Tailwind · Bootstrap · jQuery"),

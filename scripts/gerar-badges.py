@@ -92,8 +92,9 @@ def badge(nome, rotulo, icone, g1, g2, fg, borda, sombra, brilho):
 
 
 # destaque: gradiente claro + halo roxo. secundarios: escuros, sombra neutra.
-badge("portfolio", "PORTFÓLIO",    GLOBO,    "#c77dff", "#7b2cbf", "#ffffff",
-      borda="#ffffff40", sombra=("#7b2cbf", 3.4, .55), brilho=.22)
+# acao principal: unico elemento que recebe o gradiente roxo -> rosa
+badge("portfolio", "PORTFÓLIO",    GLOBO,    "#c77dff", "#ff79c6", "#ffffff",
+      borda="#ffffff40", sombra=("#d95fd0", 3.6, .6), brilho=.24)
 badge("linkedin",  "LINKEDIN",     LINKEDIN, "#3c096c", "#240046", "#e0c3fc",
       borda="#7b2cbf88", sombra=("#000000", 2.4, .45), brilho=.09)
 badge("email",     "E-MAIL",       CARTA,    "#3c096c", "#240046", "#e0c3fc",

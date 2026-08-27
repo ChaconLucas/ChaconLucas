@@ -17,9 +17,9 @@ MONO = "DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace"
 
 DATA = "agosto de 2026"
 REPOS = 20
-DADOS = [("PHP", 59.4, "#c77dff"), ("TypeScript", 14.0, "#9d4edd"), ("Python", 13.4, "#7b2cbf"),
-         ("CSS", 4.5, "#5a189a"), ("HTML", 4.0, "#43107d"), ("JavaScript", 3.0, "#e0c3fc"),
-         ("outras", 1.7, "#2a0a4d")]
+DADOS = [("PHP", 59.4, "#c77dff"), ("TypeScript", 14.0, "#b45ce8"), ("Python", 13.4, "#d95fd0"),
+         ("CSS", 4.5, "#ef62b8"), ("HTML", 4.0, "#ff79c6"), ("JavaScript", 3.0, "#ff9ad5"),
+         ("outras", 1.7, "#4a1580")]
 
 W, H = 900, 196
 PAD = 30
@@ -39,9 +39,9 @@ for i, (nome, pct, cor) in enumerate(DADOS[:6]):
     py = ly + lin * 26
     legenda.append(
         f'<rect x="{px:.0f}" y="{py - 10:.0f}" width="11" height="11" rx="2.5" fill="{cor}"/>'
-        f'<text x="{px + 19:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" fill="#c9d1d9">{nome}</text>'
+        f'<text x="{px + 19:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" fill="#e6edf3">{nome}</text>'
         f'<text x="{px + larg_util/3 - 46:.0f}" y="{py:.0f}" font-family="{MONO}" font-size="13" '
-        f'font-weight="bold" fill="#c77dff" text-anchor="end">{pct:.1f}%</text>')
+        f'font-weight="bold" fill="#ff79c6" text-anchor="end">{pct:.1f}%</text>')
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Distribuição de linguagens: PHP 59,4%, TypeScript 14%, Python 13,4%">
   <title>linguagens por volume de código</title>
