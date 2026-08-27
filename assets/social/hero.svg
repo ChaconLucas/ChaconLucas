@@ -28,7 +28,7 @@
   <circle cx="26" cy="20" r="5" fill="#c77dff" opacity=".95"/>
   <circle cx="45" cy="20" r="5" fill="#7b2cbf" opacity=".85"/>
   <circle cx="64" cy="20" r="5" fill="#5a189a" opacity=".85"/>
-  <text x="500" y="24" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11.5" fill="#8b7aa8" text-anchor="middle">lucas@github: ~ — zsh</text>
+  <text x="500" y="24" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11.5" fill="#8b7aa8" text-anchor="middle">lucas@kali: ~ — zsh</text>
 
   <g clip-path="url(#revela)">
       <text x="48" y="124.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="10.0" fill="url(#gradArt)" xml:space="preserve">██╗     ██╗   ██╗ ██████╗ █████╗ ███████╗    ██████╗██╗  ██╗ █████╗  ██████╗ ██████╗ ███╗   ██╗</text>
@@ -38,7 +38,7 @@
   <text x="48" y="163.6" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="10.0" fill="url(#gradArt)" xml:space="preserve">███████╗╚██████╔╝╚██████╗██║  ██║███████║   ╚██████╗██║  ██║██║  ██║╚██████╗╚██████╔╝██║ ╚████║</text>
   <text x="48" y="173.5" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="10.0" fill="url(#gradArt)" xml:space="preserve">╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝    ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝</text>
   </g>
-    <text x="48" y="74.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@github</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
+    <text x="48" y="74.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
   <text x="48" y="93.0" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">└─$ </tspan><tspan fill="#ffffff">whoami --banner</tspan></text>
   <text x="48" y="203.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve" opacity="1"><tspan fill="#7b2cbf">» </tspan><tspan fill="#9d8bb5">full stack developer, do banco de dados ao deploy</tspan><animate attributeName="opacity" dur="12.6s" repeatCount="indefinite" keyTimes="0;0.001;0.0238;0.3095;0.3333;1" values="0;0;1;1;0;0"/></text>
   <text x="48" y="203.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve" opacity="0"><tspan fill="#7b2cbf">» </tspan><tspan fill="#9d8bb5">construindo plataformas de ponta a ponta</tspan><animate attributeName="opacity" dur="12.6s" repeatCount="indefinite" keyTimes="0;0.3333;0.3571;0.6429;0.6667;1" values="0;0;1;1;0;0"/></text>
@@ -46,7 +46,7 @@
   <text x="48" y="232.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.0" xml:space="preserve"><tspan fill="#c77dff">  stack </tspan><tspan fill="#7b2cbf">...........</tspan><tspan fill="#9d8bb5"> react · next · fastapi · php · postgres · redis</tspan></text>
   <text x="48" y="249.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.0" xml:space="preserve"><tspan fill="#c77dff">  segurança </tspan><tspan fill="#7b2cbf">.......</tspan><tspan fill="#9d8bb5"> pós-graduando · pentest · kali linux</tspan></text>
   <text x="48" y="266.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.0" xml:space="preserve"><tspan fill="#c77dff">  local </tspan><tspan fill="#7b2cbf">...........</tspan><tspan fill="#9d8bb5"> Rio de Janeiro, BR · remoto ou híbrido</tspan></text>
-  <text x="48" y="295.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@github</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
+  <text x="48" y="295.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
   <text x="48" y="314.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">└─$ </tspan></text>
 
   <path d="M622 62V318" stroke="#7b2cbf" stroke-opacity=".22"/>

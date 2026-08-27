@@ -143,7 +143,7 @@ def linha(pedacos, y, fs=FS, extra=""):
     return (f'<text x="{PAD_X + 14}" y="{y:.1f}" font-family="{MONO}" font-size="{fs}" '
             f'xml:space="preserve"{extra}>{corpo}</text>')
 
-PROMPT1 = [("┌──(", COR["prompt"]), ("lucas@github", COR["user"]), (")-[", COR["prompt"]),
+PROMPT1 = [("┌──(", COR["prompt"]), ("lucas@kali", COR["user"]), (")-[", COR["prompt"]),
            ("~", COR["path"]), ("]", COR["prompt"])]
 def prompt2(cmd):
     return [("└─$ ", COR["prompt"]), (cmd, COR["cmd"])]
@@ -259,7 +259,7 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
   <circle cx="26" cy="20" r="5" fill="#c77dff" opacity=".95"/>
   <circle cx="45" cy="20" r="5" fill="#7b2cbf" opacity=".85"/>
   <circle cx="64" cy="20" r="5" fill="#5a189a" opacity=".85"/>
-  <text x="{W/2:.0f}" y="24" font-family="{MONO}" font-size="11.5" fill="#8b7aa8" text-anchor="middle">lucas@github: ~ — zsh</text>
+  <text x="{W/2:.0f}" y="24" font-family="{MONO}" font-size="11.5" fill="#8b7aa8" text-anchor="middle">lucas@kali: ~ — zsh</text>
 
   <g clip-path="url(#revela)">
     {chr(10).join(l for l in CORPO.split(chr(10)) if 'gradArt' in l)}
