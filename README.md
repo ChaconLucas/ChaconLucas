@@ -30,7 +30,7 @@ sempre com um olhar de segurança por causa da pós.
 ## `>_ stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,ts,js,python,react,nextjs,redux,tailwind,bootstrap,nodejs,express,fastapi,postgres,mysql,sqlite,redis,vite,vitest,git,github,vscode,figma,linux,kali,bash&theme=dark&perline=13" />
+  <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,redux,tailwind,nodejs,express,fastapi,mysql,postgres,sqlite,redis,vite,vitest,git,github,vscode,figma,linux,kali,bash&theme=dark&perline=14" />
 </p>
 
 <details>
@@ -85,12 +85,12 @@ sempre com um olhar de segurança por causa da pós.
 ### TIIX
 **Full Stack Developer** &nbsp;·&nbsp; `2026 — atual`
 
-`PHP` `JavaScript` `MySQL` `Bootstrap`
+`PHP` `JavaScript` `jQuery` `MySQL` `Bootstrap`
 
-Desenvolvimento de ponta a ponta dentro do sistema: modelagem e consultas no
-banco, **APIs REST/JSON** e seus endpoints, e as telas que consomem esses dados.
-Também **integrações OAuth 2.0** com APIs externas, **webhooks** e rotinas
-agendadas em **cron**.
+Ponta a ponta dentro do sistema: **consultas e procedures em SQL**, **APIs
+REST/JSON** com seus endpoints, e as telas que consomem esses dados — tabelas,
+filtros, formulários e gráficos em Bootstrap + jQuery. Também **integrações
+OAuth 2.0** com APIs externas, **webhooks** e rotinas agendadas em **cron**.
 
 </td>
 <td width="50%" valign="top">
