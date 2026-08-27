@@ -45,7 +45,7 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None, com_tile=Fals
     pareciam menores), mas sem o fio roxo, que somava ruido em 27 copias.
     O raio total conversa com as pilulas dos botoes e dos chips."""
     gap, pad = 9.0, 16.0
-    icone = tile * 0.60
+    icone = tile * 0.74   # mesma proporcao do skillicons: era o que fazia o simbolo parecer pequeno
     linhas = (len(nomes) + por_linha - 1) // por_linha
     W = pad * 2 + por_linha * tile + (por_linha - 1) * gap
     topo = pad + (18 if rotulo else 0)
@@ -60,8 +60,11 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None, com_tile=Fals
         y = topo + lin * (tile + gap)
         ix, iy = x + (tile - icone) / 2, y + (tile - icone) / 2
         cor = mono or clarear(ICONES[nome]["cor"])
+        # quadrado de canto arredondado, fundo neutro: e a forma que o olho
+        # espera para icone de tecnologia, e a que normaliza melhor logos largos
         pecas.append(
-            f'<circle cx="{x + tile/2:.1f}" cy="{y + tile/2:.1f}" r="{tile/2:.1f}" fill="#272235"/>')
+            f'<rect x="{x:.1f}" y="{y:.1f}" width="{tile}" height="{tile}" '
+            f'rx="{tile * 0.24:.1f}" fill="#22262e"/>')
         pecas.append(
             f'<g transform="translate({ix:.1f},{iy:.1f}) scale({icone/24:.4f})"><title>{nome}</title>'
             f'<path d="{ICONES[nome]["d"]}" fill="{cor}"/></g>')
@@ -73,6 +76,6 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None, com_tile=Fals
     print(f"{arquivo}  {W:.0f}x{H:.0f}  ({len(nomes)} icones)")
 
 
-grade("icones-stack.svg", ORDEM, tile=50.0, por_linha=16)
-grade("icones-ferramentas.svg", APOIO, tile=40.0, por_linha=16,
+grade("stack-icones.svg", ORDEM, tile=52.0, por_linha=16)
+grade("stack-ferramentas.svg", APOIO, tile=40.0, por_linha=16,
       rotulo="bibliotecas e ferramentas")

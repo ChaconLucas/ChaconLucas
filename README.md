@@ -26,9 +26,9 @@ sempre com um olhar de segurança por causa da pós.
 
 
 <p align="center">
-  <img src="assets/social/icones-stack.svg" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Redux, Tailwind, Node.js, Express, FastAPI, MySQL, PostgreSQL, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Kali, Bash" width="100%" />
+  <img src="assets/social/stack-icones.svg" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Redux, Tailwind, Node.js, Express, FastAPI, MySQL, PostgreSQL, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Kali, Bash" width="100%" />
   <br>
-  <img src="assets/social/icones-ferramentas.svg" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" width="100%" />
+  <img src="assets/social/stack-ferramentas.svg" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" width="100%" />
 </p>
 
 <details>
