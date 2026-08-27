@@ -19,11 +19,10 @@ OUT = os.path.join(RAIZ, "assets", "social")
 ICONES = json.load(open(os.path.join(RAIZ, "scripts", "icones-simple-icons.json"), encoding="utf-8"))
 
 # ordem = do que ele mais escreve para o que menos, depois ferramentas
-ORDEM = ["PHP","JavaScript","TypeScript","Python","HTML","CSS","jQuery","Bootstrap","React",
-         "Next.js","Redux","Tailwind","Node.js","Express","FastAPI","MySQL","PostgreSQL",
-         "SQLite","Redis","Vite","Vitest","Git","GitHub","Figma","Linux","Kali","Bash"]
+ORDEM = ["PHP","JavaScript","TypeScript","Python","HTML","CSS","jQuery","Bootstrap",
+         "React","Next.js","Node.js","Express","FastAPI","MySQL","PostgreSQL","Kali"]
 
-TILE, GAP, PAD, POR_LINHA, ICONE = 48.0, 10.0, 18.0, 14, 25.0
+TILE, GAP, PAD, POR_LINHA, ICONE = 48.0, 10.0, 18.0, 16, 25.0
 PISO_LUM = 0.42          # luminancia minima do icone sobre o tile escuro
 
 def clarear(hexa):
