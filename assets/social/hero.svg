@@ -50,8 +50,8 @@
   <text x="48" y="314.4" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.0" xml:space="preserve"><tspan fill="#7b2cbf">└─$ </tspan></text>
 
   <path d="M622 62V318" stroke="#7b2cbf" stroke-opacity=".22"/>
-  <g stroke="#d97757" stroke-width="2" stroke-linecap="round"><path d="M664.00 86.13L664.00 79.50"/><path d="M664.93 86.38L666.80 83.14"/><path d="M665.62 87.06L671.36 83.75"/><path d="M665.87 88.00L669.61 88.00"/><path d="M665.62 88.94L671.36 92.25"/><path d="M664.93 89.62L666.80 92.86"/><path d="M664.00 89.87L664.00 96.50"/><path d="M663.07 89.62L661.20 92.86"/><path d="M662.38 88.94L656.64 92.25"/><path d="M662.13 88.00L658.39 88.00"/><path d="M662.38 87.06L656.64 83.75"/><path d="M663.07 86.38L661.20 83.14"/></g>
-  <text x="682" y="92" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.5" font-weight="bold" fill="#d97757">claude code</text>
+  <g transform="translate(656.0,76.0) scale(0.2400)"><path d="M9.5 0H90.5V16.4H100V39H90.5V80H76.5V58.8H69V80H55V58.8H45V80H31V58.8H23.5V80H9.5V39H0V16.4H9.5Z" fill="#c8795a"/><path d="M17.7 19.8L30.6 26L17.7 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/><path d="M82.3 19.8L69.4 26L82.3 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/></g>
+  <text x="686" y="92" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13.5" font-weight="bold" fill="#d97757">claude code</text>
   <text x="656" y="126" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12" fill="#8b7aa8" xml:space="preserve">&gt; <tspan fill="#e0c3fc">reescreve o hero do</tspan></text>
   <text x="668" y="143" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12" fill="#e0c3fc" xml:space="preserve">README em SVG</text>
   <text x="656" y="173" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11.5" fill="#8b7aa8" xml:space="preserve">· lendo README.md</text>

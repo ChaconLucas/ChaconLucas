@@ -46,17 +46,19 @@ def esc(t):
 # --- barra de status, no rodape da janela ----------------------------------
 import math
 
-def selo_claude(cx, cy, r=7.4, cor="#d97757"):
-    """A marca do Claude: raios arredondados saindo do centro.
-    Desenho proprio, aproximado — serve como atribuicao, nao como logo oficial."""
-    raios = []
-    for k in range(12):
-        ang = math.radians(k * 30 - 90)
-        comp = r if k % 2 == 0 else r * 0.66
-        x1, y1 = cx + math.cos(ang) * r * 0.22, cy + math.sin(ang) * r * 0.22
-        x2, y2 = cx + math.cos(ang) * comp, cy + math.sin(ang) * comp
-        raios.append(f'<path d="M{x1:.2f} {y1:.2f}L{x2:.2f} {y2:.2f}"/>')
-    return (f'<g stroke="{cor}" stroke-width="2" stroke-linecap="round">{"".join(raios)}</g>')
+def mascote_claude(x, y, larg=22.0, cor="#c8795a", olho="#1a0a05"):
+    """O mascote do Claude Code: corpo quadrado com abas laterais, olhos > <
+    e quatro perninhas. Desenho proprio, em grade de 100x80."""
+    e = larg / 100.0
+    corpo = ("M9.5 0H90.5V16.4H100V39H90.5V80H76.5V58.8H69V80H55V58.8"
+             "H45V80H31V58.8H23.5V80H9.5V39H0V16.4H9.5Z")
+    return (f'<g transform="translate({x:.1f},{y:.1f}) scale({e:.4f})">'
+            f'<path d="{corpo}" fill="{cor}"/>'
+            f'<path d="M17.7 19.8L30.6 26L17.7 32.1" fill="none" stroke="{olho}" '
+            f'stroke-width="6.5" stroke-linejoin="miter"/>'
+            f'<path d="M82.3 19.8L69.4 26L82.3 32.1" fill="none" stroke="{olho}" '
+            f'stroke-width="6.5" stroke-linejoin="miter"/></g>')
+
 
 def barra_status(H):
     """Estilo tmux: chip da branch a esquerda, atribuicao a direita."""
@@ -203,8 +205,8 @@ CX = DIV_X + 34                              # margem interna da coluna
 def painel_claude(H):
     y = TOPO + 52
     l = []
-    l.append(selo_claude(CX + 8, y - 4, r=8.5))
-    l.append(f'<text x="{CX + 26}" y="{y}" font-family="{MONO}" font-size="13.5" '
+    l.append(mascote_claude(CX, y - 16, larg=24))
+    l.append(f'<text x="{CX + 30}" y="{y}" font-family="{MONO}" font-size="13.5" '
              f'font-weight="bold" fill="#d97757">claude code</text>')
     y += 34
     l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#8b7aa8" '
