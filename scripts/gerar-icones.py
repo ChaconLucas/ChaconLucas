@@ -39,8 +39,12 @@ def clarear(hexa):
     return f"#{r:02x}{g:02x}{b:02x}"
 
 
-def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None):
-    gap, pad, icone = 10.0, 18.0, tile * 0.52
+def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None, com_tile=False):
+    """com_tile=False deixa os icones soltos, sem moldura: le como fileira de
+    marcas em vez de grade de botoes. A moldura normalizava o tamanho aparente,
+    entao sem ela o icone ocupa mais da celula para compensar."""
+    gap, pad = (14.0, 16.0) if not com_tile else (10.0, 18.0)
+    icone = tile * (0.78 if not com_tile else 0.52)
     linhas = (len(nomes) + por_linha - 1) // por_linha
     W = pad * 2 + por_linha * tile + (por_linha - 1) * gap
     topo = pad + (18 if rotulo else 0)
@@ -55,10 +59,12 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None):
         y = topo + lin * (tile + gap)
         ix, iy = x + (tile - icone) / 2, y + (tile - icone) / 2
         cor = mono or clarear(ICONES[nome]["cor"])
+        if com_tile:
+            pecas.append(
+                f'<rect x="{x:.1f}" y="{y:.1f}" width="{tile}" height="{tile}" rx="{tile*0.23:.1f}" fill="#1b0733"/>'
+                f'<rect x="{x+.5:.1f}" y="{y+.5:.1f}" width="{tile-1}" height="{tile-1}" rx="{tile*0.23-0.5:.1f}" '
+                f'fill="none" stroke="#7b2cbf" stroke-opacity=".35"/>')
         pecas.append(
-            f'<rect x="{x:.1f}" y="{y:.1f}" width="{tile}" height="{tile}" rx="{tile*0.23:.1f}" fill="#1b0733"/>'
-            f'<rect x="{x+.5:.1f}" y="{y+.5:.1f}" width="{tile-1}" height="{tile-1}" rx="{tile*0.23-0.5:.1f}" '
-            f'fill="none" stroke="#7b2cbf" stroke-opacity=".35"/>'
             f'<g transform="translate({ix:.1f},{iy:.1f}) scale({icone/24:.4f})"><title>{nome}</title>'
             f'<path d="{ICONES[nome]["d"]}" fill="{cor}"/></g>')
     svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" '
@@ -69,6 +75,6 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None):
     print(f"{arquivo}  {W:.0f}x{H:.0f}  ({len(nomes)} icones)")
 
 
-grade("stack.svg", ORDEM, tile=48.0, por_linha=16)
-grade("ferramentas.svg", APOIO, tile=36.0, por_linha=16, mono="#9d7bc4",
+grade("stack.svg", ORDEM, tile=44.0, por_linha=16)
+grade("ferramentas.svg", APOIO, tile=32.0, por_linha=16, mono="#9d7bc4",
       rotulo="bibliotecas e ferramentas")
