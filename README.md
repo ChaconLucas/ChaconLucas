@@ -85,11 +85,12 @@ sempre com um olhar de segurança por causa da pós.
 ### TIIX
 **Full Stack Developer** &nbsp;·&nbsp; `2026 — atual`
 
-`PHP` `JavaScript` `MySQL`
+`PHP` `JavaScript` `MySQL` `Bootstrap`
 
-Integrações **OAuth 2.0** com APIs externas de wearables e saúde — fluxo de
-autorização, callback e sessão por provedor, com dashboards próprios para
-consumo dos dados.
+Desenvolvimento de ponta a ponta dentro do sistema: modelagem e consultas no
+banco, **APIs REST/JSON** e seus endpoints, e as telas que consomem esses dados.
+Também **integrações OAuth 2.0** com APIs externas, **webhooks** e rotinas
+agendadas em **cron**.
 
 </td>
 <td width="50%" valign="top">
