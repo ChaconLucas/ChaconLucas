@@ -72,7 +72,6 @@ def barra_status(H):
         fill="#ffffff" text-anchor="middle">main</text>
   <text x="{14 + chip_w + 12}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
         fill="#8b7aa8">~/lucas-chacon</text>
-  {mascote_claude(W - 42, y0 + 8, larg=18)}
 '''
 
 # --- QR do portfolio -------------------------------------------------------
@@ -226,6 +225,9 @@ def painel_claude(H):
                  f'<animate attributeName="opacity" values="0;1" dur="0.35s" '
                  f'begin="{1.6 + i * 0.2:.2f}s" fill="freeze"/></text>')
         y += 19
+    # o mascote ocupa a sobra abaixo da lista, em tamanho que da p/ ver
+    larg = 62.0
+    l.append(mascote_claude(DIV_X + (W - DIV_X) / 2 - larg / 2, y + 22, larg=larg))
     return "\n  ".join(l)
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
