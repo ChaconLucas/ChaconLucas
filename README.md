@@ -32,7 +32,7 @@ sempre com um olhar de segurança por causa da pós.
 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,redux,tailwind,nodejs,express,fastapi,mysql,postgres,sqlite,redis,vite,vitest,git,github,vscode,figma,linux,kali,bash&theme=dark&perline=14" />
+  <img src="assets/social/stack.svg" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Redux, Tailwind, Node.js, Express, FastAPI, MySQL, PostgreSQL, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Kali, Bash" width="100%" />
 </p>
 
 <details>
