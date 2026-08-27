@@ -11,16 +11,6 @@
 
 ## `>_ whoami`
 
-```bash
-$ cat lucas.json
-{
-  "nome":     "Lucas Chacon",
-  "local":    "Rio de Janeiro, BR",
-  "formacao": "Análise e Desenvolvimento de Sistemas — UNISUAM",
-  "pos":      "Cibersegurança (Pentest · Kali Linux)",
-  "atuacao":  "Full Stack — do banco de dados ao deploy"
-}
-```
 
 Trabalho no ciclo completo: modelo os dados, escrevo a API, monto o front e coloco no ar —
 de plataformas em FastAPI + React a e-commerces em PHP com checkout e CMS próprios,
