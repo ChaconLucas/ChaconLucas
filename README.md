@@ -7,11 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-delta-five-78.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-7b2cbf?style=for-the-badge&logo=vercel&logoColor=ffffff" /></a>
-  <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="https://img.shields.io/badge/LinkedIn-3c096c?style=for-the-badge&logo=linkedin&logoColor=c77dff" /></a>
-  <a href="mailto:lucaschacon79@gmail.com"><img src="https://img.shields.io/badge/E--mail-3c096c?style=for-the-badge&logo=gmail&logoColor=c77dff" /></a>
-  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-3c096c?style=for-the-badge&logo=github&logoColor=c77dff" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=7b2cbf&style=for-the-badge&label=VISITAS" />
+  <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/badges/portfolio.svg" alt="Portfólio" height="46" /></a>
+  <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="assets/badges/linkedin.svg" alt="LinkedIn" height="46" /></a>
+  <a href="mailto:lucaschacon79@gmail.com"><img src="assets/badges/email.svg" alt="E-mail" height="46" /></a>
+  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/badges/repos.svg" alt="Repositórios" height="46" /></a>
 </p>
 
 ## `>_ whoami`
@@ -215,6 +214,10 @@ $ ./contato.sh
 [+] e-mail ..... lucaschacon79@gmail.com
 [+] local ...... Rio de Janeiro — BR (remoto ou híbrido)
 ```
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=7b2cbf&style=flat-square&label=visitas+no+perfil" />
+</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c77dff,50:7b2cbf,100:3c096c&height=140&section=footer&text=a%20seguran%C3%A7a%20%C3%A9%20um%20processo%2C%20n%C3%A3o%20um%20produto&fontSize=18&fontColor=ffffff&fontAlignY=75" />
