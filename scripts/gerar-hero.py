@@ -58,8 +58,6 @@ def selo_claude(cx, cy, r=7.4, cor="#d97757"):
         raios.append(f'<path d="M{x1:.2f} {y1:.2f}L{x2:.2f} {y2:.2f}"/>')
     return (f'<g stroke="{cor}" stroke-width="2" stroke-linecap="round">{"".join(raios)}</g>')
 
-SELO = "built with claude code"
-
 def barra_status(H):
     """Estilo tmux: chip da branch a esquerda, atribuicao a direita."""
     alt = 30
@@ -72,9 +70,7 @@ def barra_status(H):
         fill="#ffffff" text-anchor="middle">main</text>
   <text x="{14 + chip_w + 12}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
         fill="#8b7aa8">~/lucas-chacon</text>
-  {selo_claude(W - 18 - len(SELO) * 11 * 0.6 - 13, y0 + 15)}
-  <text x="{W - 18}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
-        fill="#8b7aa8" text-anchor="end">{SELO}</text>'''
+'''
 
 # --- QR do portfolio -------------------------------------------------------
 # Matriz assada aqui de proposito: foi gerada uma vez com o segno e colada,
@@ -200,26 +196,36 @@ CURSOR_Y = y - 11
 CORPO = "\n  ".join(corpo)
 H = int(max(y + 46, 300))   # +46: sobra p/ a barra de status   # a janela termina onde o conteudo termina
 
-# --- coluna da direita: o QR do portfolio ----------------------------------
-QR_MOD = 4.8
-QR_BARRAS, QR_LADO = qr_svg(0, 0, QR_MOD)          # desenhado na origem e transladado
-QR_PAD = 20      # 4 modulos de zona de silencio, como a especificacao pede
-PAINEL = QR_LADO + QR_PAD * 2
-DIV_X = 622                                         # divisoria entre as duas colunas
-PAINEL_X = DIV_X + (W - DIV_X - PAINEL) / 2
-PAINEL_Y = TOPO + 52
+# --- coluna da direita: o Claude Code aberto no terminal -------------------
+DIV_X = 622                                  # divisoria entre as duas colunas
+CX = DIV_X + 34                              # margem interna da coluna
 
-DIREITA = f'''<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>
-  <text x="{DIV_X + (W - DIV_X) / 2:.0f}" y="{PAINEL_Y - 14:.0f}" font-family="{MONO}" font-size="11.5"
-        fill="#8b7aa8" text-anchor="middle">aponte a câmera</text>
-  <g opacity="1">
-    <rect x="{PAINEL_X:.1f}" y="{PAINEL_Y}" width="{PAINEL:.1f}" height="{PAINEL:.1f}" rx="10" fill="#efe6fb"/>
-    <g transform="translate({PAINEL_X + QR_PAD:.1f},{PAINEL_Y + QR_PAD})">{QR_BARRAS}</g>
-    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
-  </g>
-  <text x="{DIV_X + (W - DIV_X) / 2:.0f}" y="{PAINEL_Y + PAINEL + 26:.0f}" font-family="{MONO}" font-size="12.5"
-        fill="#c77dff" text-anchor="middle">portfólio</text>'''
-
+def painel_claude(H):
+    y = TOPO + 52
+    l = []
+    l.append(selo_claude(CX + 8, y - 4, r=8.5))
+    l.append(f'<text x="{CX + 26}" y="{y}" font-family="{MONO}" font-size="13.5" '
+             f'font-weight="bold" fill="#d97757">claude code</text>')
+    y += 34
+    l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#8b7aa8" '
+             f'xml:space="preserve">&gt; <tspan fill="#e0c3fc">reescreve o hero do</tspan></text>')
+    y += 17
+    l.append(f'<text x="{CX + 12}" y="{y}" font-family="{MONO}" font-size="12" fill="#e0c3fc" '
+             f'xml:space="preserve">README em SVG</text>')
+    y += 30
+    for txt, cor in [("· lendo README.md", "#8b7aa8"),
+                     ("· gerando assets/social", "#8b7aa8"),
+                     ("· 1 arquivo alterado", "#9d4edd")]:
+        l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="11.5" fill="{cor}" '
+                 f'xml:space="preserve">{txt}</text>')
+        y += 17
+    y += 8
+    l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#d97757">&gt;</text>')
+    l.append(f'<rect x="{CX + 14}" y="{y - 10}" width="7" height="13" fill="#d97757" opacity=".9">'
+             f'<animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" '
+             f'dur="1.1s" repeatCount="indefinite"/></rect>')
+    return (f'<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>\n  '
+            + "\n  ".join(l))
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
@@ -258,7 +264,7 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
   </g>
   {chr(10).join('  ' + l.strip() for l in CORPO.split(chr(10)) if 'gradArt' not in l)}
 
-  {DIREITA}
+  {painel_claude(H)}
 
   {barra_status(H)}
 
