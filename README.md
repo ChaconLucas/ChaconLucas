@@ -30,7 +30,7 @@ sempre com um olhar de segurança por causa da pós.
 ## `>_ stack`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,redux,tailwind,bootstrap,js,nodejs,express,python,fastapi,php,postgres,mysql,sqlite,redis,vitest,vite,git&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=php,ts,js,python,react,nextjs,redux,tailwind,bootstrap,nodejs,express,fastapi,postgres,mysql,sqlite,redis,vite,vitest,git,github,vscode,figma,linux,kali,bash&theme=dark&perline=13" />
 </p>
 
 <details>
