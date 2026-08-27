@@ -203,31 +203,15 @@ DIV_X = 622                                  # divisoria entre as duas colunas
 CX = DIV_X + 34                              # margem interna da coluna
 
 def painel_claude(H):
-    y = TOPO + 52
-    l = []
-    l.append(mascote_claude(CX, y - 19, larg=34))
-    l.append(f'<text x="{CX + 46}" y="{y}" font-family="{MONO}" font-size="14" '
-             f'font-weight="bold" fill="#d97757">claude code</text>')
-    y += 34
-    l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#8b7aa8" '
-             f'xml:space="preserve">&gt; <tspan fill="#e0c3fc">reescreve o hero do</tspan></text>')
-    y += 17
-    l.append(f'<text x="{CX + 12}" y="{y}" font-family="{MONO}" font-size="12" fill="#e0c3fc" '
-             f'xml:space="preserve">README em SVG</text>')
-    y += 30
-    for txt, cor in [("· lendo README.md", "#8b7aa8"),
-                     ("· gerando assets/social", "#8b7aa8"),
-                     ("· 1 arquivo alterado", "#9d4edd")]:
-        l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="11.5" fill="{cor}" '
-                 f'xml:space="preserve">{txt}</text>')
-        y += 17
-    y += 8
-    l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#d97757">&gt;</text>')
-    l.append(f'<rect x="{CX + 14}" y="{y - 10}" width="7" height="13" fill="#d97757" opacity=".9">'
-             f'<animate attributeName="opacity" values=".9;.9;0;0" keyTimes="0;.49;.5;1" '
-             f'dur="1.1s" repeatCount="indefinite"/></rect>')
+    """So a marca, centrada na coluna. A sessao de prompt que existia aqui
+    fazia o README parecer saida de IA, que nao e a leitura desejada."""
+    cx = DIV_X + (W - DIV_X) / 2
+    larg = 88.0
+    topo = TOPO + (H - 30 - TOPO) / 2 - larg * 0.8 / 2 - 14
     return (f'<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>\n  '
-            + "\n  ".join(l))
+            + mascote_claude(cx - larg / 2, topo, larg=larg) + '\n  '
+            + f'<text x="{cx:.0f}" y="{topo + larg * 0.8 + 30:.0f}" font-family="{MONO}" '
+              f'font-size="14" font-weight="bold" fill="#d97757" text-anchor="middle">claude code</text>')
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
