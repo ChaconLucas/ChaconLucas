@@ -72,6 +72,7 @@ def barra_status(H):
         fill="#ffffff" text-anchor="middle">main</text>
   <text x="{14 + chip_w + 12}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
         fill="#8b7aa8">~/lucas-chacon</text>
+  {mascote_claude(W - 42, y0 + 8, larg=18)}
 '''
 
 # --- QR do portfolio -------------------------------------------------------
@@ -202,13 +203,30 @@ H = int(max(y + 46, 300))   # +46: sobra p/ a barra de status   # a janela termi
 DIV_X = 622                                  # divisoria entre as duas colunas
 CX = DIV_X + 34                              # margem interna da coluna
 
+# projetos reais, os mesmos que aparecem na secao la embaixo
+PROJETOS = [("flash/", "gatecheck/"), ("rare7/", "wsl-games/"), ("tiixoke/", "aipply/")]
+
 def painel_claude(H):
-    """So a marca, centrada e grande. Sem rotulo: o desenho ja identifica."""
-    cx = DIV_X + (W - DIV_X) / 2
-    larg = 196.0
-    topo = TOPO + (H - 30 - TOPO) / 2 - larg * 0.8 / 2
-    return (f'<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>\n  '
-            + mascote_claude(cx - larg / 2, topo, larg=larg))
+    """A coluna vira a saida de um `ls` nos projetos: conteudo real, e um
+    aperitivo da secao de projetos que vem mais abaixo no README."""
+    x = DIV_X + 34
+    y = TOPO + 46
+    l = []   # sem divisoria: o espaco entre as colunas ja separa
+    l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="12.5" xml:space="preserve">'
+             f'<tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan>'
+             f'<tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~/projetos</tspan>'
+             f'<tspan fill="#7b2cbf">]</tspan></text>')
+    y += 18
+    l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="12.5" xml:space="preserve">'
+             f'<tspan fill="#7b2cbf">└─$ </tspan><tspan fill="#ffffff">ls</tspan></text>')
+    y += 28
+    for i, (esq, dir_) in enumerate(PROJETOS):
+        l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="12.5" fill="#c77dff" '
+                 f'xml:space="preserve" opacity="1">{esq:<13}{dir_}'
+                 f'<animate attributeName="opacity" values="0;1" dur="0.35s" '
+                 f'begin="{1.6 + i * 0.2:.2f}s" fill="freeze"/></text>')
+        y += 19
+    return "\n  ".join(l)
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
