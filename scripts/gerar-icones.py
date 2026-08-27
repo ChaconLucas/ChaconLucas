@@ -73,6 +73,6 @@ def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None, com_tile=Fals
     print(f"{arquivo}  {W:.0f}x{H:.0f}  ({len(nomes)} icones)")
 
 
-grade("stack.svg", ORDEM, tile=50.0, por_linha=16)
-grade("ferramentas.svg", APOIO, tile=40.0, por_linha=16,
+grade("icones-stack.svg", ORDEM, tile=50.0, por_linha=16)
+grade("icones-ferramentas.svg", APOIO, tile=40.0, por_linha=16,
       rotulo="bibliotecas e ferramentas")
