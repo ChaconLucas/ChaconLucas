@@ -42,6 +42,40 @@ def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+
+# --- barra de status, no rodape da janela ----------------------------------
+import math
+
+def selo_claude(cx, cy, r=7.4, cor="#d97757"):
+    """A marca do Claude: raios arredondados saindo do centro.
+    Desenho proprio, aproximado — serve como atribuicao, nao como logo oficial."""
+    raios = []
+    for k in range(12):
+        ang = math.radians(k * 30 - 90)
+        comp = r if k % 2 == 0 else r * 0.66
+        x1, y1 = cx + math.cos(ang) * r * 0.22, cy + math.sin(ang) * r * 0.22
+        x2, y2 = cx + math.cos(ang) * comp, cy + math.sin(ang) * comp
+        raios.append(f'<path d="M{x1:.2f} {y1:.2f}L{x2:.2f} {y2:.2f}"/>')
+    return (f'<g stroke="{cor}" stroke-width="2" stroke-linecap="round">{"".join(raios)}</g>')
+
+SELO = "built with claude code"
+
+def barra_status(H):
+    """Estilo tmux: chip da branch a esquerda, atribuicao a direita."""
+    alt = 30
+    y0 = H - alt
+    chip_w = 54
+    return f'''<path d="M0 {y0}h{W}v{alt - 14}a14 14 0 01-14 14H14a14 14 0 01-14-14z" fill="#1d0438"/>
+  <path d="M0 {y0}h{W}" stroke="#7b2cbf" stroke-opacity=".3"/>
+  <rect x="14" y="{y0 + 7}" width="{chip_w}" height="16" rx="4" fill="#7b2cbf"/>
+  <text x="{14 + chip_w / 2}" y="{y0 + 19}" font-family="{MONO}" font-size="10.5" font-weight="bold"
+        fill="#ffffff" text-anchor="middle">main</text>
+  <text x="{14 + chip_w + 12}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
+        fill="#8b7aa8">~/lucas-chacon</text>
+  {selo_claude(W - 18 - len(SELO) * 11 * 0.6 - 13, y0 + 15)}
+  <text x="{W - 18}" y="{y0 + 19}" font-family="{MONO}" font-size="11"
+        fill="#8b7aa8" text-anchor="end">{SELO}</text>'''
+
 # --- QR do portfolio -------------------------------------------------------
 # Matriz assada aqui de proposito: foi gerada uma vez com o segno e colada,
 # entao este script nao depende de biblioteca externa nenhuma pra rodar.
@@ -164,7 +198,7 @@ corpo.append(linha([("└─$ ", COR["prompt"])], y))
 CURSOR_Y = y - 11
 
 CORPO = "\n  ".join(corpo)
-H = int(max(y + 30, 300))   # a janela termina onde o conteudo termina
+H = int(max(y + 46, 300))   # +46: sobra p/ a barra de status   # a janela termina onde o conteudo termina
 
 # --- coluna da direita: o QR do portfolio ----------------------------------
 QR_MOD = 4.8
@@ -175,7 +209,7 @@ DIV_X = 622                                         # divisoria entre as duas co
 PAINEL_X = DIV_X + (W - DIV_X - PAINEL) / 2
 PAINEL_Y = TOPO + 52
 
-DIREITA = f'''<path d="M{DIV_X} {TOPO + 22}V{H - 22}" stroke="#7b2cbf" stroke-opacity=".22"/>
+DIREITA = f'''<path d="M{DIV_X} {TOPO + 22}V{H - 42}" stroke="#7b2cbf" stroke-opacity=".22"/>
   <text x="{DIV_X + (W - DIV_X) / 2:.0f}" y="{PAINEL_Y - 14:.0f}" font-family="{MONO}" font-size="11.5"
         fill="#8b7aa8" text-anchor="middle">aponte a câmera</text>
   <g opacity="1">
@@ -225,6 +259,8 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
   {chr(10).join('  ' + l.strip() for l in CORPO.split(chr(10)) if 'gradArt' not in l)}
 
   {DIREITA}
+
+  {barra_status(H)}
 
   <rect x="{PAD_X + 14 + 4 * FS * 0.6:.0f}" y="{CURSOR_Y:.0f}" width="8" height="15" fill="#c77dff" opacity=".85">
     <animate attributeName="opacity" values=".85;.85;0;0" keyTimes="0;.49;.5;1" dur="1.1s" repeatCount="indefinite"/>
