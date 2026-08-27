@@ -71,6 +71,14 @@ sempre com um olhar de segurança por causa da pós.
 
 <br>
 
+## `>_ experiência`
+
+| Empresa | Cargo | Período |
+| :--- | :--- | :--- |
+| **TIIX** | Full Stack Developer | `2026 — atual` |
+
+<br>
+
 ## `>_ projetos em destaque`
 
 <table>
