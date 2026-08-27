@@ -76,6 +76,7 @@ sempre com um olhar de segurança por causa da pós.
 | Empresa | Cargo | Período |
 | :--- | :--- | :--- |
 | **TIIX** | Full Stack Developer | `2026 — atual` |
+| **D&Z** | Desenvolvedor Full Stack | `nov/2025 — abr/2026` |
 
 <br>
 
