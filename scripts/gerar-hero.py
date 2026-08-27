@@ -41,6 +41,60 @@ def banner(palavra):
 def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
+
+# --- QR do portfolio -------------------------------------------------------
+# Matriz assada aqui de proposito: foi gerada uma vez com o segno e colada,
+# entao este script nao depende de biblioteca externa nenhuma pra rodar.
+# Pra trocar a URL: segno.make(url, error="m").matrix -> 0/1 por linha.
+QR_URL = "https://portfolio-delta-five-78.vercel.app"
+QR = """11111110100101100110001111111
+10000010111011001011101000001
+10111010100011101001101011101
+10111010000001001110001011101
+10111010111101101011001011101
+10000010010100101100001000001
+11111110101010101010101111111
+00000000000011110001000000000
+10011111111000010100010010111
+00101100010011110011000110110
+00110111101111011000000110100
+01000100100010000110100011001
+11010110101100011001101000001
+01111101001111111110001111111
+00100010111011011011000000101
+10010100110110010000010010101
+10011111101001011000100001000
+10101000011000110101100010110
+11000110101101111001000001001
+11100100110111111011000101100
+11010011000100101100111111110
+00000000110110011010100011000
+11111110111010110101101011000
+10000010111010001100100010000
+10111010110001100011111111010
+10111010110011110110010000001
+10111010011010110000110110111
+10000010010110010000000011101
+11111110101110011011100111000"""
+
+def qr_svg(x, y, mod=5.0):
+    """Desenha o QR juntando modulos vizinhos numa mesma barra: menos elementos."""
+    linhas = QR.strip().split("\n")
+    barras = []
+    for i, linha in enumerate(linhas):
+        j = 0
+        while j < len(linha):
+            if linha[j] == "1":
+                k = j
+                while k + 1 < len(linha) and linha[k + 1] == "1":
+                    k += 1
+                barras.append(f'<rect x="{x + j * mod:.1f}" y="{y + i * mod:.1f}" '
+                              f'width="{(k - j + 1) * mod:.1f}" height="{mod}" fill="#1a0033"/>')
+                j = k + 1
+            else:
+                j += 1
+    return "".join(barras), len(linhas) * mod
+
 # --- medidas ---------------------------------------------------------------
 W = 1000
 PAD_X, TOPO = 34, 40          # respiro interno e altura da barra de titulo
@@ -110,7 +164,28 @@ corpo.append(linha([("└─$ ", COR["prompt"])], y))
 CURSOR_Y = y - 11
 
 CORPO = "\n  ".join(corpo)
-H = int(y + 30)   # a janela termina onde o conteudo termina
+H = int(max(y + 30, 300))   # a janela termina onde o conteudo termina
+
+# --- coluna da direita: o QR do portfolio ----------------------------------
+QR_MOD = 4.8
+QR_BARRAS, QR_LADO = qr_svg(0, 0, QR_MOD)          # desenhado na origem e transladado
+QR_PAD = 20      # 4 modulos de zona de silencio, como a especificacao pede
+PAINEL = QR_LADO + QR_PAD * 2
+DIV_X = 622                                         # divisoria entre as duas colunas
+PAINEL_X = DIV_X + (W - DIV_X - PAINEL) / 2
+PAINEL_Y = TOPO + 52
+
+DIREITA = f'''<path d="M{DIV_X} {TOPO + 22}V{H - 22}" stroke="#7b2cbf" stroke-opacity=".22"/>
+  <text x="{DIV_X + (W - DIV_X) / 2:.0f}" y="{PAINEL_Y - 14:.0f}" font-family="{MONO}" font-size="11.5"
+        fill="#8b7aa8" text-anchor="middle">aponte a câmera</text>
+  <g opacity="1">
+    <rect x="{PAINEL_X:.1f}" y="{PAINEL_Y}" width="{PAINEL:.1f}" height="{PAINEL:.1f}" rx="10" fill="#efe6fb"/>
+    <g transform="translate({PAINEL_X + QR_PAD:.1f},{PAINEL_Y + QR_PAD})">{QR_BARRAS}</g>
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+  </g>
+  <text x="{DIV_X + (W - DIV_X) / 2:.0f}" y="{PAINEL_Y + PAINEL + 26:.0f}" font-family="{MONO}" font-size="12.5"
+        fill="#c77dff" text-anchor="middle">portfólio</text>'''
+
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
   <title>Lucas Chacon — full stack developer</title>
@@ -148,6 +223,8 @@ hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" view
     {chr(10).join(l for l in CORPO.split(chr(10)) if 'gradArt' in l)}
   </g>
   {chr(10).join('  ' + l.strip() for l in CORPO.split(chr(10)) if 'gradArt' not in l)}
+
+  {DIREITA}
 
   <rect x="{PAD_X + 14 + 4 * FS * 0.6:.0f}" y="{CURSOR_Y:.0f}" width="8" height="15" fill="#c77dff" opacity=".85">
     <animate attributeName="opacity" values=".85;.85;0;0" keyTimes="0;.49;.5;1" dur="1.1s" repeatCount="indefinite"/>
