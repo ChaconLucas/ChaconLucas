@@ -22,7 +22,10 @@ ICONES = json.load(open(os.path.join(RAIZ, "scripts", "icones-simple-icons.json"
 ORDEM = ["PHP","JavaScript","TypeScript","Python","HTML","CSS","jQuery","Bootstrap",
          "React","Next.js","Node.js","Express","FastAPI","MySQL","PostgreSQL","Kali"]
 
-TILE, GAP, PAD, POR_LINHA, ICONE = 48.0, 10.0, 18.0, 16, 25.0
+# apoio: biblioteca, build, teste, editor e ambiente. Entram menores e em uma
+# cor so — hierarquia: a stack diz o que ele constroi, isto diz com o que.
+APOIO = ["Redux","Tailwind","SQLite","Redis","Vite","Vitest","Git","GitHub","Figma","Linux","Bash"]
+
 PISO_LUM = 0.42          # luminancia minima do icone sobre o tile escuro
 
 def clarear(hexa):
@@ -36,26 +39,36 @@ def clarear(hexa):
     return f"#{r:02x}{g:02x}{b:02x}"
 
 
-linhas = (len(ORDEM) + POR_LINHA - 1) // POR_LINHA
-W = PAD * 2 + POR_LINHA * TILE + (POR_LINHA - 1) * GAP
-H = PAD * 2 + linhas * TILE + (linhas - 1) * GAP
+def grade(arquivo, nomes, tile, por_linha, mono=None, rotulo=None):
+    gap, pad, icone = 10.0, 18.0, tile * 0.52
+    linhas = (len(nomes) + por_linha - 1) // por_linha
+    W = pad * 2 + por_linha * tile + (por_linha - 1) * gap
+    topo = pad + (18 if rotulo else 0)
+    H = topo + linhas * tile + (linhas - 1) * gap + pad
+    pecas = []
+    if rotulo:
+        pecas.append(f'<text x="{pad}" y="{pad + 6:.0f}" font-family="DejaVu Sans Mono,Menlo,monospace" '
+                     f'font-size="11.5" fill="#8b949e">{rotulo}</text>')
+    for i, nome in enumerate(nomes):
+        col, lin = i % por_linha, i // por_linha
+        x = pad + col * (tile + gap)
+        y = topo + lin * (tile + gap)
+        ix, iy = x + (tile - icone) / 2, y + (tile - icone) / 2
+        cor = mono or clarear(ICONES[nome]["cor"])
+        pecas.append(
+            f'<rect x="{x:.1f}" y="{y:.1f}" width="{tile}" height="{tile}" rx="{tile*0.23:.1f}" fill="#1b0733"/>'
+            f'<rect x="{x+.5:.1f}" y="{y+.5:.1f}" width="{tile-1}" height="{tile-1}" rx="{tile*0.23-0.5:.1f}" '
+            f'fill="none" stroke="#7b2cbf" stroke-opacity=".35"/>'
+            f'<g transform="translate({ix:.1f},{iy:.1f}) scale({icone/24:.4f})"><title>{nome}</title>'
+            f'<path d="{ICONES[nome]["d"]}" fill="{cor}"/></g>')
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" '
+           f'viewBox="0 0 {W:.1f} {H:.1f}" role="img" aria-label="{", ".join(nomes)}">'
+           f'<title>{rotulo or "stack"}</title>{"".join(pecas)}</svg>\n')
+    os.makedirs(OUT, exist_ok=True)
+    open(os.path.join(OUT, arquivo), "w", encoding="utf-8").write(svg)
+    print(f"{arquivo}  {W:.0f}x{H:.0f}  ({len(nomes)} icones)")
 
-pecas = []
-for i, nome in enumerate(ORDEM):
-    col, lin = i % POR_LINHA, i // POR_LINHA
-    x = PAD + col * (TILE + GAP)
-    y = PAD + lin * (TILE + GAP)
-    ix, iy = x + (TILE - ICONE) / 2, y + (TILE - ICONE) / 2
-    pecas.append(
-        f'<rect x="{x:.1f}" y="{y:.1f}" width="{TILE}" height="{TILE}" rx="11" fill="#1b0733"/>'
-        f'<rect x="{x+.5:.1f}" y="{y+.5:.1f}" width="{TILE-1}" height="{TILE-1}" rx="10.5" '
-        f'fill="none" stroke="#7b2cbf" stroke-opacity=".35"/>'
-        f'<g transform="translate({ix:.1f},{iy:.1f}) scale({ICONE/24:.4f})"><title>{nome}</title>'
-        f'<path d="{ICONES[nome]["d"]}" fill="{clarear(ICONES[nome]["cor"])}"/></g>')
 
-svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" '
-       f'viewBox="0 0 {W:.1f} {H:.1f}" role="img" aria-label="{", ".join(ORDEM)}">'
-       f'<title>stack</title>{"".join(pecas)}</svg>\n')
-os.makedirs(OUT, exist_ok=True)
-open(os.path.join(OUT, "stack.svg"), "w", encoding="utf-8").write(svg)
-print(f"stack.svg  {W:.0f}x{H:.0f}  {len(svg)/1024:.0f} KB  ({len(ORDEM)} icones)")
+grade("stack.svg", ORDEM, tile=48.0, por_linha=16)
+grade("ferramentas.svg", APOIO, tile=36.0, por_linha=16, mono="#9d7bc4",
+      rotulo="bibliotecas e ferramentas")
