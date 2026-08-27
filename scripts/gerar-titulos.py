@@ -39,3 +39,21 @@ for nome, texto in SECOES:
 '''
     open(os.path.join(OUT, nome + ".svg"), "w", encoding="utf-8").write(svg)
     print(nome + ".svg")
+
+
+# --- rotulos menores, para subdivisao dentro de uma secao ------------------
+# o <sub> do HTML cai na fonte padrao do GitHub e destoa; este acompanha a
+# tipografia dos titulos, so que menor e sem o fio.
+ROTULOS = [("ferramentas", "bibliotecas e ferramentas")]
+
+for nome, texto in ROTULOS:
+    fs = 13.0
+    larg = len(texto) * fs * 0.6 + 30
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{larg:.0f}" height="26" viewBox="0 0 {larg:.0f} 26" role="img" aria-label="{texto}">
+  <title>{texto}</title>
+  <text x="0" y="18" font-family="{MONO}" font-size="{fs}" fill="#7b2cbf">»</text>
+  <text x="18" y="18" font-family="{MONO}" font-size="{fs}" fill="#8b7aa8">{texto}</text>
+</svg>
+'''
+    open(os.path.join(OUT, "rotulo-" + nome + ".svg"), "w", encoding="utf-8").write(svg)
+    print("rotulo-" + nome + ".svg")

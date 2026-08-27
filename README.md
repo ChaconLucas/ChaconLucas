@@ -29,7 +29,9 @@ sempre com um olhar de segurança por causa da pós.
   <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,nodejs,express,fastapi,mysql,postgres,kali&theme=dark&perline=16" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Node.js, Express, FastAPI, MySQL, PostgreSQL, Kali Linux" />
 </p>
 
-<p align="center"><sub>bibliotecas e ferramentas</sub></p>
+<p align="center">
+  <img src="assets/social/titulos/rotulo-ferramentas.svg" alt="bibliotecas e ferramentas" height="26" />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=redux,tailwind,sqlite,redis,vite,vitest,git,github,figma,linux,bash&theme=dark&perline=11" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" />
