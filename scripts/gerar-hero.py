@@ -205,8 +205,8 @@ CX = DIV_X + 34                              # margem interna da coluna
 def painel_claude(H):
     y = TOPO + 52
     l = []
-    l.append(mascote_claude(CX, y - 16, larg=24))
-    l.append(f'<text x="{CX + 30}" y="{y}" font-family="{MONO}" font-size="13.5" '
+    l.append(mascote_claude(CX, y - 19, larg=34))
+    l.append(f'<text x="{CX + 46}" y="{y}" font-family="{MONO}" font-size="14" '
              f'font-weight="bold" fill="#d97757">claude code</text>')
     y += 34
     l.append(f'<text x="{CX}" y="{y}" font-family="{MONO}" font-size="12" fill="#8b7aa8" '
