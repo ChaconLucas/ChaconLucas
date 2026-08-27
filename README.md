@@ -26,9 +26,11 @@ sempre com um olhar de segurança por causa da pós.
 
 
 <p align="center">
-  <img src="assets/social/stack-icones.svg" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Redux, Tailwind, Node.js, Express, FastAPI, MySQL, PostgreSQL, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Kali, Bash" width="100%" />
+  <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,nodejs,express,fastapi,mysql,postgres,kali&theme=dark&perline=16" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Node.js, Express, FastAPI, MySQL, PostgreSQL, Kali Linux" />
+  <br><br>
+  <sub>bibliotecas e ferramentas</sub>
   <br>
-  <img src="assets/social/stack-ferramentas.svg" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" width="100%" />
+  <img src="https://skillicons.dev/icons?i=redux,tailwind,sqlite,redis,vite,vitest,git,github,figma,linux,bash&theme=dark&perline=11" alt="Redux, Tailwind, SQLite, Redis, Vite, Vitest, Git, GitHub, Figma, Linux, Bash" />
 </p>
 
 <details>
