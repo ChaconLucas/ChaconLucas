@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="28" viewBox="0 0 96.7 28.0" role="img" aria-label="SQLAlchemy">
+  <title>SQLAlchemy</title>
+  <rect x="3.0" y="3.0" width="90.7" height="22.0" rx="11.0" fill="#2a0a4d"/>
+  <rect x="3.5" y="3.5" width="89.7" height="21.0" rx="10.5" fill="none" stroke="#7b2cbf" stroke-opacity=".55"/>
+  <text x="48.4" y="14.0" dy=".35em" text-anchor="middle"
+        font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="11.0" letter-spacing=".3" fill="#d9b8ff">SQLAlchemy</text>
+</svg>

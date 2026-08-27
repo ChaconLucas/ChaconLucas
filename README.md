@@ -90,7 +90,7 @@ sempre com um olhar de segurança por causa da pós.
 ### TIIX
 **Full Stack Developer** &nbsp;·&nbsp; `2026 — atual`
 
-`PHP` `JavaScript` `jQuery` `MySQL` `Bootstrap`
+<img src="assets/social/chips/php.svg" alt="PHP" height="28" /> <img src="assets/social/chips/javascript.svg" alt="JavaScript" height="28" /> <img src="assets/social/chips/jquery.svg" alt="jQuery" height="28" /> <img src="assets/social/chips/mysql.svg" alt="MySQL" height="28" /> <img src="assets/social/chips/bootstrap.svg" alt="Bootstrap" height="28" />
 
 Ponta a ponta dentro do sistema: **consultas e procedures em SQL**, **APIs
 REST/JSON** com seus endpoints, e as telas que consomem esses dados — tabelas,
@@ -103,7 +103,7 @@ OAuth 2.0** com APIs externas, **webhooks** e rotinas agendadas em **cron**.
 ### D&Z
 **Desenvolvedor Full Stack** &nbsp;·&nbsp; `nov/2025 — abr/2026`
 
-`PHP` `JavaScript` `MySQL`
+<img src="assets/social/chips/php.svg" alt="PHP" height="28" /> <img src="assets/social/chips/javascript.svg" alt="JavaScript" height="28" /> <img src="assets/social/chips/mysql.svg" alt="MySQL" height="28" />
 
 Painéis administrativos em PHP — sistema interno de gestão, com as telas
 de cadastro, listagem e manutenção dos dados.
@@ -122,7 +122,7 @@ de cadastro, listagem e manutenção dos dados.
     <td width="50%" valign="top">
 
 ### ⚡ FLASH
-`TypeScript` `Next.js 16` `Expo` `Express` `PostgreSQL`
+<img src="assets/social/chips/typescript.svg" alt="TypeScript" height="28" /> <img src="assets/social/chips/next-js-16.svg" alt="Next.js 16" height="28" /> <img src="assets/social/chips/expo.svg" alt="Expo" height="28" /> <img src="assets/social/chips/express.svg" alt="Express" height="28" /> <img src="assets/social/chips/postgresql.svg" alt="PostgreSQL" height="28" />
 
 Marketplace de materiais para tatuagem e body piercing com entrega rápida por motoboy.
 Monorepo com quatro pacotes — `shared` (regras e design tokens), `api` (Express +
@@ -136,7 +136,7 @@ total entre app e web**. Integração de frete com Uber Direct e deploy contínu
 <td width="50%" valign="top">
 
 ### 🎟️ GateCheck
-`Python` `FastAPI` `TypeScript` `React`
+<img src="assets/social/chips/python.svg" alt="Python" height="28" /> <img src="assets/social/chips/fastapi.svg" alt="FastAPI" height="28" /> <img src="assets/social/chips/typescript.svg" alt="TypeScript" height="28" /> <img src="assets/social/chips/react.svg" alt="React" height="28" />
 
 Plataforma de venda de ingressos e controle de entrada para boates e eventos.
 Fluxo completo: empresa cria evento e lotes → cliente compra → pagamento confirmado
@@ -151,7 +151,7 @@ tudo registrado para auditoria.
     <td width="50%" valign="top">
 
 ### 🏄 WSL SporTV Games
-`FastAPI` `React 18` `TypeScript`
+<img src="assets/social/chips/fastapi.svg" alt="FastAPI" height="28" /> <img src="assets/social/chips/react-18.svg" alt="React 18" height="28" /> <img src="assets/social/chips/typescript.svg" alt="TypeScript" height="28" />
 
 MVP de jogos interativos para o WSL SporTV: *Drop Sua Onda* (quiz que gera um perfil
 de surfista) e *Jurado por Um Dia* (o usuário dá a nota e compara com a do juiz oficial).
@@ -164,7 +164,7 @@ Cadastro configurável antes ou depois da partida, com premiação no final.
 <td width="50%" valign="top">
 
 ### 🛍️ Rare7 — E-commerce completo
-`PHP 8` `MySQL` `JavaScript`
+<img src="assets/social/chips/php-8.svg" alt="PHP 8" height="28" /> <img src="assets/social/chips/mysql.svg" alt="MySQL" height="28" /> <img src="assets/social/chips/javascript.svg" alt="JavaScript" height="28" />
 
 Plataforma de e-commerce que lidero tecnicamente: loja virtual, painel administrativo,
 CMS integrado, checkout **MercadoPago**, automação de e-mails, dashboards com Chart.js,
@@ -178,7 +178,7 @@ chat com IA (Groq) e logs de auditoria.
     <td width="50%" valign="top">
 
 ### 🏭 Factory Production Management
-`FastAPI` `React` `SQLAlchemy`
+<img src="assets/social/chips/fastapi.svg" alt="FastAPI" height="28" /> <img src="assets/social/chips/react.svg" alt="React" height="28" /> <img src="assets/social/chips/sqlalchemy.svg" alt="SQLAlchemy" height="28" />
 
 Sistema full stack de gestão de produção fabril: planejamento inteligente de ordens,
 controle de estoque e insights de eficiência a partir dos dados de manufatura.
@@ -189,7 +189,7 @@ controle de estoque e insights de eficiência a partir dos dados de manufatura.
 <td width="50%" valign="top">
 
 ### 🤖 Bot da FURIA
-`Python` `Telegram API` `BeautifulSoup`
+<img src="assets/social/chips/python.svg" alt="Python" height="28" /> <img src="assets/social/chips/telegram-api.svg" alt="Telegram API" height="28" /> <img src="assets/social/chips/beautifulsoup.svg" alt="BeautifulSoup" height="28" />
 
 Bot de Telegram para a torcida da FURIA (CS): próximos jogos, lineup atual, últimos
 resultados e frases da torcida — com scraping para manter os dados atualizados.
@@ -202,7 +202,7 @@ resultados e frases da torcida — com scraping para manter os dados atualizados
     <td width="50%" valign="top">
 
 ### 🎤 Tiixokê
-`React` `Vite` `Express` `Web Audio API`
+<img src="assets/social/chips/react.svg" alt="React" height="28" /> <img src="assets/social/chips/vite.svg" alt="Vite" height="28" /> <img src="assets/social/chips/express.svg" alt="Express" height="28" /> <img src="assets/social/chips/web-audio-api.svg" alt="Web Audio API" height="28" />
 
 Karaokê web: busca a música no YouTube, toca o vídeo com a letra e **pontua você de
 0 a 100** analisando volume e variedade de pitch captados pelo microfone em tempo real,
@@ -214,7 +214,7 @@ com animação de suspense na revelação da nota.
 <td width="50%" valign="top">
 
 ### 📱 Gestão de Clientes e Produtos
-`React Native` `Expo` `SQLite` `Drizzle`
+<img src="assets/social/chips/react-native.svg" alt="React Native" height="28" /> <img src="assets/social/chips/expo.svg" alt="Expo" height="28" /> <img src="assets/social/chips/sqlite.svg" alt="SQLite" height="28" /> <img src="assets/social/chips/drizzle.svg" alt="Drizzle" height="28" />
 
 App mobile com banco local, Redux Toolkit, React Hook Form + Yup e Expo Router —
 CRUD de clientes e produtos com vínculos entre eles.
@@ -238,7 +238,7 @@ geração do material de aplicação.
 <td width="50%" valign="top">
 
 ### ⌚ Integrações de wearables
-`PHP` `OAuth 2.0` `REST`
+<img src="assets/social/chips/php.svg" alt="PHP" height="28" /> <img src="assets/social/chips/oauth-2-0.svg" alt="OAuth 2.0" height="28" /> <img src="assets/social/chips/rest.svg" alt="REST" height="28" />
 
 Integração com múltiplas plataformas de wearables e APIs de saúde: fluxo de
 autorização, troca e renovação de token, callback e sessão por provedor,
