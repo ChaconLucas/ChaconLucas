@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/social/banner.svg" alt="Lucas Chacon — full stack developer" width="100%" />
+  <img src="assets/social/banner.svg?v=3" alt="Lucas Chacon — full stack developer" width="100%" />
 </p>
 
 <p align="center">

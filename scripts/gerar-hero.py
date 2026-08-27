@@ -149,6 +149,7 @@ def prompt2(cmd):
     return [("└─$ ", COR["prompt"]), (cmd, COR["cmd"])]
 
 INFO = [("stack", "react · next · fastapi · php · postgres · redis"),
+        ("formação", "análise e desenvolvimento de sistemas · unisuam"),
         ("segurança", "pós-graduando · pentest · kali linux"),
         ("local", "Rio de Janeiro, BR · remoto ou híbrido")]
 
@@ -225,9 +226,20 @@ def painel_claude(H):
                  f'<animate attributeName="opacity" values="0;1" dur="0.35s" '
                  f'begin="{1.6 + i * 0.2:.2f}s" fill="freeze"/></text>')
         y += 19
-    # o mascote ocupa a sobra abaixo da lista, em tamanho que da p/ ver
-    larg = 62.0
-    l.append(mascote_claude(DIV_X + (W - DIV_X) / 2 - larg / 2, y + 22, larg=larg))
+    y += 16
+    l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="12.5" xml:space="preserve">'
+             f'<tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan>'
+             f'<tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan>'
+             f'<tspan fill="#7b2cbf">]</tspan></text>')
+    y += 18
+    l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="12.5" xml:space="preserve">'
+             f'<tspan fill="#7b2cbf">└─$ </tspan><tspan fill="#ffffff">cat foco.txt</tspan></text>')
+    y += 22
+    l.append(f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="13" fill="#e0c3fc" '
+             f'xml:space="preserve">produtos, não páginas</text>')
+    # o mascote fecha a coluna, na sobra que ainda resta
+    larg = 54.0
+    l.append(mascote_claude(W - 34 - larg, y + 16, larg=larg))
     return "\n  ".join(l)
 
 hero = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Lucas Chacon — full stack developer">
