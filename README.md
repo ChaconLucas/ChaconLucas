@@ -67,11 +67,7 @@ sempre com um olhar de segurança por causa da pós.
 
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
-    <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
+  <img src="assets/social/contribuicoes.svg" alt="9528 contribuições entre agosto de 2025 e agosto de 2026" width="100%" />
 </p>
 
 <br>
