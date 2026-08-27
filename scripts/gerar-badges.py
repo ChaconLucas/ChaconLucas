@@ -42,6 +42,12 @@ GITHUB = ('<path fill="{c}" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8
           '2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 '
           '1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>')
 
+SETA = ('<g fill="none" stroke="{c}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">'
+        '<path d="M7 17L17 7"/><path d="M8.5 7H17v8.5"/></g>')
+CADEADO = ('<g fill="none" stroke="{c}" stroke-width="2.1" stroke-linejoin="round">'
+           '<rect x="4.2" y="10.4" width="15.6" height="10.4" rx="2.4"/>'
+           '<path d="M8 10.4V7.6a4 4 0 018 0v2.8"/></g>')
+
 
 def badge(nome, rotulo, icone, g1, g2, fg, borda, sombra, brilho):
     """Uma pilula com quatro camadas de profundidade: sombra projetada,
@@ -94,3 +100,18 @@ badge("email",     "E-MAIL",       CARTA,    "#3c096c", "#240046", "#e0c3fc",
       borda="#7b2cbf88", sombra=("#000000", 2.4, .45), brilho=.09)
 badge("repos",     "REPOSITÓRIOS", GITHUB,   "#3c096c", "#240046", "#e0c3fc",
       borda="#7b2cbf88", sombra=("#000000", 2.4, .45), brilho=.09)
+
+
+# --- botoes de acao dos cards de projeto -----------------------------------
+# mesma linguagem das pilulas do topo, em escala menor: sao acao secundaria.
+PILL_H, FS, LS, ICON = 24.0, 9.5, 1.1, 11.5
+PAD_L, GAP, PAD_R = 10.0, 6.0, 12.0
+
+badge("btn-demo",    "VER DEMO",      SETA,    "#5a189a", "#3c096c", "#efe0ff",
+      borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)
+badge("btn-loja",    "VER A LOJA",    SETA,    "#5a189a", "#3c096c", "#efe0ff",
+      borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)
+badge("btn-codigo",  "CÓDIGO",        GITHUB,  "#5a189a", "#3c096c", "#efe0ff",
+      borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)
+badge("btn-privado", "REPO PRIVADO",  CADEADO, "#1c0733", "#140525", "#8f6bb8",
+      borda="#4a2472aa", sombra=("#000000", 1.6, .30), brilho=.05)

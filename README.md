@@ -95,7 +95,8 @@ Monorepo com quatro pacotes — `shared` (regras e design tokens), `api` (Expres
 PostgreSQL), `web` (Next.js 16) e `app` (Expo / React Native) — mantendo **paridade
 total entre app e web**. Integração de frete com Uber Direct e deploy contínuo na Render.
 
-[**› ver a loja**](https://flash-web-srgm.onrender.com) &nbsp;·&nbsp; `🔒 repo privado`
+<a href="https://flash-web-srgm.onrender.com"><img src="assets/social/btn-loja.svg" alt="Ver a loja" height="34" /></a>
+<img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
@@ -108,7 +109,7 @@ Fluxo completo: empresa cria evento e lotes → cliente compra → pagamento con
 no backend → ingresso emitido com **QR Code único** → portaria valida na entrada →
 tudo registrado para auditoria.
 
-`🔒 repositório privado`
+<img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
   </tr>
@@ -122,7 +123,8 @@ MVP de jogos interativos para o WSL SporTV: *Drop Sua Onda* (quiz que gera um pe
 de surfista) e *Jurado por Um Dia* (o usuário dá a nota e compara com a do juiz oficial).
 Cadastro configurável antes ou depois da partida, com premiação no final.
 
-[**› ver demo**](https://wsl-sportv-games.vercel.app) &nbsp;·&nbsp; `🔒 repo privado`
+<a href="https://wsl-sportv-games.vercel.app"><img src="assets/social/btn-demo.svg" alt="Ver demo" height="34" /></a>
+<img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
@@ -134,7 +136,7 @@ Plataforma de e-commerce que lidero tecnicamente: loja virtual, painel administr
 CMS integrado, checkout **MercadoPago**, automação de e-mails, dashboards com Chart.js,
 chat com IA (Groq) e logs de auditoria.
 
-[**› código**](https://github.com/ChaconLucas/rare7)
+<a href="https://github.com/ChaconLucas/rare7"><img src="assets/social/btn-codigo.svg" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -147,7 +149,7 @@ chat com IA (Groq) e logs de auditoria.
 Sistema full stack de gestão de produção fabril: planejamento inteligente de ordens,
 controle de estoque e insights de eficiência a partir dos dados de manufatura.
 
-[**› código**](https://github.com/ChaconLucas/projdata_project)
+<a href="https://github.com/ChaconLucas/projdata_project"><img src="assets/social/btn-codigo.svg" alt="Código" height="34" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -158,7 +160,7 @@ controle de estoque e insights de eficiência a partir dos dados de manufatura.
 Bot de Telegram para a torcida da FURIA (CS): próximos jogos, lineup atual, últimos
 resultados e frases da torcida — com scraping para manter os dados atualizados.
 
-[**› código**](https://github.com/ChaconLucas/furia-telegram-bot)
+<a href="https://github.com/ChaconLucas/furia-telegram-bot"><img src="assets/social/btn-codigo.svg" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -172,7 +174,7 @@ Karaokê web: busca a música no YouTube, toca o vídeo com a letra e **pontua v
 0 a 100** analisando volume e variedade de pitch captados pelo microfone em tempo real,
 com animação de suspense na revelação da nota.
 
-`🔒 repositório privado`
+<img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
@@ -183,7 +185,7 @@ com animação de suspense na revelação da nota.
 App mobile com banco local, Redux Toolkit, React Hook Form + Yup e Expo Router —
 CRUD de clientes e produtos com vínculos entre eles.
 
-[**› código**](https://github.com/ChaconLucas/react_native_target)
+<a href="https://github.com/ChaconLucas/react_native_target"><img src="assets/social/btn-codigo.svg" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -196,7 +198,7 @@ CRUD de clientes e produtos com vínculos entre eles.
 Automação de candidaturas com apoio de IA — leitura de vaga, adequação do perfil e
 geração do material de aplicação.
 
-`🔒 repositório privado`
+<img src="assets/social/btn-privado.svg" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top"></td>

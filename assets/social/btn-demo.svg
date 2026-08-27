@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="34" viewBox="0 0 111.2 34.0" role="img" aria-label="VER DEMO">
+  <title>VER DEMO</title>
+  <defs>
+    <linearGradient id="base_btn_demo" x1="0" y1="0" x2=".35" y2="1">
+      <stop offset="0" stop-color="#5a189a"/><stop offset="1" stop-color="#3c096c"/>
+    </linearGradient>
+    <linearGradient id="luz_btn_demo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="sombra_btn_demo" x="-25%" y="-40%" width="150%" height="200%">
+      <feDropShadow dx="0" dy="1.6" stdDeviation="2.0" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <g filter="url(#sombra_btn_demo)">
+    <rect x="5.0" y="5.0" width="101.2" height="24.0" rx="12.0" fill="url(#base_btn_demo)"/>
+  </g>
+  <rect x="5.6" y="5.6" width="100.0" height="12.0" rx="11.4" fill="url(#luz_btn_demo)"/>
+  <rect x="5.5" y="5.5" width="100.2" height="23.0" rx="11.5" fill="none" stroke="#9d4edd99" stroke-width="1"/>
+  <g transform="translate(15.0,11.2) scale(0.4792)"><g fill="none" stroke="#efe0ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M8.5 7H17v8.5"/></g></g>
+  <text x="32.5" y="17.0" dy=".34em" textLength="61.7" lengthAdjust="spacing"
+        font-family="Verdana,DejaVu Sans,Geneva,sans-serif" font-size="9.5" font-weight="bold"
+        letter-spacing="1.1" fill="#efe0ff">VER DEMO</text>
+</svg>
