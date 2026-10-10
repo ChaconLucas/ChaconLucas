@@ -1,6 +1,5 @@
-<p align="center">
-  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-en.svg" alt="🇺🇸 English" height="42" /></a>
-  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md"><img src="assets/social/lang-pt.svg" alt="🇧🇷 Português" height="42" /></a>
+<p align="right">
+  <sub><a href="https://github.com/ChaconLucas">English</a> · <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md">Português</a></sub>
 </p>
 
 <p align="center">
