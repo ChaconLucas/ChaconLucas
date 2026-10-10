@@ -1,5 +1,6 @@
 <p align="right">
-  <sub><a href="https://github.com/ChaconLucas">English</a> · <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md">Português</a></sub>
+  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-en-inactive.svg" alt="English" height="24" /></a>&nbsp;
+  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md"><img src="assets/social/lang-pt-active.svg" alt="Português" height="24" /></a>
 </p>
 
 <p align="center">
