@@ -55,10 +55,15 @@
   <text x="656" y="132" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" fill="#c77dff" xml:space="preserve" opacity="1">flash/       gatecheck/<animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.60s" fill="freeze"/></text>
   <text x="656" y="151" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" fill="#c77dff" xml:space="preserve" opacity="1">rare7/       wsl-games/<animate attributeName="opacity" values="0;1" dur="0.35s" begin="1.80s" fill="freeze"/></text>
   <text x="656" y="170" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" fill="#c77dff" xml:space="preserve" opacity="1">tiixoke/     aipply/<animate attributeName="opacity" values="0;1" dur="0.35s" begin="2.00s" fill="freeze"/></text>
-  <text x="656" y="205" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
-  <text x="656" y="223" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#7b2cbf">└─$ </tspan><tspan fill="#ffffff">cat focus.txt</tspan></text>
-  <text x="656" y="245" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13" fill="#e0c3fc" xml:space="preserve">products, not pages</text>
-  <g transform="translate(912.0,261.0) scale(0.5400)"><path d="M9.5 0H90.5V16.4H100V39H90.5V80H76.5V58.8H69V80H55V58.8H45V80H31V58.8H23.5V80H9.5V39H0V16.4H9.5Z" fill="#c8795a"/><path d="M17.7 19.8L30.6 26L17.7 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/><path d="M82.3 19.8L69.4 26L82.3 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/></g>
+  <rect x="649" y="178" width="224" height="23" rx="5" fill="#32104d" stroke="#7b2cbf" stroke-opacity=".55"/>
+  <circle cx="663" cy="190" r="3" fill="#c77dff">
+    <animate attributeName="opacity" values="1;.55;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="674" y="194" font-family="DejaVu Sans Mono,Menlo,Consolas,monospace" font-size="12.5" fill="#ead5ff">coworking-agents/</text>
+  <text x="656" y="225" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#7b2cbf">┌──(</tspan><tspan fill="#c77dff">lucas@kali</tspan><tspan fill="#7b2cbf">)-[</tspan><tspan fill="#e0c3fc">~</tspan><tspan fill="#7b2cbf">]</tspan></text>
+  <text x="656" y="243" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#7b2cbf">└─$ </tspan><tspan fill="#ffffff">cat focus.txt</tspan></text>
+  <text x="656" y="265" font-family="DejaVu Sans Mono,Menlo,Consolas,Liberation Mono,monospace" font-size="13" fill="#e0c3fc" xml:space="preserve">products, not pages</text>
+  <g transform="translate(912.0,261.0) scale(0.5400)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="5s" repeatCount="indefinite"/><path d="M9.5 0H90.5V16.4H100V39H90.5V80H76.5V58.8H69V80H55V58.8H45V80H31V58.8H23.5V80H9.5V39H0V16.4H9.5Z" fill="#c8795a"/><path d="M17.7 19.8L30.6 26L17.7 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/><path d="M82.3 19.8L69.4 26L82.3 32.1" fill="none" stroke="#1a0a05" stroke-width="6.5" stroke-linejoin="miter"/></g></g>
 
   <path d="M0 347h1000v16a14 14 0 01-14 14H14a14 14 0 01-14-14z" fill="#1d0438"/>
   <path d="M0 347h1000" stroke="#7b2cbf" stroke-opacity=".3"/>

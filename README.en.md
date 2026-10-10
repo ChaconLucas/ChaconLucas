@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/social/en/banner.svg?v=14" alt="Lucas Chacon — full stack developer" width="100%" />
+  <img src="assets/social/en/banner.svg?v=15" alt="Lucas Chacon — full stack developer" width="100%" />
 </p>
 
 <p align="center">
