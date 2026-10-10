@@ -83,6 +83,29 @@ de cadastro, listagem e manutenção dos dados.
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+
+### 🎮 coworking-agents
+<img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" /> `Node.js` `Pixel art` `Open source`
+
+Escritório virtual em pixel art para **Claude Code e Codex**: cada sessão vira um
+personagem em tempo real. Veja quem precisa de você e **responda aos agentes direto
+pelo escritório**, sem voltar ao terminal toda hora.
+
+Ande pelo ambiente com **WASD**, personalize o escritório e explore a sala de troféus
+com **74 conquistas** e a loja de decoração. Salas por repositório, alertas de arquivos
+em conflito, relatórios de uso, tokens e custo estimado — e um gatinho que visita
+quem está esperando você.
+
+<a href="https://github.com/ChaconLucas/coworking-agents"><img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/office-day.png" alt="Tela principal do coworking-agents: escritório pixel art com agentes de IA e salas por repositório" width="100%" /></a>
+
+**Para testar:** `npx coworking-agents`
+
+<a href="https://github.com/ChaconLucas/coworking-agents"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
+
+</td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
 
 ### ⚡ FLASH
