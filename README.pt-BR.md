@@ -98,7 +98,7 @@ personagem em tempo real. Veja quem precisa de você e **responda aos agentes di
 pelo escritório**, sem voltar ao terminal toda hora.
 
 Ande pelo ambiente com **WASD**, personalize o escritório e explore a sala de troféus
-com **74 conquistas** e a loja de decoração. Salas por repositório, alertas de arquivos
+com **86 conquistas** e a loja de decoração. Salas por repositório, alertas de arquivos
 em conflito, relatórios de uso, tokens e custo estimado — e um gatinho que visita
 quem está esperando você.
 
