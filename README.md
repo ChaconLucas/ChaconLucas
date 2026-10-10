@@ -1,4 +1,9 @@
 <p align="center">
+  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-pt.svg" alt="🇧🇷 Português" height="42" /></a>
+  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.en.md"><img src="assets/social/lang-en.svg" alt="🇺🇸 English" height="42" /></a>
+</p>
+
+<p align="center">
   <img src="assets/social/banner.svg?v=14" alt="Lucas Chacon — full stack developer" width="100%" />
 </p>
 
