@@ -98,7 +98,7 @@ character in real time. See who needs you and **reply to agents directly from
 the office**, without constantly switching back to the terminal.
 
 Walk around with **WASD**, customize your office and explore the trophy room
-with **74 achievements** and the decoration shop. Rooms grouped by repository,
+with **86 achievements** and the decoration shop. Rooms grouped by repository,
 file conflict alerts, usage, token and estimated cost reports — and a cat that
 visits agents waiting for you.
 
