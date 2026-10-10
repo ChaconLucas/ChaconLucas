@@ -104,6 +104,20 @@ quem está esperando você.
 
 <a href="https://github.com/ChaconLucas/coworking-agents"><img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/office-day.png" alt="Tela principal do coworking-agents: escritório pixel art com agentes de IA e salas por repositório" width="100%" /></a>
 
+<details>
+<summary><b>▶ Ver o escritório em ação</b></summary>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/tour.webp" alt="Demonstração animada do coworking-agents: escritório, painel do agente, conversa, relatórios e salas" width="100%" />
+
+Escritório → painel do agente → conversa → relatório de uso → sala de servidores → terraço.
+
+<a href="https://portfolio-delta-five-78.vercel.app/demos/coworking/index.html?lang=pt"><b>▶ Experimentar a demonstração interativa</b></a>
+
+</details>
+
+
 **Para testar:** `npx coworking-agents`
 
 <a href="https://github.com/ChaconLucas/coworking-agents"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>

@@ -104,6 +104,20 @@ visits agents waiting for you.
 
 <a href="https://github.com/ChaconLucas/coworking-agents"><img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/office-day.png" alt="coworking-agents main screen: pixel-art office with AI agents and rooms grouped by repository" width="100%" /></a>
 
+<details>
+<summary><b>▶ Watch the office in action</b></summary>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/tour.webp" alt="Animated coworking-agents tour: office, agent panel, conversation, reports and rooms" width="100%" />
+
+Office → agent panel → conversation → usage report → server room → rooftop.
+
+<a href="https://portfolio-delta-five-78.vercel.app/demos/coworking/index.html?lang=en"><b>▶ Try the interactive demo</b></a>
+
+</details>
+
+
 **Try it:** `npx coworking-agents`
 
 <a href="https://github.com/ChaconLucas/coworking-agents"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
