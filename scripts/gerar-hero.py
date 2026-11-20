@@ -148,13 +148,13 @@ PROMPT1 = [("┌──(", COR["prompt"]), ("lucas@kali", COR["user"]), (")-[", C
 def prompt2(cmd):
     return [("└─$ ", COR["prompt"]), (cmd, COR["cmd"])]
 
-INFO = [("stack", "react · next · fastapi · php · postgres · redis"),
+INFO = [("stack", "typescript · next · nestjs · prisma · postgres · expo"),
         ("formação", "análise e desenvolvimento de sistemas · unisuam"),
         ("segurança", "pós-graduando · pentest · kali linux"),
         ("local", "Rio de Janeiro, BR · remoto ou híbrido")]
 
 FRASES = ["full stack developer, do banco de dados ao deploy",
-          "construindo plataformas de ponta a ponta",
+          "líder técnico da Tiix 2.0",
           "produtos, não páginas"]
 CICLO = 12.6
 

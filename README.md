@@ -1,25 +1,52 @@
 <p align="right">
-  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-en-active.svg" alt="English" height="24" /></a>&nbsp;
-  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md"><img src="assets/social/lang-pt-inactive.svg" alt="Português" height="24" /></a>
+  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.en.md"><img src="assets/social/lang-en-inactive.svg" alt="English" height="24" /></a>&nbsp;
+  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-pt-active.svg" alt="Português" height="24" /></a>
 </p>
 
 <p align="center">
-  <img src="assets/social/en/banner.svg?v=15" alt="Lucas Chacon — full stack developer" width="100%" />
+  <img src="assets/social/banner.svg?v=16" alt="Lucas Chacon — full stack developer · líder técnico da Tiix 2.0" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/social/en/portfolio.svg?v=14" alt="Portfolio" height="42" /></a>
+  <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/social/portfolio.svg?v=14" alt="Portfólio" height="42" /></a>
   <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="assets/social/linkedin.svg?v=14" alt="LinkedIn" height="42" /></a>
-  <a href="mailto:lucaschacon79@gmail.com"><img src="assets/social/email.svg?v=14" alt="E-mail" height="42" /></a>
-  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/social/en/repos.svg?v=14" alt="Repositories" height="42" /></a>
+  <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/social/repos.svg?v=14" alt="Repositórios" height="42" /></a>
 </p>
 
 <img src="assets/social/titulos/whoami.svg?v=14" alt="&gt;_ whoami" width="100%" />
 
 
 <p align="center">
-  <img src="assets/social/en/whoami-info.svg" alt="education: Systems Analysis and Development — UNISUAM; postgraduate studies: Cybersecurity (Pentest · Kali Linux); role: Full Stack — from database to deployment; focus: products, not pages" width="100%" />
+  <img src="assets/social/whoami-info.svg?v=16" alt="cargo: Líder técnico — Tiix 2.0; atuação: Full Stack — do banco de dados ao deploy; formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); foco: produtos, não páginas" width="100%" />
 </p>
+
+<br>
+
+<img src="assets/social/titulos/tiix.svg" alt="&gt;_ tiix 2.0" width="100%" />
+
+
+<p align="center">
+  <img src="assets/social/tiix.svg" alt="Tiix 2.0 em números: mais de 1.600 PRs, 260 tabelas, 450 migrations, 2 apps e zero downtime no deploy. Web em Next.js; API em NestJS, Prisma e PostgreSQL; apps Tiix e Tiix Pro em Expo / React Native, no TestFlight e indo para as lojas; CI e deploy próprios numa VPS" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://tiix.com.br"><img src="assets/social/btn-tiix.svg" alt="tiix.com.br" height="34" /></a>
+  <a href="https://tiixpro.com.br"><img src="assets/social/btn-tiixpro.svg" alt="tiixpro.com.br" height="34" /></a>
+</p>
+
+<details>
+<summary><code>&gt;_ ver a arquitetura</code></summary>
+
+```mermaid
+%%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
+flowchart LR
+  W[web<br/>Next.js] --> A[api<br/>NestJS + Prisma]
+  T[app Tiix<br/>Expo] --> A
+  P[app Tiix Pro<br/>Expo] --> A
+  A --> D[(PostgreSQL)]
+```
+
+</details>
 
 <br>
 
@@ -27,11 +54,33 @@
 
 
 <p align="center">
+  <img src="assets/social/titulos/rotulo-stack-atual.svg" alt="no dia a dia" height="26" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-2a0a4d?style=for-the-badge&logo=typescript&logoColor=d9b8ff" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-2a0a4d?style=for-the-badge&logo=nextdotjs&logoColor=d9b8ff" alt="Next.js" />
+  <img src="https://img.shields.io/badge/NestJS-2a0a4d?style=for-the-badge&logo=nestjs&logoColor=d9b8ff" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Prisma-2a0a4d?style=for-the-badge&logo=prisma&logoColor=d9b8ff" alt="Prisma" />
+  <img src="https://img.shields.io/badge/PostgreSQL-2a0a4d?style=for-the-badge&logo=postgresql&logoColor=d9b8ff" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-2a0a4d?style=for-the-badge&logo=redis&logoColor=d9b8ff" alt="Redis" />
+  <img src="https://img.shields.io/badge/Expo%20%2F%20React%20Native-2a0a4d?style=for-the-badge&logo=expo&logoColor=d9b8ff" alt="Expo / React Native" />
+  <img src="https://img.shields.io/badge/Docker-2a0a4d?style=for-the-badge&logo=docker&logoColor=d9b8ff" alt="Docker" />
+  <img src="https://img.shields.io/badge/Caddy-2a0a4d?style=for-the-badge&logo=caddy&logoColor=d9b8ff" alt="Caddy" />
+  <img src="https://img.shields.io/badge/Cloudflare%20R2-2a0a4d?style=for-the-badge&logo=cloudflare&logoColor=d9b8ff" alt="Cloudflare R2" />
+  <img src="https://img.shields.io/badge/Claude%20Code%20%C2%B7%20multiagentes-2a0a4d?style=for-the-badge&logo=claude&logoColor=d9b8ff" alt="Claude Code · multiagentes" />
+</p>
+
+<p align="center">
+  <img src="assets/social/titulos/rotulo-tambem.svg" alt="também já trabalhei com" height="26" />
+</p>
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,nodejs,express,fastapi,mysql,postgres,kali&theme=dark&perline=16" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Node.js, Express, FastAPI, MySQL, PostgreSQL, Kali Linux" />
 </p>
 
 <p align="center">
-  <img src="assets/social/en/titulos/rotulo-ferramentas.svg" alt="libraries and tools" height="26" />
+  <img src="assets/social/titulos/rotulo-ferramentas.svg" alt="bibliotecas e ferramentas" height="26" />
 </p>
 
 <p align="center">
@@ -39,17 +88,17 @@
 </p>
 
 <details>
-<summary><code>>_ view the complete stack by layer</code></summary>
+<summary><code>>_ ver a lista completa por camada</code></summary>
 
 <br>
 
-<img src="assets/social/en/camadas.svg?v=14" alt="front-end: React, Next.js, TypeScript, React Native, Vite, Tailwind, Bootstrap, jQuery; state: Redux Toolkit, React Hook Form, Zod, Yup; back-end: PHP 8, Node.js, Express, Python, FastAPI; data: MySQL, PostgreSQL, MariaDB, SQLite, Redis, SQLAlchemy, Drizzle, Alembic; testing: Vitest, Playwright, Pytest; security: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrations: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infrastructure: Git, monorepo, Render, Vercel, GitHub Actions" width="100%" />
+<img src="assets/social/camadas.svg?v=16" alt="front-end: React, Next.js, TypeScript, React Native (Expo), Vite, Tailwind, Bootstrap, jQuery; estado: Redux Toolkit, React Hook Form, Zod, Yup; back-end: NestJS, Node.js, Express, PHP 8, Python, FastAPI; dados: PostgreSQL, Prisma, Redis, MySQL, MariaDB, SQLite, SQLAlchemy, Drizzle; testes: Vitest, Playwright, Pytest; segurança: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrações: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infra: Docker, Caddy, VPS com CI e deploy próprios, Cloudflare R2, Render, Vercel; ia: Claude Code (multiagentes)" width="100%" />
 
 </details>
 
 <br>
 
-<img src="assets/social/en/titulos/experiencia.svg?v=14" alt="&gt;_ experience" width="100%" />
+<img src="assets/social/titulos/experiencia.svg?v=14" alt="&gt;_ experiência" width="100%" />
 
 
 <table>
@@ -57,25 +106,27 @@
     <td width="50%" valign="top">
 
 ### TIIX
-**Full Stack Developer** &nbsp;·&nbsp; `2026 — present`
+**Líder técnico — Tiix 2.0** &nbsp;·&nbsp; `2026 — atual`
 
-<img src="assets/social/chips/php.svg?v=14" alt="PHP" height="28" /> <img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" /> <img src="assets/social/chips/jquery.svg?v=14" alt="jQuery" height="28" /> <img src="assets/social/chips/mysql.svg?v=14" alt="MySQL" height="28" /> <img src="assets/social/chips/bootstrap.svg?v=14" alt="Bootstrap" height="28" />
+<img src="assets/social/chips/typescript.svg?v=16" alt="TypeScript" height="28" /> <img src="assets/social/chips/next-js.svg?v=16" alt="Next.js" height="28" /> <img src="assets/social/chips/nestjs.svg?v=16" alt="NestJS" height="28" /> <img src="assets/social/chips/prisma.svg?v=16" alt="Prisma" height="28" /> <img src="assets/social/chips/postgresql.svg?v=16" alt="PostgreSQL" height="28" /> <img src="assets/social/chips/expo.svg?v=16" alt="Expo" height="28" />
 
-End-to-end development: **SQL queries and stored procedures**, **REST/JSON APIs**
-and the interfaces that consume them — tables, filters, forms and charts built
-with Bootstrap + jQuery. Also **OAuth 2.0 integrations** with external APIs,
-**webhooks** and scheduled **cron** jobs.
+Lidero a parte técnica da **Tiix 2.0**, o ecossistema de saúde da empresa
+reconstruído do zero: monorepo com web, API e **dois apps**, CI e deploy
+próprios numa VPS, com **zero downtime**.
+
+Antes, no sistema legado: consultas e procedures em SQL, APIs REST/JSON,
+integrações OAuth 2.0, webhooks e rotinas em cron, com PHP, jQuery e MySQL.
 
 </td>
 <td width="50%" valign="top">
 
 ### D&Z
-**Full Stack Developer** &nbsp;·&nbsp; `Nov 2025 — Apr 2026`
+**Desenvolvedor Full Stack** &nbsp;·&nbsp; `nov/2025 — abr/2026`
 
 <img src="assets/social/chips/php.svg?v=14" alt="PHP" height="28" /> <img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" /> <img src="assets/social/chips/mysql.svg?v=14" alt="MySQL" height="28" />
 
-PHP admin dashboards for an internal management system, with interfaces
-for creating, listing and maintaining records.
+Painéis administrativos em PHP — sistema interno de gestão, com as telas
+de cadastro, listagem e manutenção dos dados.
 
 </td>
   </tr>
@@ -83,7 +134,7 @@ for creating, listing and maintaining records.
 
 <br>
 
-<img src="assets/social/en/titulos/projetos.svg?v=14" alt="&gt;_ featured projects" width="100%" />
+<img src="assets/social/titulos/pessoais.svg" alt="&gt;_ projetos pessoais" width="100%" />
 
 
 <table>
@@ -93,56 +144,112 @@ for creating, listing and maintaining records.
 ### 🎮 coworking-agents
 <img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" /> `Node.js` `Pixel art` `Open source`
 
-A pixel-art virtual office for **Claude Code and Codex**: each session becomes a
-character in real time. See who needs you and **reply to agents directly from
-the office**, without constantly switching back to the terminal.
+Escritório virtual em pixel art para **Claude Code e Codex**: cada sessão vira um
+personagem em tempo real. Veja quem precisa de você e **responda aos agentes direto
+pelo escritório**, sem voltar ao terminal toda hora.
 
-Walk around with **WASD**, customize your office and explore the trophy room
-with **74 achievements** and the decoration shop. Rooms grouped by repository,
-file conflict alerts, usage, token and estimated cost reports — and a cat that
-visits agents waiting for you.
+Ande pelo ambiente com **WASD**, personalize o escritório e explore a sala de troféus
+com **74 conquistas** e a loja de decoração. Salas por repositório, alertas de arquivos
+em conflito, relatórios de uso, tokens e custo estimado — e um gatinho que visita
+quem está esperando você.
 
-<a href="https://github.com/ChaconLucas/coworking-agents"><img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/office-day.png" alt="coworking-agents main screen: pixel-art office with AI agents and rooms grouped by repository" width="100%" /></a>
+<a href="https://github.com/ChaconLucas/coworking-agents"><img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/office-day.png" alt="Tela principal do coworking-agents: escritório pixel art com agentes de IA e salas por repositório" width="100%" /></a>
 
 <details>
-<summary><b>▶ Watch the office in action</b></summary>
+<summary><b>▶ Ver o escritório em ação</b></summary>
 
 <br>
 
-<img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/tour.webp" alt="Animated coworking-agents tour: office, agent panel, conversation, reports and rooms" width="100%" />
+<img src="https://raw.githubusercontent.com/ChaconLucas/coworking-agents/main/docs/tour.webp" alt="Demonstração animada do coworking-agents: escritório, painel do agente, conversa, relatórios e salas" width="100%" />
 
-Office → agent panel → conversation → usage report → server room → rooftop.
+Escritório → painel do agente → conversa → relatório de uso → sala de servidores → terraço.
 
-<a href="https://portfolio-delta-five-78.vercel.app/demos/coworking/index.html?lang=en"><b>▶ Try the interactive demo</b></a>
+<a href="https://portfolio-delta-five-78.vercel.app/demos/coworking/index.html?lang=pt"><b>▶ Experimentar a demonstração interativa</b></a>
 
 </details>
 
 
-**Try it:** `npx coworking-agents`
+**Para testar:** `npx coworking-agents`
 
-<a href="https://github.com/ChaconLucas/coworking-agents"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
+<a href="https://github.com/ChaconLucas/coworking-agents"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
 
+### 📟 TokenBar
+<img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" /> <img src="assets/social/chips/kotlin.svg?v=16" alt="Kotlin" height="28" /> <img src="assets/social/chips/rust.svg?v=16" alt="Rust" height="28" />
+
+O uso de IA de **7 plataformas** na barra de menus do Mac — e também num
+display de LED, no iPhone, no Android e no Apple Watch.
+
+**Para instalar:** `brew install --cask chaconlucas/tokenbar/tokenbar`
+
+<a href="https://github.com/ChaconLucas/tokenbar"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### ⌚ WatchOps
+<img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" /> <img src="assets/social/chips/swiftui.svg?v=16" alt="SwiftUI" height="28" /> <img src="assets/social/chips/typescript.svg?v=16" alt="TypeScript" height="28" />
+
+Controle do Mac **pelo iPhone e pelo Apple Watch**, com um assistente de
+IA que roda no próprio Mac.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 💡 Luz de Casa
+<img src="assets/social/chips/node-js.svg?v=16" alt="Node.js" height="28" /> <img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" />
+
+Controla as lâmpadas **CozyLife pela rede local**, sem nuvem, direto da
+barra de menus do Mac.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🏋️ BasalFit
+<img src="assets/social/chips/next-js.svg?v=16" alt="Next.js" height="28" /> <img src="assets/social/chips/nestjs.svg?v=16" alt="NestJS" height="28" /> <img src="assets/social/chips/prisma.svg?v=16" alt="Prisma" height="28" /> <img src="assets/social/chips/expo.svg?v=16" alt="Expo" height="28" />
+
+App de saúde para quem treina, com o visual em **Liquid Glass**.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+  </tr>
+</table>
+
+<br>
+
+<img src="assets/social/titulos/outros.svg" alt="&gt;_ outros projetos" width="100%" />
+
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
 ### ⚡ FLASH
 <img src="assets/social/chips/typescript.svg?v=14" alt="TypeScript" height="28" /> <img src="assets/social/chips/next-js-16.svg?v=14" alt="Next.js 16" height="28" /> <img src="assets/social/chips/expo.svg?v=14" alt="Expo" height="28" /> <img src="assets/social/chips/express.svg?v=14" alt="Express" height="28" /> <img src="assets/social/chips/postgresql.svg?v=14" alt="PostgreSQL" height="28" />
 
-A marketplace for tattoo and body piercing supplies with fast motorcycle delivery.
-A monorepo with four packages — `shared` (business rules and design tokens), `api`
-(Express + PostgreSQL), `web` (Next.js 16) and `app` (Expo / React Native) — with
-**full feature parity between mobile and web**. Uber Direct delivery integration
-and continuous deployment on Render.
+Marketplace de materiais para tatuagem e body piercing com entrega rápida por motoboy.
+Monorepo com quatro pacotes — `shared` (regras e design tokens), `api` (Express +
+PostgreSQL), `web` (Next.js 16) e `app` (Expo / React Native) — mantendo **paridade
+total entre app e web**. Integração de frete com Uber Direct e deploy contínuo na Render.
 
 <details>
-<summary><code>&gt;_ view the monorepo</code></summary>
+<summary><code>&gt;_ ver o monorepo</code></summary>
 
 ```mermaid
 %%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
 flowchart LR
-  S[shared<br/>business rules and design tokens] --> A[api<br/>Express + PostgreSQL]
+  S[shared<br/>regras e design tokens] --> A[api<br/>Express + PostgreSQL]
   S --> W[web<br/>Next.js 16]
   S --> P[app<br/>Expo / React Native]
   A --> W
@@ -151,8 +258,8 @@ flowchart LR
 
 </details>
 
-<a href="https://flash-web-srgm.onrender.com"><img src="assets/social/en/btn-loja.svg?v=14" alt="Visit store" height="34" /></a>
-<img src="assets/social/en/btn-privado.svg?v=14" alt="Private repository" height="34" />
+<a href="https://flash-web-srgm.onrender.com"><img src="assets/social/btn-loja.svg?v=14" alt="Ver a loja" height="34" /></a>
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
@@ -160,27 +267,27 @@ flowchart LR
 ### 🎟️ GateCheck
 <img src="assets/social/chips/python.svg?v=14" alt="Python" height="28" /> <img src="assets/social/chips/fastapi.svg?v=14" alt="FastAPI" height="28" /> <img src="assets/social/chips/typescript.svg?v=14" alt="TypeScript" height="28" /> <img src="assets/social/chips/react.svg?v=14" alt="React" height="28" />
 
-Ticket sales and admission management for nightclubs and events.
-Complete workflow: organizer creates an event and ticket batches → customer buys →
-backend confirms payment → ticket issued with a **unique QR code** → admission
-validated at the door → every step logged for auditing.
+Plataforma de venda de ingressos e controle de entrada para boates e eventos.
+Fluxo completo: empresa cria evento e lotes → cliente compra → pagamento confirmado
+no backend → ingresso emitido com **QR Code único** → portaria valida na entrada →
+tudo registrado para auditoria.
 
 <details>
-<summary><code>&gt;_ view the workflow</code></summary>
+<summary><code>&gt;_ ver o fluxo</code></summary>
 
 ```mermaid
 %%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
 flowchart TD
-  A[organizer creates event and ticket batches] --> B[customer buys]
-  B --> C{payment confirmed by backend}
-  C -->|approved| D[ticket issued with unique QR code]
-  D --> E[admission validated at the door]
-  E --> F[(all steps logged for auditing)]
+  A[empresa cria evento e lotes] --> B[cliente compra]
+  B --> C{pagamento confirmado no backend}
+  C -->|aprovado| D[ingresso emitido com QR Code único]
+  D --> E[portaria valida na entrada]
+  E --> F[(tudo registrado para auditoria)]
 ```
 
 </details>
 
-<img src="assets/social/en/btn-privado.svg?v=14" alt="Private repository" height="34" />
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
 
 </td>
   </tr>
@@ -190,25 +297,24 @@ flowchart TD
 ### 🏄 WSL SporTV Games
 <img src="assets/social/chips/fastapi.svg?v=14" alt="FastAPI" height="28" /> <img src="assets/social/chips/react-18.svg?v=14" alt="React 18" height="28" /> <img src="assets/social/chips/typescript.svg?v=14" alt="TypeScript" height="28" />
 
-An interactive games MVP for WSL SporTV: *Drop Sua Onda* (a quiz that generates a
-surfer profile) and *Jurado por Um Dia* (players give a score and compare it with the
-official judge's). Configurable registration before or after playing, with prizes
-at the end.
+MVP de jogos interativos para o WSL SporTV: *Drop Sua Onda* (quiz que gera um perfil
+de surfista) e *Jurado por Um Dia* (o usuário dá a nota e compara com a do juiz oficial).
+Cadastro configurável antes ou depois da partida, com premiação no final.
 
-<a href="https://wsl-sportv-games.vercel.app"><img src="assets/social/en/btn-demo.svg?v=14" alt="View demo" height="34" /></a>
-<img src="assets/social/en/btn-privado.svg?v=14" alt="Private repository" height="34" />
+<a href="https://wsl-sportv-games.vercel.app"><img src="assets/social/btn-demo.svg?v=14" alt="Ver demo" height="34" /></a>
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
 
-### 🛍️ Rare7 — Complete e-commerce
+### 🛍️ Rare7 — E-commerce completo
 <img src="assets/social/chips/php-8.svg?v=14" alt="PHP 8" height="28" /> <img src="assets/social/chips/mysql.svg?v=14" alt="MySQL" height="28" /> <img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" />
 
-An e-commerce platform where I lead technical development: storefront, admin dashboard,
-integrated CMS, **MercadoPago** checkout, automated emails, Chart.js dashboards,
-AI chat (Groq) and audit logs.
+Plataforma de e-commerce que lidero tecnicamente: loja virtual, painel administrativo,
+CMS integrado, checkout **MercadoPago**, automação de e-mails, dashboards com Chart.js,
+chat com IA (Groq) e logs de auditoria.
 
-<a href="https://github.com/ChaconLucas/rare7"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
+<a href="https://github.com/ChaconLucas/rare7"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -218,21 +324,21 @@ AI chat (Groq) and audit logs.
 ### 🏭 Factory Production Management
 <img src="assets/social/chips/fastapi.svg?v=14" alt="FastAPI" height="28" /> <img src="assets/social/chips/react.svg?v=14" alt="React" height="28" /> <img src="assets/social/chips/sqlalchemy.svg?v=14" alt="SQLAlchemy" height="28" />
 
-A full-stack factory production management system: intelligent production order
-planning, inventory control and efficiency insights from manufacturing data.
+Sistema full stack de gestão de produção fabril: planejamento inteligente de ordens,
+controle de estoque e insights de eficiência a partir dos dados de manufatura.
 
-<a href="https://github.com/ChaconLucas/projdata_project"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
+<a href="https://github.com/ChaconLucas/projdata_project"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 FURIA Bot
+### 🤖 Bot da FURIA
 <img src="assets/social/chips/python.svg?v=14" alt="Python" height="28" /> <img src="assets/social/chips/telegram-api.svg?v=14" alt="Telegram API" height="28" /> <img src="assets/social/chips/beautifulsoup.svg?v=14" alt="BeautifulSoup" height="28" />
 
-A Telegram bot for FURIA's Counter-Strike fans: upcoming matches, current roster,
-latest results and fan chants — with scraping to keep the data up to date.
+Bot de Telegram para a torcida da FURIA (CS): próximos jogos, lineup atual, últimos
+resultados e frases da torcida — com scraping para manter os dados atualizados.
 
-<a href="https://github.com/ChaconLucas/furia-telegram-bot"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
+<a href="https://github.com/ChaconLucas/furia-telegram-bot"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -242,22 +348,22 @@ latest results and fan chants — with scraping to keep the data up to date.
 ### 🎤 Tiixokê
 <img src="assets/social/chips/react.svg?v=14" alt="React" height="28" /> <img src="assets/social/chips/vite.svg?v=14" alt="Vite" height="28" /> <img src="assets/social/chips/express.svg?v=14" alt="Express" height="28" /> <img src="assets/social/chips/web-audio-api.svg?v=14" alt="Web Audio API" height="28" />
 
-Web karaoke: finds songs on YouTube, plays the video with lyrics and **scores you
-from 0 to 100** by analyzing microphone volume and pitch variation in real time,
-with a suspense animation before revealing the score.
+Karaokê web: busca a música no YouTube, toca o vídeo com a letra e **pontua você de
+0 a 100** analisando volume e variedade de pitch captados pelo microfone em tempo real,
+com animação de suspense na revelação da nota.
 
-<img src="assets/social/en/btn-privado.svg?v=14" alt="Private repository" height="34" />
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
 
-### 📱 Customer and Product Management
+### 📱 Gestão de Clientes e Produtos
 <img src="assets/social/chips/react-native.svg?v=14" alt="React Native" height="28" /> <img src="assets/social/chips/expo.svg?v=14" alt="Expo" height="28" /> <img src="assets/social/chips/sqlite.svg?v=14" alt="SQLite" height="28" /> <img src="assets/social/chips/drizzle.svg?v=14" alt="Drizzle" height="28" />
 
-A mobile app with a local database, Redux Toolkit, React Hook Form + Yup and
-Expo Router — customer and product CRUD with relationships between them.
+App mobile com banco local, Redux Toolkit, React Hook Form + Yup e Expo Router —
+CRUD de clientes e produtos com vínculos entre eles.
 
-<a href="https://github.com/ChaconLucas/react_native_target"><img src="assets/social/en/btn-codigo.svg?v=14" alt="Code" height="34" /></a>
+<a href="https://github.com/ChaconLucas/react_native_target"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -267,22 +373,20 @@ Expo Router — customer and product CRUD with relationships between them.
 ### 🧠 AIpply
 `JavaScript` `Python`
 
-AI-assisted job application automation — reading job descriptions, tailoring the
-profile and generating application materials.
+Automação de candidaturas com apoio de IA — leitura de vaga, adequação do perfil e
+geração do material de aplicação.
 
-<img src="assets/social/en/btn-privado.svg?v=14" alt="Private repository" height="34" />
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
 
 </td>
 <td width="50%" valign="top">
 
-### ⌚ Wearable Integrations
-<img src="assets/social/chips/php.svg?v=14" alt="PHP" height="28" /> <img src="assets/social/chips/oauth-2-0.svg?v=14" alt="OAuth 2.0" height="28" /> <img src="assets/social/chips/rest.svg?v=14" alt="REST" height="28" />
+### 🧮 Desafio Target
+<img src="assets/social/chips/c.svg?v=16" alt="C#" height="28" /> <img src="assets/social/chips/net-8.svg?v=16" alt=".NET 8" height="28" />
 
-Integration with multiple wearable platforms and health APIs: authorization flows,
-token exchange and refresh, callbacks and provider-specific sessions,
-with a dashboard for each provider's data.
+Comissões, estoque e juros em C# / .NET 8, com interface web, API e testes.
 
-`🏢 work at TIIX`
+<a href="https://github.com/ChaconLucas/DesafioTarget"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -290,33 +394,44 @@ with a dashboard for each provider's data.
 
 <br>
 
-<img src="assets/social/en/titulos/contribuicoes.svg?v=14" alt="&gt;_ contributions" width="100%" />
+<img src="assets/social/titulos/contribuicoes.svg?v=14" alt="&gt;_ contribuições" width="100%" />
+
+<p align="center">
+  <img src="assets/social/titulos/rotulo-contribuicoes.svg" alt="cerca de 18.900 contribuições no último ano, a maioria em repositórios privados da empresa" height="26" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=191526&amp;border=3D2B5C&amp;stroke=3D2B5C&amp;ring=9D4EDD&amp;fire=C77DFF&amp;currStreakLabel=C77DFF&amp;sideLabels=E6EDF3&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;dates=8B7AA8&amp;border_radius=14" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=FBF7FF&amp;border=E0C3FC&amp;stroke=E0C3FC&amp;ring=7B2CBF&amp;fire=9D4EDD&amp;currStreakLabel=7B2CBF&amp;sideLabels=2A0A4D&amp;currStreakNum=1A0033&amp;sideNums=1A0033&amp;dates=6B3FA0&amp;border_radius=14" />
+    <img alt="contribuições no GitHub, contando as privadas: total, sequência atual e maior sequência" src="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=191526&amp;border=3D2B5C&amp;stroke=3D2B5C&amp;ring=9D4EDD&amp;fire=C77DFF&amp;currStreakLabel=C77DFF&amp;sideLabels=E6EDF3&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;dates=8B7AA8&amp;border_radius=14" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake.svg" />
-    <img alt="the snake eating my GitHub contributions" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="a cobrinha comendo minhas contribuições do GitHub" src="https://raw.githubusercontent.com/ChaconLucas/ChaconLucas/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </p>
 
 <br>
 
-<img src="assets/social/en/titulos/contato.svg?v=14" alt="&gt;_ contact" width="100%" />
+<img src="assets/social/titulos/contato.svg?v=14" alt="&gt;_ contato" width="100%" />
 
 
 ```bash
-$ ./contact.sh
+$ ./contato.sh
 [+] portfolio .. portfolio-delta-five-78.vercel.app
 [+] linkedin ... linkedin.com/in/lucas-chacon-129414a7
-[+] email ..... lucaschacon79@gmail.com
-[+] location ... Rio de Janeiro — BR (remote or hybrid)
+[+] local ...... Rio de Janeiro — BR (remoto ou híbrido)
 ```
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=7b2cbf&style=flat-square&label=profile+views" />
+  <img src="https://komarev.com/ghpvc/?username=ChaconLucas&color=7b2cbf&style=flat-square&label=visitas+no+perfil" />
 </p>
 
 <p align="center">
-  <img src="assets/social/en/rodape.svg?v=14" alt="security is a process, not a product" width="100%" />
+  <img src="assets/social/rodape.svg?v=14" alt="a segurança é um processo, não um produto" width="100%" />
 </p>

@@ -116,3 +116,9 @@ badge("btn-codigo",  "CÓDIGO",        GITHUB,  "#5a189a", "#3c096c", "#efe0ff",
       borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)
 badge("btn-privado", "REPO PRIVADO",  CADEADO, "#1c0733", "#140525", "#8f6bb8",
       borda="#4a2472aa", sombra=("#000000", 1.6, .30), brilho=.05)
+
+# sites da Tiix 2.0: o mesmo texto serve aos dois idiomas
+badge("btn-tiix",    "TIIX.COM.BR",    SETA,   "#5a189a", "#3c096c", "#efe0ff",
+      borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)
+badge("btn-tiixpro", "TIIXPRO.COM.BR", SETA,   "#5a189a", "#3c096c", "#efe0ff",
+      borda="#9d4edd99", sombra=("#000000", 2.0, .42), brilho=.10)

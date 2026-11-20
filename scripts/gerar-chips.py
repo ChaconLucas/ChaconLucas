@@ -39,6 +39,9 @@ tecs = []
 for linha in readme.split("\n"):
     if re.fullmatch(r"(`[^`]+`\s*)+", linha.strip()) and linha.strip():
         tecs += re.findall(r"`([^`]+)`", linha)
+# cards que ja usam <img> de pilula (nao tem mais linha so de code spans)
+tecs += ["Next.js", "NestJS", "Prisma", "Swift", "SwiftUI", "Kotlin", "Rust", "Node.js",
+         "Claude Code", "Liquid Glass", "C#", ".NET 8"]
 tecs = sorted(set(tecs))
 for t in tecs:
     open(os.path.join(OUT, slug(t) + ".svg"), "w", encoding="utf-8").write(chip(t))

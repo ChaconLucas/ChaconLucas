@@ -1,16 +1,15 @@
 <p align="right">
-  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-en-inactive.svg" alt="English" height="24" /></a>&nbsp;
-  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.pt-BR.md"><img src="assets/social/lang-pt-active.svg" alt="Português" height="24" /></a>
+  <a href="https://github.com/ChaconLucas/ChaconLucas/blob/main/README.en.md"><img src="assets/social/lang-en-inactive.svg" alt="English" height="24" /></a>&nbsp;
+  <a href="https://github.com/ChaconLucas"><img src="assets/social/lang-pt-active.svg" alt="Português" height="24" /></a>
 </p>
 
 <p align="center">
-  <img src="assets/social/banner.svg?v=15" alt="Lucas Chacon — full stack developer" width="100%" />
+  <img src="assets/social/banner.svg?v=16" alt="Lucas Chacon — full stack developer · líder técnico da Tiix 2.0" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://portfolio-delta-five-78.vercel.app"><img src="assets/social/portfolio.svg?v=14" alt="Portfólio" height="42" /></a>
   <a href="https://linkedin.com/in/lucas-chacon-129414a7"><img src="assets/social/linkedin.svg?v=14" alt="LinkedIn" height="42" /></a>
-  <a href="mailto:lucaschacon79@gmail.com"><img src="assets/social/email.svg?v=14" alt="E-mail" height="42" /></a>
   <a href="https://github.com/ChaconLucas?tab=repositories"><img src="assets/social/repos.svg?v=14" alt="Repositórios" height="42" /></a>
 </p>
 
@@ -18,13 +17,63 @@
 
 
 <p align="center">
-  <img src="assets/social/whoami-info.svg" alt="formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); atuação: Full Stack — do banco de dados ao deploy; foco: produtos, não páginas" width="100%" />
+  <img src="assets/social/whoami-info.svg?v=16" alt="cargo: Líder técnico — Tiix 2.0; atuação: Full Stack — do banco de dados ao deploy; formação: Análise e Desenvolvimento de Sistemas — UNISUAM; pós: Cibersegurança (Pentest · Kali Linux); foco: produtos, não páginas" width="100%" />
 </p>
+
+<br>
+
+<img src="assets/social/titulos/tiix.svg" alt="&gt;_ tiix 2.0" width="100%" />
+
+
+<p align="center">
+  <img src="assets/social/tiix.svg" alt="Tiix 2.0 em números: mais de 1.600 PRs, 260 tabelas, 450 migrations, 2 apps e zero downtime no deploy. Web em Next.js; API em NestJS, Prisma e PostgreSQL; apps Tiix e Tiix Pro em Expo / React Native, no TestFlight e indo para as lojas; CI e deploy próprios numa VPS" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://tiix.com.br"><img src="assets/social/btn-tiix.svg" alt="tiix.com.br" height="34" /></a>
+  <a href="https://tiixpro.com.br"><img src="assets/social/btn-tiixpro.svg" alt="tiixpro.com.br" height="34" /></a>
+</p>
+
+<details>
+<summary><code>&gt;_ ver a arquitetura</code></summary>
+
+```mermaid
+%%{init:{'theme':'base','themeVariables':{'primaryColor':'#2a0a4d','primaryTextColor':'#e0c3fc','primaryBorderColor':'#7b2cbf','lineColor':'#9d4edd','secondaryColor':'#3c096c','tertiaryColor':'#1a0033','fontFamily':'monospace'}}}%%
+flowchart LR
+  W[web<br/>Next.js] --> A[api<br/>NestJS + Prisma]
+  T[app Tiix<br/>Expo] --> A
+  P[app Tiix Pro<br/>Expo] --> A
+  A --> D[(PostgreSQL)]
+```
+
+</details>
 
 <br>
 
 <img src="assets/social/titulos/stack.svg?v=14" alt="&gt;_ stack" width="100%" />
 
+
+<p align="center">
+  <img src="assets/social/titulos/rotulo-stack-atual.svg" alt="no dia a dia" height="26" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-2a0a4d?style=for-the-badge&logo=typescript&logoColor=d9b8ff" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-2a0a4d?style=for-the-badge&logo=nextdotjs&logoColor=d9b8ff" alt="Next.js" />
+  <img src="https://img.shields.io/badge/NestJS-2a0a4d?style=for-the-badge&logo=nestjs&logoColor=d9b8ff" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Prisma-2a0a4d?style=for-the-badge&logo=prisma&logoColor=d9b8ff" alt="Prisma" />
+  <img src="https://img.shields.io/badge/PostgreSQL-2a0a4d?style=for-the-badge&logo=postgresql&logoColor=d9b8ff" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-2a0a4d?style=for-the-badge&logo=redis&logoColor=d9b8ff" alt="Redis" />
+  <img src="https://img.shields.io/badge/Expo%20%2F%20React%20Native-2a0a4d?style=for-the-badge&logo=expo&logoColor=d9b8ff" alt="Expo / React Native" />
+  <img src="https://img.shields.io/badge/Docker-2a0a4d?style=for-the-badge&logo=docker&logoColor=d9b8ff" alt="Docker" />
+  <img src="https://img.shields.io/badge/Caddy-2a0a4d?style=for-the-badge&logo=caddy&logoColor=d9b8ff" alt="Caddy" />
+  <img src="https://img.shields.io/badge/Cloudflare%20R2-2a0a4d?style=for-the-badge&logo=cloudflare&logoColor=d9b8ff" alt="Cloudflare R2" />
+  <img src="https://img.shields.io/badge/Claude%20Code%20%C2%B7%20multiagentes-2a0a4d?style=for-the-badge&logo=claude&logoColor=d9b8ff" alt="Claude Code · multiagentes" />
+</p>
+
+<p align="center">
+  <img src="assets/social/titulos/rotulo-tambem.svg" alt="também já trabalhei com" height="26" />
+</p>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,js,ts,python,html,css,jquery,bootstrap,react,nextjs,nodejs,express,fastapi,mysql,postgres,kali&theme=dark&perline=16" alt="PHP, JavaScript, TypeScript, Python, HTML, CSS, jQuery, Bootstrap, React, Next.js, Node.js, Express, FastAPI, MySQL, PostgreSQL, Kali Linux" />
@@ -43,7 +92,7 @@
 
 <br>
 
-<img src="assets/social/camadas.svg?v=14" alt="front-end: React, Next.js, TypeScript, React Native, Vite, Tailwind, Bootstrap, jQuery; estado: Redux Toolkit, React Hook Form, Zod, Yup; back-end: PHP 8, Node.js, Express, Python, FastAPI; dados: MySQL, PostgreSQL, MariaDB, SQLite, Redis, SQLAlchemy, Drizzle, Alembic; testes: Vitest, Playwright, Pytest; segurança: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrações: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infra: Git, monorepo, Render, Vercel, GitHub Actions" width="100%" />
+<img src="assets/social/camadas.svg?v=16" alt="front-end: React, Next.js, TypeScript, React Native (Expo), Vite, Tailwind, Bootstrap, jQuery; estado: Redux Toolkit, React Hook Form, Zod, Yup; back-end: NestJS, Node.js, Express, PHP 8, Python, FastAPI; dados: PostgreSQL, Prisma, Redis, MySQL, MariaDB, SQLite, SQLAlchemy, Drizzle; testes: Vitest, Playwright, Pytest; segurança: JWT, bcrypt, NextAuth, Kali Linux, pentest; integrações: MercadoPago, Uber Direct, Telegram API, OpenAI, Groq, PHPMailer, QR Code; infra: Docker, Caddy, VPS com CI e deploy próprios, Cloudflare R2, Render, Vercel; ia: Claude Code (multiagentes)" width="100%" />
 
 </details>
 
@@ -57,14 +106,16 @@
     <td width="50%" valign="top">
 
 ### TIIX
-**Full Stack Developer** &nbsp;·&nbsp; `2026 — atual`
+**Líder técnico — Tiix 2.0** &nbsp;·&nbsp; `2026 — atual`
 
-<img src="assets/social/chips/php.svg?v=14" alt="PHP" height="28" /> <img src="assets/social/chips/javascript.svg?v=14" alt="JavaScript" height="28" /> <img src="assets/social/chips/jquery.svg?v=14" alt="jQuery" height="28" /> <img src="assets/social/chips/mysql.svg?v=14" alt="MySQL" height="28" /> <img src="assets/social/chips/bootstrap.svg?v=14" alt="Bootstrap" height="28" />
+<img src="assets/social/chips/typescript.svg?v=16" alt="TypeScript" height="28" /> <img src="assets/social/chips/next-js.svg?v=16" alt="Next.js" height="28" /> <img src="assets/social/chips/nestjs.svg?v=16" alt="NestJS" height="28" /> <img src="assets/social/chips/prisma.svg?v=16" alt="Prisma" height="28" /> <img src="assets/social/chips/postgresql.svg?v=16" alt="PostgreSQL" height="28" /> <img src="assets/social/chips/expo.svg?v=16" alt="Expo" height="28" />
 
-Ponta a ponta dentro do sistema: **consultas e procedures em SQL**, **APIs
-REST/JSON** com seus endpoints, e as telas que consomem esses dados — tabelas,
-filtros, formulários e gráficos em Bootstrap + jQuery. Também **integrações
-OAuth 2.0** com APIs externas, **webhooks** e rotinas agendadas em **cron**.
+Lidero a parte técnica da **Tiix 2.0**, o ecossistema de saúde da empresa
+reconstruído do zero: monorepo com web, API e **dois apps**, CI e deploy
+próprios numa VPS, com **zero downtime**.
+
+Antes, no sistema legado: consultas e procedures em SQL, APIs REST/JSON,
+integrações OAuth 2.0, webhooks e rotinas em cron, com PHP, jQuery e MySQL.
 
 </td>
 <td width="50%" valign="top">
@@ -83,7 +134,7 @@ de cadastro, listagem e manutenção dos dados.
 
 <br>
 
-<img src="assets/social/titulos/projetos.svg?v=14" alt="&gt;_ projetos em destaque" width="100%" />
+<img src="assets/social/titulos/pessoais.svg" alt="&gt;_ projetos pessoais" width="100%" />
 
 
 <table>
@@ -124,6 +175,63 @@ Escritório → painel do agente → conversa → relatório de uso → sala de 
 
 </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 📟 TokenBar
+<img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" /> <img src="assets/social/chips/kotlin.svg?v=16" alt="Kotlin" height="28" /> <img src="assets/social/chips/rust.svg?v=16" alt="Rust" height="28" />
+
+O uso de IA de **7 plataformas** na barra de menus do Mac — e também num
+display de LED, no iPhone, no Android e no Apple Watch.
+
+**Para instalar:** `brew install --cask chaconlucas/tokenbar/tokenbar`
+
+<a href="https://github.com/ChaconLucas/tokenbar"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### ⌚ WatchOps
+<img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" /> <img src="assets/social/chips/swiftui.svg?v=16" alt="SwiftUI" height="28" /> <img src="assets/social/chips/typescript.svg?v=16" alt="TypeScript" height="28" />
+
+Controle do Mac **pelo iPhone e pelo Apple Watch**, com um assistente de
+IA que roda no próprio Mac.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### 💡 Luz de Casa
+<img src="assets/social/chips/node-js.svg?v=16" alt="Node.js" height="28" /> <img src="assets/social/chips/swift.svg?v=16" alt="Swift" height="28" />
+
+Controla as lâmpadas **CozyLife pela rede local**, sem nuvem, direto da
+barra de menus do Mac.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🏋️ BasalFit
+<img src="assets/social/chips/next-js.svg?v=16" alt="Next.js" height="28" /> <img src="assets/social/chips/nestjs.svg?v=16" alt="NestJS" height="28" /> <img src="assets/social/chips/prisma.svg?v=16" alt="Prisma" height="28" /> <img src="assets/social/chips/expo.svg?v=16" alt="Expo" height="28" />
+
+App de saúde para quem treina, com o visual em **Liquid Glass**.
+
+<img src="assets/social/btn-privado.svg?v=14" alt="Repositório privado" height="34" />
+
+</td>
+  </tr>
+</table>
+
+<br>
+
+<img src="assets/social/titulos/outros.svg" alt="&gt;_ outros projetos" width="100%" />
+
+
+<table>
   <tr>
     <td width="50%" valign="top">
 
@@ -273,14 +381,12 @@ geração do material de aplicação.
 </td>
 <td width="50%" valign="top">
 
-### ⌚ Integrações de wearables
-<img src="assets/social/chips/php.svg?v=14" alt="PHP" height="28" /> <img src="assets/social/chips/oauth-2-0.svg?v=14" alt="OAuth 2.0" height="28" /> <img src="assets/social/chips/rest.svg?v=14" alt="REST" height="28" />
+### 🧮 Desafio Target
+<img src="assets/social/chips/c.svg?v=16" alt="C#" height="28" /> <img src="assets/social/chips/net-8.svg?v=16" alt=".NET 8" height="28" />
 
-Integração com múltiplas plataformas de wearables e APIs de saúde: fluxo de
-autorização, troca e renovação de token, callback e sessão por provedor,
-com dashboard para os dados de cada um.
+Comissões, estoque e juros em C# / .NET 8, com interface web, API e testes.
 
-`🏢 trabalho da TIIX`
+<a href="https://github.com/ChaconLucas/DesafioTarget"><img src="assets/social/btn-codigo.svg?v=14" alt="Código" height="34" /></a>
 
 </td>
   </tr>
@@ -289,6 +395,18 @@ com dashboard para os dados de cada um.
 <br>
 
 <img src="assets/social/titulos/contribuicoes.svg?v=14" alt="&gt;_ contribuições" width="100%" />
+
+<p align="center">
+  <img src="assets/social/titulos/rotulo-contribuicoes.svg" alt="cerca de 18.900 contribuições no último ano, a maioria em repositórios privados da empresa" height="26" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=191526&amp;border=3D2B5C&amp;stroke=3D2B5C&amp;ring=9D4EDD&amp;fire=C77DFF&amp;currStreakLabel=C77DFF&amp;sideLabels=E6EDF3&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;dates=8B7AA8&amp;border_radius=14" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=FBF7FF&amp;border=E0C3FC&amp;stroke=E0C3FC&amp;ring=7B2CBF&amp;fire=9D4EDD&amp;currStreakLabel=7B2CBF&amp;sideLabels=2A0A4D&amp;currStreakNum=1A0033&amp;sideNums=1A0033&amp;dates=6B3FA0&amp;border_radius=14" />
+    <img alt="contribuições no GitHub, contando as privadas: total, sequência atual e maior sequência" src="https://streak-stats.demolab.com/?user=ChaconLucas&amp;locale=pt_BR&amp;background=191526&amp;border=3D2B5C&amp;stroke=3D2B5C&amp;ring=9D4EDD&amp;fire=C77DFF&amp;currStreakLabel=C77DFF&amp;sideLabels=E6EDF3&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;dates=8B7AA8&amp;border_radius=14" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
@@ -307,7 +425,6 @@ com dashboard para os dados de cada um.
 $ ./contato.sh
 [+] portfolio .. portfolio-delta-five-78.vercel.app
 [+] linkedin ... linkedin.com/in/lucas-chacon-129414a7
-[+] e-mail ..... lucaschacon79@gmail.com
 [+] local ...... Rio de Janeiro — BR (remoto ou híbrido)
 ```
 
